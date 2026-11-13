@@ -7,27 +7,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, отправляйтесь в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>В Долине Испытаний возьмите Your Place In The World у Калтунка. Сдайте задание Горнеку в Логове и возьмите Cutting Teeth. Поговорите с наставником воинов в Логове
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей в долине для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>К северу от долины убивайте скорпидов для Sting of the Scorpid. В пещерах на востоке (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте все задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -37,25 +37,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите все задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар в лагерях на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>На севере, в Грозовом ущелье, убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника воинов. Затем бегите на запад в Степи
     .xp 12
 ]])
 
@@ -65,24 +65,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Warrior, level 10: your warrior trainer in your capital city starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
+    >>Воин, 10-й уровень: возьмите у наставника воинов в столице задание на защитную стойку. Развивайте ветку «Оружие»: Отражение, Тактическое превосходство, Размашистые удары и Смертельный удар на 30-м уровне
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -92,16 +92,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -111,18 +111,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
+    >>Воин: для заданий используйте медленное двуручное оружие. Изучайте все уровни Удара героя, Кровопускания, Превосходства и Удара грома
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -132,19 +132,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -154,22 +154,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -179,21 +179,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
+    >>Воин, 30-й уровень: для задания на стойку берсерка отправляйтесь в Кабестан. Плывите на остров Битв (Степи, 68,49). Поговорите с Кланноком Маклеодом для The Affray и выиграйте бой. Затем выполните The Windwatcher в Тысяче Игл
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -203,16 +203,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -222,19 +222,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -244,16 +244,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -263,18 +263,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Warrior, level 40: train Plate Mail in your capital city and wear plate from now on
+    >>Воин, 40-й уровень: изучите ношение лат в столице. Теперь используйте латные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -284,16 +284,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -303,16 +303,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -322,16 +322,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -341,16 +341,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -360,16 +360,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -379,18 +379,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -399,27 +399,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, отправляйтесь в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>В Долине Испытаний возьмите Your Place In The World у Калтунка. Сдайте задание Горнеку в Логове и возьмите Cutting Teeth. Поговорите с наставником паладинов в Логове
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей в долине для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>К северу от долины убивайте скорпидов для Sting of the Scorpid. В пещерах на востоке (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте все задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -429,25 +429,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите все задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар в лагерях на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>На севере, в Грозовом ущелье, убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника паладинов. Затем бегите на запад в Степи
     .xp 12
 ]])
 
@@ -457,26 +457,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Paladin, level 12: your paladin trainer in your capital city starts the Redemption (resurrect) quest chain
+    >>Паладин, 12-й уровень: возьмите у наставника в столице цепочку заданий на воскрешение (Redemption)
 step
-    >>Paladin: spend talents in Retribution (Benediction and Improved Seal of the Crusader, then Conviction, Seal of Command at 20)
+    >>Паладин: развивайте ветку «Воздаяние». Изучите Благодарение, Улучшенную печать воина Света, затем Убеждённость и Печать повиновения на 20-м уровне
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -486,16 +486,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -505,18 +505,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Paladin, level 20: ask your trainer in your capital city for the level 20 paladin quest (Alliance: The Tome of Valor - Verigan's Fist two-hander). Seal of Command + Judgement for questing
+    >>Паладин, 20-й уровень: возьмите у наставника в столице классовое задание. Для заданий используйте Печать повиновения и Правосудие. У Альянса цепочка The Tome of Valor даёт двуручный молот Веригана
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -526,19 +526,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -548,22 +548,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -573,19 +573,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -595,16 +595,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -614,19 +614,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -636,16 +636,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -655,18 +655,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Paladin, level 40: your trainer in your capital city gives the warhorse (Summon Warhorse) and Plate Mail. Wear plate from now on
+    >>Паладин, 40-й уровень: у наставника в столице изучите Призыв боевого коня и ношение лат. Теперь используйте латные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -676,16 +676,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -695,16 +695,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -714,16 +714,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -733,16 +733,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -752,16 +752,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -771,20 +771,20 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Paladin, level 60: ask your trainer about the Charger (epic mount) quest chain
+    >>Паладин, 60-й уровень: спросите наставника о цепочке заданий на эпического боевого коня
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -793,27 +793,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, отправляйтесь в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>В Долине Испытаний возьмите Your Place In The World у Калтунка. Сдайте задание Горнеку в Логове и возьмите Cutting Teeth. Поговорите с наставником охотников в Логове
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей в долине для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>К северу от долины убивайте скорпидов для Sting of the Scorpid. В пещерах на востоке (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте все задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -823,25 +823,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите все задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар в лагерях на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>На севере, в Грозовом ущелье, убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника охотников. Затем бегите на запад в Степи
     .xp 12
 ]])
 
@@ -851,24 +851,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Hunter, level 10: your hunter trainer starts Taming the Beast - tame the three beasts it asks for, then you can tame your own pet. Visit the pet trainer in your capital city. Talents: Beast Mastery
+    >>Охотник, 10-й уровень: возьмите у наставника задание Taming the Beast. Приручите трёх указанных зверей, затем своего питомца. Посетите наставника питомцев в столице. Развивайте ветку «Повелитель зверей»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -878,16 +878,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -897,18 +897,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Hunter: Aspect of the Cheetah at 20. Keep your pet fed and buy arrows/bullets in every town. A slow ranged weapon is best
+    >>Охотник: на 20-м уровне изучите Дух гепарда. Кормите питомца и покупайте стрелы или патроны в каждом поселении. Используйте медленное оружие дальнего боя
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -918,19 +918,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -940,22 +940,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -965,21 +965,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Hunter: upgrade your pet to a level-appropriate beast (a cat or boar from the zone you are in)
+    >>Охотник: приручите питомца подходящего уровня. Выберите кошку или вепря из текущей зоны
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -989,16 +989,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -1008,19 +1008,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -1030,16 +1030,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -1049,18 +1049,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Hunter, level 40: train Mail at your capital city and wear mail from now on
+    >>Охотник, 40-й уровень: изучите ношение кольчуги в столице. Теперь используйте кольчужные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -1070,16 +1070,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -1089,16 +1089,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -1108,16 +1108,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -1127,16 +1127,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -1146,16 +1146,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -1165,18 +1165,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1185,27 +1185,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, идите в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>Возьмите Your Place In The World у Калтунка. Сдайте его Горнеку в Логове. Возьмите Cutting Teeth и поговорите с наставником разбойников
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>На севере убивайте скорпидов для Sting of the Scorpid. На востоке в пещерах (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -1215,25 +1215,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>В Грозовом ущелье на севере убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника разбойников. Бегите на запад в Степи
     .xp 12
 ]])
 
@@ -1243,24 +1243,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
+    >>Разбойник: для заданий используйте мечи или дробящее оружие. Изучите Спринт и Обшаривание карманов. Развивайте ветку «Бой»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -1270,16 +1270,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -1289,18 +1289,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Rogue, level 20: your rogue trainer in your capital city starts the Poisons quest. Keep Instant Poison on your weapons from then on
+    >>Разбойник, 20-й уровень: возьмите у наставника в столице задание Poisons на яды. После выполнения наносите Быстродействующий яд на оружие
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -1310,19 +1310,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -1332,24 +1332,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
-    >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
+    >>Разбойник: изучите Взлом замков. Вскрывайте найденные шкатулки и шкатулки других игроков. Повышайте навык взлома
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -1359,19 +1359,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -1381,16 +1381,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -1400,19 +1400,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -1422,16 +1422,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -1441,18 +1441,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
+    >>Разбойник, 40-й уровень: изучите новые уровни Безопасного падения и Пинка. Запаситесь Быстродействующим и Калечащим ядами
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -1462,16 +1462,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -1481,16 +1481,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -1500,16 +1500,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -1519,16 +1519,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -1538,16 +1538,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -1557,18 +1557,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1577,27 +1577,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, идите в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>Возьмите Your Place In The World у Калтунка. Сдайте его Горнеку в Логове. Возьмите Cutting Teeth и поговорите с наставником жрецов
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>На севере убивайте скорпидов для Sting of the Scorpid. На востоке в пещерах (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -1607,25 +1607,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>В Грозовом ущелье на севере убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника жрецов. Бегите на запад в Степи
     .xp 12
 ]])
 
@@ -1635,24 +1635,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
+    >>Жрец: для заданий развивайте ветку Тьмы. Изучите Захват духа, Средоточие Тьмы и Пытку разума на 20-м уровне. Между заклинаниями атакуйте жезлом
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -1662,16 +1662,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -1681,18 +1681,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Priest: train the racial priest spell at your capital city. Use Inner Fire and Power Word: Shield before every pull
+    >>Жрец: изучите расовое заклинание жреца в столице. Перед каждым боем применяйте Внутренний огонь и Слово силы: Щит
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -1702,19 +1702,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -1724,22 +1724,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -1749,19 +1749,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -1771,16 +1771,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -1790,19 +1790,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -1812,16 +1812,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -1831,18 +1831,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
+    >>Жрец, 40-й уровень: изучите талант «Облик Тьмы». Подбирайте жезл подходящего уровня
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -1852,16 +1852,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -1871,16 +1871,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -1890,16 +1890,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -1909,16 +1909,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -1928,16 +1928,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -1947,18 +1947,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1967,27 +1967,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, отправляйтесь в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора на северо-восток через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>В Долине Испытаний возьмите Your Place In The World у Калтунка. Сдайте задание Горнеку в Логове и возьмите Cutting Teeth. Поговорите с наставником магов в Логове
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей в долине для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>К северу от долины убивайте скорпидов для Sting of the Scorpid. В пещерах на востоке (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте все задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -1997,25 +1997,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите все задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар в лагерях на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>На севере, в Грозовом ущелье, убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника магов. Затем бегите на запад в Степи
     .xp 12
 ]])
 
@@ -2025,24 +2025,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Mage: Frost for questing (Frostbolt and Frost Nova). Conjure your own food and water at every rank
+    >>Маг: для заданий развивайте ветку льда. Используйте Ледяную стрелу и Кольцо льда. Изучайте новые уровни создания еды и воды
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -2052,16 +2052,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -2071,18 +2071,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Mage, level 20: train Teleport: your capital city and buy Runes of Teleportation. Blink and Arcane Explosion for groups of mobs
+    >>Маг, 20-й уровень: изучите телепортацию в столицу и купите руны телепортации. Против групп врагов используйте Скачок и Чародейский взрыв
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -2092,19 +2092,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -2114,22 +2114,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -2139,19 +2139,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -2161,16 +2161,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -2180,19 +2180,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>Тернистая долина: в лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В лагере экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -2202,16 +2202,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -2221,18 +2221,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Mage, level 40: train Portals at your capital city (buy Runes of Portals). Keep Frost talents
+    >>Маг, 40-й уровень: изучите порталы в столице и купите руны порталов. Продолжайте развивать ветку льда
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -2242,16 +2242,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -2261,16 +2261,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -2280,16 +2280,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -2299,16 +2299,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -2318,16 +2318,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -2337,18 +2337,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -2357,27 +2357,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, идите в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>Возьмите Your Place In The World у Калтунка. Сдайте его Горнеку в Логове. Возьмите Cutting Teeth и поговорите с наставником чернокнижников
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>На севере убивайте скорпидов для Sting of the Scorpid. На востоке в пещерах (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -2387,25 +2387,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>В Грозовом ущелье на севере убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника чернокнижников. Бегите на запад в Степи
     .xp 12
 ]])
 
@@ -2415,24 +2415,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Warlock, level 10: your warlock trainer in your capital city starts the Voidwalker quest. Talents: Affliction (Improved Corruption, Fel Concentration)
+    >>Чернокнижник, 10-й уровень: возьмите у наставника в столице задание на демона Бездны. Развивайте ветку «Колдовство»: Улучшенная Порча и Сосредоточение Скверны
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -2442,16 +2442,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -2461,18 +2461,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Warlock, level 20: Succubus quest from your trainer in your capital city. Keep a stack of Soul Shards (Drain Soul)
+    >>Чернокнижник, 20-й уровень: возьмите у наставника в столице задание на суккуба. Собирайте осколки души с помощью Похищения души
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -2482,19 +2482,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -2504,22 +2504,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -2529,21 +2529,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Warlock, level 30: Felhunter quest from your trainer in your capital city
+    >>Чернокнижник, 30-й уровень: возьмите у наставника в столице задание на охотника Скверны
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -2553,16 +2553,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -2572,19 +2572,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -2594,16 +2594,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -2613,18 +2613,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Warlock, level 40: your trainer in your capital city starts the Felsteed (mount) quest
+    >>Чернокнижник, 40-й уровень: возьмите у наставника в столице задание на скакуна Скверны
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -2634,16 +2634,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -2653,16 +2653,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -2672,18 +2672,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
-    >>Warlock, level 50: the Inferno / Infernal quest from your trainer
+    >>Чернокнижник, 50-й уровень: возьмите у наставника задание на призыв инфернала
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -2693,16 +2693,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -2712,16 +2712,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -2731,18 +2731,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -2751,27 +2751,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, идите в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>Возьмите Your Place In The World у Калтунка. Сдайте его Горнеку в Логове. Возьмите Cutting Teeth и поговорите с наставником шаманов
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>На севере убивайте скорпидов для Sting of the Scorpid. На востоке в пещерах (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -2781,27 +2781,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
-    >>Shaman, level 4: Call of Earth - the Earth totem quest from your shaman trainer
+    >>Шаман, 4-й уровень: возьмите у наставника задание Call of Earth на тотем земли
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>В Грозовом ущелье на севере убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника шаманов. Бегите на запад в Степи
     .xp 12
 ]])
 
@@ -2811,24 +2811,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Shaman, level 10: Call of Fire - the Fire totem quest from your trainer in your capital city. Talents: Enhancement
+    >>Шаман, 10-й уровень: возьмите у наставника в столице задание Call of Fire на тотем огня. Развивайте ветку «Совершенствование»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -2838,16 +2838,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -2857,18 +2857,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Shaman, level 20: Call of Water - the Water totem quest. Ghost Wolf is trained at 20
+    >>Шаман, 20-й уровень: выполните задание Call of Water на тотем воды. Изучите Призрачного волка
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -2878,19 +2878,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -2900,22 +2900,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -2925,21 +2925,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Shaman, level 30: Call of Air - the Air totem quest (Windfury Totem)
+    >>Шаман, 30-й уровень: выполните задание Call of Air на тотем воздуха. Используйте Тотем неистовства ветра
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -2949,16 +2949,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -2968,19 +2968,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -2990,16 +2990,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -3009,18 +3009,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Shaman, level 40: train Mail at your capital city and wear mail from now on
+    >>Шаман, 40-й уровень: изучите ношение кольчуги в столице. Теперь используйте кольчужные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -3030,16 +3030,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -3049,16 +3049,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -3068,16 +3068,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -3087,16 +3087,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -3106,16 +3106,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -3125,18 +3125,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -3145,27 +3145,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 1-6 Durotar
-#displayname 1-6 Durotar
+#displayname 1-6 Дуротар
 #next Durotar 6-12 Durotar
 #version 2
 
 step
-    >>Getting to Durotar: if you did not start here, travel to the Valley of Trials (Durotar 43,68) first. Undead: zeppelin from Tirisfal Glades (60,58) to Orgrimmar. Tauren/Skyborne: run north-east from Mulgore through The Barrens to Orgrimmar, then south to the Valley of Trials
+    >>Если вы начали в другой зоне, идите в Долину Испытаний (Дуротар, 43,68). Нежить: летите на дирижабле из Тирисфаля (60,58) в Оргриммар. Таурены и Неборожденные: бегите из Мулгора через Степи в Оргриммар, затем на юг в Долину Испытаний
 step
     .goto Durotar,42.1,68.4
-    >>Valley of Trials: take Your Place In The World from Kaltunk, hand it in to Gornek in the Den, take Cutting Teeth. Talk to your class trainer in the Den
+    >>Возьмите Your Place In The World у Калтунка. Сдайте его Горнеку в Логове. Возьмите Cutting Teeth и поговорите с наставником друидов
 step
     .goto Durotar,44.0,62.0
-    >>Kill Mottled Boars around the valley (Cutting Teeth); take Sarkoth / Galgar's Cactus Apple Surprise from the camp
+    >>Убивайте пятнистых вепрей для Cutting Teeth. В лагере возьмите Sarkoth и Galgar's Cactus Apple Surprise
 step
     .goto Durotar,42.1,68.4
-    >>Hand in Cutting Teeth, take Sting of the Scorpid and Vile Familiars
+    >>Сдайте Cutting Teeth. Возьмите Sting of the Scorpid и Vile Familiars
 step
     .goto Durotar,45.0,56.0
-    >>Scorpid Workers (Sting of the Scorpid) north of the valley; Vile Familiars in the caves to the east (Burning Blade Coven 44,54); Cactus Apples by the cacti
+    >>На севере убивайте скорпидов для Sting of the Scorpid. На востоке в пещерах (44,54) убивайте демонов для Vile Familiars. Собирайте плоды у кактусов
 step
     .goto Durotar,42.1,68.4
-    >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
+    >>Сдайте задания. Возьмите Lazy Peons и Report to Sen'jin Village
     .xp 6
 ]])
 
@@ -3175,25 +3175,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 6-12 Durotar
-#displayname 6-12 Durotar
+#displayname 6-12 Дуротар
 #next Durotar 12-17 The Barrens
 #version 2
 
 step
     .goto Durotar,55.9,74.4
-    >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
+    >>В деревне Сен'джин сдайте Report to Sen'jin. Возьмите Minshina's Skull, A Solvent Spirit и Practical Prey. На островах Эха (64,82) выполните задания троллей Чёрного Копья
 step
     .goto Durotar,52.0,43.0
-    >>Razor Hill: set your home, flight path is in Orgrimmar. Take every quest (Vanquish the Betrayers - Tiragarde Keep 58,57, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment)
+    >>В Колючем Холме привяжите камень возвращения. Точка полёта находится в Оргриммаре. Возьмите задания (Vanquish the Betrayers, Carry Your Weight, Thwarting Kolkar Aggression, Encroachment). Для Vanquish the Betrayers идите в крепость Тирагард (58,57)
 step
     .goto Durotar,58.0,57.0
-    >>Tiragarde Keep (Kul Tiras humans) and the Kolkar centaur camps along the coast; Dustwind Cave (53,28) for the Burning Blade
+    >>Убивайте людей Кул-Тираса в крепости Тирагард и кентавров Колкар на побережье. Идите в пещеру Суховея (53,28) за членами Пылающего Клинка
 step
     .goto Durotar,40.0,25.0
-    >>Thunder Ridge (north): Thunder Lizards; Drygulch Ravine harpies (Durotar 53,23)
+    >>В Грозовом ущелье на севере убивайте грозовых ящериц. В ущелье Сухой Лощины (53,23) убивайте гарпий
 step
     .goto Durotar,52.0,43.0
-    >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
+    >>Сдайте задания в Колючем Холме. В Оргриммаре откройте точку полёта и посетите наставника друидов. Бегите на запад в Степи
     .xp 12
 ]])
 
@@ -3203,24 +3203,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Durotar 17-21 The Barrens
 #version 2
 
 step
-    >>Druid, level 10: your druid trainer in your capital city starts the Bear Form quest (Teleport: Moonglade - talk to the Great Bear Spirit). Talents: Feral
+    >>Друид, 10-й уровень: возьмите у наставника задание на облик медведя. Телепортируйтесь в Лунную поляну и поговорите с Великим духом медведя. Развивайте ветку «Сила зверя»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -3230,18 +3230,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Durotar 21-23 Stonetalon Mountains
 #version 2
 
 step
-    >>Druid, level 16: Aquatic Form quest chain from your trainer
+    >>Друид, 16-й уровень: возьмите у наставника цепочку заданий на водный облик
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -3251,18 +3251,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Durotar 23-26 Ashenvale
 #version 2
 
 step
-    >>Druid, level 20: train Cat Form at your trainer in your capital city
+    >>Друид, 20-й уровень: изучите облик кошки у наставника в столице
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -3272,19 +3272,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Durotar 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -3294,22 +3294,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Durotar 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -3319,21 +3319,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Durotar 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Druid, level 30: train Travel Form at your trainer
+    >>Друид, 30-й уровень: изучите походный облик у наставника
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -3343,16 +3343,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Durotar 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -3362,19 +3362,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Durotar 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -3384,16 +3384,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Durotar 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -3403,18 +3403,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Durotar 44-47 Feralas
 #version 2
 
 step
-    >>Druid, level 40: train Dire Bear Form at your trainer
+    >>Друид, 40-й уровень: изучите облик лютого медведя у наставника
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -3424,16 +3424,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Durotar 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -3443,16 +3443,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Durotar 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -3462,16 +3462,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Durotar 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -3481,16 +3481,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Durotar 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -3500,16 +3500,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Durotar 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -3519,18 +3519,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Durotar
 #name Durotar 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -3539,27 +3539,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Как попасть в Тирисфальские леса: если вы начали в другом месте, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Погребальные костры: возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником воинов
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убейте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -3569,22 +3569,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>Брилл: привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника воинов
     .xp 10
 ]])
 
@@ -3594,21 +3594,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Warrior, level 10: your warrior trainer in your capital city starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
+    >>Воин, 10-й уровень: возьмите у наставника воинов в столице задание на защитную стойку. Развивайте ветку «Оружие»: Отражение, Тактическое превосходство, Размашистые удары и Смертельный удар на 30-м уровне
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -3618,22 +3618,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -3643,16 +3643,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -3662,18 +3662,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
+    >>Воин: для заданий используйте медленное двуручное оружие. Изучайте все уровни Удара героя, Кровопускания, Превосходства и Удара грома
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -3683,19 +3683,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -3705,22 +3705,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -3730,21 +3730,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
+    >>Воин, 30-й уровень: для задания на стойку берсерка отправляйтесь в Кабестан. Плывите на остров Битв (Степи, 68,49). Поговорите с Кланноком Маклеодом для The Affray и выиграйте бой. Затем выполните The Windwatcher в Тысяче Игл
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -3754,16 +3754,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -3773,19 +3773,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>Тернистая долина: в лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В лагере экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -3795,16 +3795,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -3814,18 +3814,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Warrior, level 40: train Plate Mail in your capital city and wear plate from now on
+    >>Воин, 40-й уровень: изучите ношение лат в столице. Теперь используйте латные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -3835,16 +3835,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -3854,16 +3854,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -3873,16 +3873,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -3892,16 +3892,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -3911,16 +3911,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -3930,18 +3930,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -3950,27 +3950,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником паладинов
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -3980,22 +3980,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника паладинов
     .xp 10
 ]])
 
@@ -4005,21 +4005,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Paladin: spend talents in Retribution (Benediction and Improved Seal of the Crusader, then Conviction, Seal of Command at 20)
+    >>Паладин: развивайте ветку «Воздаяние». Изучите Благодарение, Улучшенную печать воина Света, затем Убеждённость и Печать повиновения на 20-м уровне
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -4029,24 +4029,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
-    >>Paladin, level 12: your paladin trainer in your capital city starts the Redemption (resurrect) quest chain
+    >>Паладин, 12-й уровень: возьмите у наставника в столице цепочку заданий на воскрешение (Redemption)
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -4056,16 +4056,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -4075,18 +4075,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Paladin, level 20: ask your trainer in your capital city for the level 20 paladin quest (Alliance: The Tome of Valor - Verigan's Fist two-hander). Seal of Command + Judgement for questing
+    >>Паладин, 20-й уровень: возьмите у наставника в столице классовое задание. Для заданий используйте Печать повиновения и Правосудие. У Альянса цепочка The Tome of Valor даёт двуручный молот Веригана
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -4096,19 +4096,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -4118,22 +4118,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -4143,19 +4143,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -4165,16 +4165,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -4184,19 +4184,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -4206,16 +4206,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -4225,18 +4225,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Paladin, level 40: your trainer in your capital city gives the warhorse (Summon Warhorse) and Plate Mail. Wear plate from now on
+    >>Паладин, 40-й уровень: у наставника в столице изучите Призыв боевого коня и ношение лат. Теперь используйте латные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -4246,16 +4246,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -4265,16 +4265,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -4284,16 +4284,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -4303,16 +4303,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -4322,16 +4322,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -4341,20 +4341,20 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Paladin, level 60: ask your trainer about the Charger (epic mount) quest chain
+    >>Паладин, 60-й уровень: спросите наставника о цепочке заданий на эпического боевого коня
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -4363,27 +4363,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником охотников
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -4393,22 +4393,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника охотников
     .xp 10
 ]])
 
@@ -4418,21 +4418,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Hunter, level 10: your hunter trainer starts Taming the Beast - tame the three beasts it asks for, then you can tame your own pet. Visit the pet trainer in your capital city. Talents: Beast Mastery
+    >>Охотник, 10-й уровень: возьмите у наставника задание Taming the Beast. Приручите трёх указанных зверей, затем своего питомца. Посетите наставника питомцев в столице. Развивайте ветку «Повелитель зверей»
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -4442,22 +4442,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -4467,16 +4467,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -4486,18 +4486,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Hunter: Aspect of the Cheetah at 20. Keep your pet fed and buy arrows/bullets in every town. A slow ranged weapon is best
+    >>Охотник: на 20-м уровне изучите Дух гепарда. Кормите питомца и покупайте стрелы или патроны в каждом поселении. Используйте медленное оружие дальнего боя
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -4507,19 +4507,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -4529,22 +4529,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -4554,21 +4554,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Hunter: upgrade your pet to a level-appropriate beast (a cat or boar from the zone you are in)
+    >>Охотник: приручите питомца подходящего уровня. Выберите кошку или вепря из текущей зоны
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -4578,16 +4578,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -4597,19 +4597,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -4619,16 +4619,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -4638,18 +4638,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Hunter, level 40: train Mail at your capital city and wear mail from now on
+    >>Охотник, 40-й уровень: изучите ношение кольчуги в столице. Теперь используйте кольчужные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -4659,16 +4659,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -4678,16 +4678,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -4697,16 +4697,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -4716,16 +4716,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -4735,16 +4735,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -4754,18 +4754,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -4774,27 +4774,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником разбойников
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -4804,22 +4804,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника разбойников
     .xp 10
 ]])
 
@@ -4829,21 +4829,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
+    >>Разбойник: для заданий используйте мечи или дробящее оружие. Изучите Спринт и Обшаривание карманов. Развивайте ветку «Бой»
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -4853,22 +4853,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -4878,16 +4878,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -4897,18 +4897,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Rogue, level 20: your rogue trainer in your capital city starts the Poisons quest. Keep Instant Poison on your weapons from then on
+    >>Разбойник, 20-й уровень: возьмите у наставника в столице задание Poisons на яды. После выполнения наносите Быстродействующий яд на оружие
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -4918,19 +4918,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -4940,24 +4940,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
-    >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
+    >>Разбойник: изучите Взлом замков. Вскрывайте найденные шкатулки и шкатулки других игроков. Повышайте навык взлома
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -4967,19 +4967,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -4989,16 +4989,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -5008,19 +5008,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -5030,16 +5030,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -5049,18 +5049,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
+    >>Разбойник, 40-й уровень: изучите новые уровни Безопасного падения и Пинка. Запаситесь Быстродействующим и Калечащим ядами
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -5070,16 +5070,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -5089,16 +5089,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -5108,16 +5108,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -5127,16 +5127,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -5146,16 +5146,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -5165,18 +5165,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -5185,27 +5185,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником жрецов
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -5215,22 +5215,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника жрецов
     .xp 10
 ]])
 
@@ -5240,21 +5240,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
+    >>Жрец: для заданий развивайте ветку Тьмы. Изучите Захват духа, Средоточие Тьмы и Пытку разума на 20-м уровне. Между заклинаниями атакуйте жезлом
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -5264,22 +5264,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -5289,16 +5289,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -5308,18 +5308,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Priest: train the racial priest spell at your capital city. Use Inner Fire and Power Word: Shield before every pull
+    >>Жрец: изучите расовое заклинание жреца в столице. Перед каждым боем применяйте Внутренний огонь и Слово силы: Щит
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -5329,19 +5329,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -5351,22 +5351,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -5376,19 +5376,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -5398,16 +5398,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -5417,19 +5417,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -5439,16 +5439,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -5458,18 +5458,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
+    >>Жрец, 40-й уровень: изучите талант «Облик Тьмы». Подбирайте жезл подходящего уровня
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -5479,16 +5479,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -5498,16 +5498,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -5517,16 +5517,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -5536,16 +5536,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -5555,16 +5555,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -5574,18 +5574,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -5594,27 +5594,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником магов
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -5624,22 +5624,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника магов
     .xp 10
 ]])
 
@@ -5649,21 +5649,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Mage: Frost for questing (Frostbolt and Frost Nova). Conjure your own food and water at every rank
+    >>Маг: для заданий развивайте ветку льда. Используйте Ледяную стрелу и Кольцо льда. Изучайте новые уровни создания еды и воды
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -5673,22 +5673,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>Перекрёсток в центре Степей: привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -5698,16 +5698,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -5717,18 +5717,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Mage, level 20: train Teleport: your capital city and buy Runes of Teleportation. Blink and Arcane Explosion for groups of mobs
+    >>Маг, 20-й уровень: изучите телепортацию в столицу и купите руны телепортации. Против групп врагов используйте Скачок и Чародейский взрыв
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -5738,19 +5738,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -5760,22 +5760,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -5785,19 +5785,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -5807,16 +5807,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -5826,19 +5826,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>Тернистая долина: в лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В лагере экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -5848,16 +5848,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -5867,18 +5867,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Mage, level 40: train Portals at your capital city (buy Runes of Portals). Keep Frost talents
+    >>Маг, 40-й уровень: изучите порталы в столице и купите руны порталов. Продолжайте развивать ветку льда
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -5888,16 +5888,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -5907,16 +5907,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -5926,16 +5926,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -5945,16 +5945,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -5964,16 +5964,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -5983,18 +5983,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -6003,27 +6003,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником чернокнижников
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -6033,22 +6033,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника чернокнижников
     .xp 10
 ]])
 
@@ -6058,21 +6058,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Warlock, level 10: your warlock trainer in your capital city starts the Voidwalker quest. Talents: Affliction (Improved Corruption, Fel Concentration)
+    >>Чернокнижник, 10-й уровень: возьмите у наставника в столице задание на демона Бездны. Развивайте ветку «Колдовство»: Улучшенная Порча и Сосредоточение Скверны
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -6082,22 +6082,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -6107,16 +6107,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -6126,18 +6126,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Warlock, level 20: Succubus quest from your trainer in your capital city. Keep a stack of Soul Shards (Drain Soul)
+    >>Чернокнижник, 20-й уровень: возьмите у наставника в столице задание на суккуба. Собирайте осколки души с помощью Похищения души
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -6147,19 +6147,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -6169,22 +6169,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -6194,21 +6194,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Warlock, level 30: Felhunter quest from your trainer in your capital city
+    >>Чернокнижник, 30-й уровень: возьмите у наставника в столице задание на охотника Скверны
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -6218,16 +6218,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -6237,19 +6237,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -6259,16 +6259,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -6278,18 +6278,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Warlock, level 40: your trainer in your capital city starts the Felsteed (mount) quest
+    >>Чернокнижник, 40-й уровень: возьмите у наставника в столице задание на скакуна Скверны
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -6299,16 +6299,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -6318,16 +6318,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -6337,18 +6337,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
-    >>Warlock, level 50: the Inferno / Infernal quest from your trainer
+    >>Чернокнижник, 50-й уровень: возьмите у наставника задание на призыв инфернала
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -6358,16 +6358,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -6377,16 +6377,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -6396,18 +6396,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -6416,27 +6416,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником шаманов
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -6446,24 +6446,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
-    >>Shaman, level 4: Call of Earth - the Earth totem quest from your shaman trainer
+    >>Шаман, 4-й уровень: возьмите у наставника шаманов задание Call of Earth на тотем земли
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника шаманов
     .xp 10
 ]])
 
@@ -6473,21 +6473,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Shaman, level 10: Call of Fire - the Fire totem quest from your trainer in your capital city. Talents: Enhancement
+    >>Шаман, 10-й уровень: возьмите у наставника в столице задание Call of Fire на тотем огня. Развивайте ветку «Совершенствование»
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -6497,22 +6497,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -6522,16 +6522,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -6541,18 +6541,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Shaman, level 20: Call of Water - the Water totem quest. Ghost Wolf is trained at 20
+    >>Шаман, 20-й уровень: выполните задание Call of Water на тотем воды. Изучите Призрачного волка
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -6562,19 +6562,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -6584,22 +6584,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -6609,21 +6609,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Shaman, level 30: Call of Air - the Air totem quest (Windfury Totem)
+    >>Шаман, 30-й уровень: выполните задание Call of Air на тотем воздуха. Используйте Тотем неистовства ветра
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -6633,16 +6633,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -6652,19 +6652,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -6674,16 +6674,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -6693,18 +6693,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Shaman, level 40: train Mail at your capital city and wear mail from now on
+    >>Шаман, 40-й уровень: изучите ношение кольчуги в столице. Теперь используйте кольчужные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -6714,16 +6714,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -6733,16 +6733,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -6752,16 +6752,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -6771,16 +6771,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -6790,16 +6790,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -6809,18 +6809,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -6829,27 +6829,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 1-6 Tirisfal Glades
-#displayname 1-6 Tirisfal Glades
+#displayname 1-6 Тирисфальские леса
 #next Tirisfal Glades 6-10 Tirisfal Glades
 #version 2
 
 step
-    >>Getting to Tirisfal Glades: if you did not start here, travel to Deathknell (Tirisfal 30,66) first. From Orgrimmar take the zeppelin to Tirisfal Glades (tower outside Orgrimmar's west gate), then run west to Deathknell
+    >>Если вы начали в другой зоне, отправляйтесь в Погребальные костры (Тирисфаль, 30,66). Из Оргриммара летите на дирижабле от башни за западными воротами. Затем бегите на запад к Погребальным кострам
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Deathknell: take Rude Awakening from Undertaker Mordo, hand it in to Shadow Priest Sarvis in the chapel, take The Mindless Ones. Talk to your class trainer
+    >>Возьмите Rude Awakening у гробовщика Мордо. Сдайте задание жрецу Тьмы Сарвису в часовне и возьмите The Mindless Ones. Поговорите с наставником друидов
 step
     .goto Tirisfal Glades,32.0,62.0
-    >>Kill Mindless Zombies and Wretched Zombies around Deathknell (The Mindless Ones); Duskbats and Rattlecage Skeletons for Marla's / The Damned quests
+    >>Убивайте безмозглых и жалких зомби возле Погребальных костров для The Mindless Ones. Убивайте сумеречниц и скелетов для заданий Марлы и The Damned
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, take Scavenging Deathknell, Night Web's Hollow, Marla's Last Wish
+    >>Сдайте задания. Возьмите Scavenging Deathknell, Night Web's Hollow и Marla's Last Wish
 step
     .goto Tirisfal Glades,27.0,59.0
-    >>Night Web's Hollow (spider mine north of Deathknell); Scarlet Convert / Scarlet Initiate camp to the east (Samuel Fipps)
+    >>Идите в шахту с пауками к северу от Погребальных костров для Night Web's Hollow. На востоке найдите лагерь Алого ордена и Самуэля Фиппса
 step
     .goto Tirisfal Glades,30.8,66.2
-    >>Hand in, then take The Shadowy Figure and Ever So Lonely; leave east to Brill
+    >>Сдайте задания. Возьмите The Shadowy Figure и Ever So Lonely. Идите на восток в Брилл
     .xp 6
 ]])
 
@@ -6859,22 +6859,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 6-10 Tirisfal Glades
-#displayname 6-10 Tirisfal Glades
+#displayname 6-10 Тирисфальские леса
 #next Tirisfal Glades 10-14 Silverpine Forest
 #version 2
 
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Brill: set your home, take every quest (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
+    >>В Брилле привяжите камень возвращения. Возьмите все задания (Fields of Grief, Gordo's Task, Graverobbers, A Putrid Task, The Chill of Death, Wanted: Maggot Eye)
 step
     .goto Tirisfal Glades,57.0,32.0
-    >>North of Brill: the Agamand Mills (50,32) - Rotting Ancestors and Devlin Agamand; Garren's Haunt pumpkin fields (Fields of Grief)
+    >>К северу от Брилла идите к мельницам Агамондов (50,32) для Rotting Ancestors и Devlin Agamand. На тыквенных полях усадьбы Гаррена выполните Fields of Grief
 step
     .goto Tirisfal Glades,65.0,62.0
-    >>South-east: Scarlet Crusade camps (Solliden Farmstead 37,48 / Crusader Outpost 79,25), Maggot Eye at Garren's Haunt (58,30)
+    >>Найдите лагеря Алого ордена у фермы Соллиден (37,48) и заставы крестоносцев (79,25). Гнилоглаз находится в усадьбе Гаррена (58,30)
 step
     .goto Tirisfal Glades,61.0,52.0
-    >>Hand in at Brill. Undercity (61,72): flight path, class trainer
+    >>Сдайте задания в Брилле. В Подгороде (61,72) откройте точку полёта и посетите наставника друидов
     .xp 10
 ]])
 
@@ -6884,21 +6884,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 10-14 Silverpine Forest
-#displayname 10-14 Silverpine Forest
+#displayname 10-14 Серебряный бор
 #next Tirisfal Glades 14-17 The Barrens
 #version 2
 
 step
-    >>Druid, level 10: your druid trainer in your capital city starts the Bear Form quest (Teleport: Moonglade - talk to the Great Bear Spirit). Talents: Feral
+    >>Друид, 10-й уровень: возьмите у наставника задание на облик медведя. Телепортируйтесь в Лунную поляну и поговорите с Великим духом медведя. Развивайте ветку «Сила зверя»
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Run south into Silverpine Forest. The Sepulcher: set your home, take every quest (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
+    >>Бегите на юг в Серебряный бор. В Гробнице привяжите камень возвращения и возьмите все задания (The Dead Fields, Prove Your Worth, Wild Hearts, A Recipe For Death, Border Crossings)
 step
     .goto Silverpine Forest,46.0,30.0
-    >>Moonrage Gluttons / worgen, Dalaran wizards at the Ambermill (63,63) and the Moonrage Darkrunners; Pyrewood Village (46,72) at night
+    >>Убивайте воргенов Лунной Ярости, магов Даларана в Янтарной мельнице (63,63) и темнобродов Лунной Ярости. Ночью посетите деревню Погребальных Костров (46,72)
 step
     .goto Silverpine Forest,43.4,41.6
-    >>Hand in at the Sepulcher. Take the zeppelin from Brill (Tirisfal 60,58) to Orgrimmar and run into The Barrens
+    >>Сдайте задания в Гробнице. Сядьте на дирижабль возле Брилла (Тирисфаль, 60,58) до Оргриммара. Бегите в Степи
     .xp 14
 ]])
 
@@ -6908,22 +6908,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 14-17 The Barrens
-#displayname 14-17 The Barrens
+#displayname 14-17 Степи
 #next Tirisfal Glades 17-21 The Barrens
 #version 2
 
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -6933,18 +6933,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Tirisfal Glades 21-23 Stonetalon Mountains
 #version 2
 
 step
-    >>Druid, level 16: Aquatic Form quest chain from your trainer
+    >>Друид, 16-й уровень: возьмите у наставника цепочку заданий на водный облик
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -6954,18 +6954,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Tirisfal Glades 23-26 Ashenvale
 #version 2
 
 step
-    >>Druid, level 20: train Cat Form at your trainer in your capital city
+    >>Друид, 20-й уровень: изучите облик кошки у наставника в столице
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -6975,19 +6975,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Tirisfal Glades 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -6997,22 +6997,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Tirisfal Glades 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -7022,21 +7022,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Tirisfal Glades 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Druid, level 30: train Travel Form at your trainer
+    >>Друид, 30-й уровень: изучите походный облик у наставника
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -7046,16 +7046,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Tirisfal Glades 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -7065,19 +7065,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Tirisfal Glades 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -7087,16 +7087,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Tirisfal Glades 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -7106,18 +7106,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Tirisfal Glades 44-47 Feralas
 #version 2
 
 step
-    >>Druid, level 40: train Dire Bear Form at your trainer
+    >>Друид, 40-й уровень: изучите облик лютого медведя у наставника
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -7127,16 +7127,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Tirisfal Glades 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -7146,16 +7146,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Tirisfal Glades 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -7165,16 +7165,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Tirisfal Glades 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -7184,16 +7184,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Tirisfal Glades 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -7203,16 +7203,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Tirisfal Glades 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -7222,18 +7222,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Tirisfal Glades
 #name Tirisfal Glades 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -7242,27 +7242,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -7272,22 +7272,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника воинов. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -7297,24 +7297,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Warrior, level 10: your warrior trainer in your capital city starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
+    >>Воин, 10-й уровень: возьмите у наставника воинов в столице задание на защитную стойку. Развивайте ветку «Оружие»: Отражение, Тактическое превосходство, Размашистые удары и Смертельный удар на 30-м уровне
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -7324,16 +7324,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -7343,18 +7343,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
+    >>Воин: для заданий используйте медленное двуручное оружие. Изучайте все уровни Удара героя, Кровопускания, Превосходства и Удара грома
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -7364,19 +7364,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -7386,22 +7386,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -7411,21 +7411,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
+    >>Воин, 30-й уровень: для задания на стойку берсерка отправляйтесь в Кабестан. Плывите на остров Битв (Степи, 68,49). Поговорите с Кланноком Маклеодом для The Affray и выиграйте бой. Затем выполните The Windwatcher в Тысяче Игл
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -7435,16 +7435,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -7454,19 +7454,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -7476,16 +7476,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -7495,18 +7495,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Warrior, level 40: train Plate Mail in your capital city and wear plate from now on
+    >>Воин, 40-й уровень: изучите ношение лат в столице. Теперь используйте латные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -7516,16 +7516,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -7535,16 +7535,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -7554,16 +7554,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -7573,16 +7573,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -7592,16 +7592,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -7611,18 +7611,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -7631,27 +7631,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -7661,22 +7661,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника паладинов. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -7686,26 +7686,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Paladin, level 12: your paladin trainer in your capital city starts the Redemption (resurrect) quest chain
+    >>Паладин, 12-й уровень: возьмите у наставника в столице цепочку заданий на воскрешение (Redemption)
 step
-    >>Paladin: spend talents in Retribution (Benediction and Improved Seal of the Crusader, then Conviction, Seal of Command at 20)
+    >>Паладин: развивайте ветку «Воздаяние». Изучите Благодарение, Улучшенную печать воина Света, затем Убеждённость и Печать повиновения на 20-м уровне
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -7715,16 +7715,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -7734,18 +7734,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Paladin, level 20: ask your trainer in your capital city for the level 20 paladin quest (Alliance: The Tome of Valor - Verigan's Fist two-hander). Seal of Command + Judgement for questing
+    >>Паладин, 20-й уровень: возьмите у наставника в столице классовое задание. Для заданий используйте Печать повиновения и Правосудие. У Альянса цепочка The Tome of Valor даёт двуручный молот Веригана
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -7755,19 +7755,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -7777,22 +7777,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -7802,19 +7802,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -7824,16 +7824,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -7843,19 +7843,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -7865,16 +7865,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -7884,18 +7884,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Paladin, level 40: your trainer in your capital city gives the warhorse (Summon Warhorse) and Plate Mail. Wear plate from now on
+    >>Паладин, 40-й уровень: у наставника в столице изучите Призыв боевого коня и ношение лат. Теперь используйте латные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -7905,16 +7905,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -7924,16 +7924,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -7943,16 +7943,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -7962,16 +7962,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -7981,16 +7981,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -8000,20 +8000,20 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Paladin, level 60: ask your trainer about the Charger (epic mount) quest chain
+    >>Паладин, 60-й уровень: спросите наставника о цепочке заданий на эпического боевого коня
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -8022,27 +8022,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -8052,22 +8052,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника охотников. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -8077,24 +8077,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Hunter, level 10: your hunter trainer starts Taming the Beast - tame the three beasts it asks for, then you can tame your own pet. Visit the pet trainer in your capital city. Talents: Beast Mastery
+    >>Охотник, 10-й уровень: возьмите у наставника задание Taming the Beast. Приручите трёх указанных зверей, затем своего питомца. Посетите наставника питомцев в столице. Развивайте ветку «Повелитель зверей»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -8104,16 +8104,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -8123,18 +8123,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Hunter: Aspect of the Cheetah at 20. Keep your pet fed and buy arrows/bullets in every town. A slow ranged weapon is best
+    >>Охотник: на 20-м уровне изучите Дух гепарда. Кормите питомца и покупайте стрелы или патроны в каждом поселении. Используйте медленное оружие дальнего боя
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -8144,19 +8144,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -8166,22 +8166,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -8191,21 +8191,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Hunter: upgrade your pet to a level-appropriate beast (a cat or boar from the zone you are in)
+    >>Охотник: приручите питомца подходящего уровня. Выберите кошку или вепря из текущей зоны
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -8215,16 +8215,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -8234,19 +8234,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -8256,16 +8256,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -8275,18 +8275,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Hunter, level 40: train Mail at your capital city and wear mail from now on
+    >>Охотник, 40-й уровень: изучите ношение кольчуги в столице. Теперь используйте кольчужные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -8296,16 +8296,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -8315,16 +8315,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -8334,16 +8334,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -8353,16 +8353,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -8372,16 +8372,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -8391,18 +8391,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -8411,27 +8411,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -8441,22 +8441,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника разбойников. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -8466,24 +8466,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
+    >>Разбойник: для заданий используйте мечи или дробящее оружие. Изучите Спринт и Обшаривание карманов. Развивайте ветку «Бой»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -8493,16 +8493,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -8512,18 +8512,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Rogue, level 20: your rogue trainer in your capital city starts the Poisons quest. Keep Instant Poison on your weapons from then on
+    >>Разбойник, 20-й уровень: возьмите у наставника в столице задание Poisons на яды. После выполнения наносите Быстродействующий яд на оружие
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -8533,19 +8533,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -8555,24 +8555,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
-    >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
+    >>Разбойник: изучите Взлом замков. Вскрывайте найденные шкатулки и шкатулки других игроков. Повышайте навык взлома
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -8582,19 +8582,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -8604,16 +8604,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -8623,19 +8623,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -8645,16 +8645,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -8664,18 +8664,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
+    >>Разбойник, 40-й уровень: изучите новые уровни Безопасного падения и Пинка. Запаситесь Быстродействующим и Калечащим ядами
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -8685,16 +8685,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -8704,16 +8704,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -8723,16 +8723,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -8742,16 +8742,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -8761,16 +8761,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -8780,18 +8780,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся умения в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -8800,27 +8800,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -8830,22 +8830,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника жрецов. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -8855,24 +8855,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
+    >>Жрец: для заданий развивайте ветку Тьмы. Изучите Захват духа, Средоточие Тьмы и Пытку разума на 20-м уровне. Между заклинаниями атакуйте жезлом
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -8882,16 +8882,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -8901,18 +8901,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Priest: train the racial priest spell at your capital city. Use Inner Fire and Power Word: Shield before every pull
+    >>Жрец: изучите расовое заклинание жреца в столице. Перед каждым боем применяйте Внутренний огонь и Слово силы: Щит
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -8922,19 +8922,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -8944,22 +8944,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -8969,19 +8969,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -8991,16 +8991,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -9010,19 +9010,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -9032,16 +9032,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -9051,18 +9051,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
+    >>Жрец, 40-й уровень: изучите талант «Облик Тьмы». Подбирайте жезл подходящего уровня
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -9072,16 +9072,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -9091,16 +9091,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -9110,16 +9110,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -9129,16 +9129,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -9148,16 +9148,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -9167,18 +9167,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -9187,27 +9187,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите на юго-запад через Степи к Перекрёстку. Затем идите на юг к воротам Мулгора и к лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или задание мага у наставника в лагере
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -9217,22 +9217,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите все задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра на их гряде (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника магов. Затем бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -9242,24 +9242,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Mage: Frost for questing (Frostbolt and Frost Nova). Conjure your own food and water at every rank
+    >>Маг: для заданий развивайте ветку льда. Используйте Ледяную стрелу и Кольцо льда. Изучайте новые уровни создания еды и воды
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке в центре Степей привяжите камень возвращения и откройте точку полёта. Возьмите все задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане на восточном побережье откройте точку полёта. Возьмите задания о пиратах Южных морей (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -9269,16 +9269,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>На юге Степей откройте точку полёта и возьмите задания в лагере Таурахо (44,59). Убивайте дворфов Баел Модана (48,85), посетите окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -9288,18 +9288,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Mage, level 20: train Teleport: your capital city and buy Runes of Teleportation. Blink and Arcane Explosion for groups of mobs
+    >>Маг, 20-й уровень: изучите телепортацию в столицу и купите руны телепортации. Против групп врагов используйте Скачок и Чародейский взрыв
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>Когтистые горы: на заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -9309,19 +9309,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>Ясеневый лес: в заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится застава Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -9331,22 +9331,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>Тысяча Игл: на заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен в Предгорьях Хилсбрада. Откройте точку полёта и возьмите все задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья на полях Хилсбрада для Battle of Hillsbrad. Убивайте огров Раздробленного Хребта в Альтеракских горах и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -9356,19 +9356,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>Пустоши: в деревне Ночных Охотников на юго-западе откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -9378,16 +9378,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>Нагорье Арати: в Опорном пункте на востоке откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (их деревня — 68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -9397,19 +9397,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>Тернистая долина: в лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В лагере экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте на юге привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене, троллях Кровавого Скальпа и троллях Дробителей Черепов
     .xp 38
 ]])
 
@@ -9419,16 +9419,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>Пылевые топи: в деревне Гиблотопь на северо-западе возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>Бесплодные земли: в Каргате на западе откройте точку полёта. Возьмите задания (Barbecued Buzzard Wings, Coyote Thieves). Убивайте огров Пыльного Рыла. Вход в Ульдаман находится у 42,11
     .xp 42
 ]])
 
@@ -9438,18 +9438,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Mage, level 40: train Portals at your capital city (buy Runes of Portals). Keep Frost talents
+    >>Маг, 40-й уровень: изучите порталы в столице и купите руны порталов. Продолжайте развивать ветку льда
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>Танарис: в Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -9459,16 +9459,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>Фералас: в лагере Мохаче на востоке откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (застава Гордунни, 72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) отправляйтесь с группой
     .xp 47
 ]])
 
@@ -9478,16 +9478,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>Внутренние земли: в деревне Сломанного Клыка на восточном побережье откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -9497,16 +9497,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>Кратер Ун'Горо: в Укрытии Маршалла возьмите все задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -9516,16 +9516,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>Осквернённый лес: на заставе Отравленной Крови на западе откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище находится у 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -9535,16 +9535,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Зимние Ключи: пройдите через тоннель Древобрюхов (Осквернённый лес, 64,8) в Круговзор. Возьмите задания (Are We There, Yeti?, Winterfall Activity). Донова Сноуден находится у 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -9554,18 +9554,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>Западные Чумные земли: у Бастиона (Тирисфаль, 83,69) возьмите задания (A Call to Arms: The Plaguelands!, The Scourge Cauldrons). Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>Восточные Чумные земли: у часовни Последней Надежды возьмите задания (Demon Dogs, Blood Tinged Skies, Carrion Grubbage). Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -9574,27 +9574,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -9604,22 +9604,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника чернокнижников. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -9629,24 +9629,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Warlock, level 10: your warlock trainer in your capital city starts the Voidwalker quest. Talents: Affliction (Improved Corruption, Fel Concentration)
+    >>Чернокнижник, 10-й уровень: возьмите у наставника в столице задание на демона Бездны. Развивайте ветку «Колдовство»: Улучшенная Порча и Сосредоточение Скверны
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -9656,16 +9656,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -9675,18 +9675,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Warlock, level 20: Succubus quest from your trainer in your capital city. Keep a stack of Soul Shards (Drain Soul)
+    >>Чернокнижник, 20-й уровень: возьмите у наставника в столице задание на суккуба. Собирайте осколки души с помощью Похищения души
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -9696,19 +9696,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -9718,22 +9718,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -9743,21 +9743,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Warlock, level 30: Felhunter quest from your trainer in your capital city
+    >>Чернокнижник, 30-й уровень: возьмите у наставника в столице задание на охотника Скверны
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -9767,16 +9767,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -9786,19 +9786,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -9808,16 +9808,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -9827,18 +9827,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Warlock, level 40: your trainer in your capital city starts the Felsteed (mount) quest
+    >>Чернокнижник, 40-й уровень: возьмите у наставника в столице задание на скакуна Скверны
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -9848,16 +9848,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -9867,16 +9867,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -9886,18 +9886,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
-    >>Warlock, level 50: the Inferno / Infernal quest from your trainer
+    >>Чернокнижник, 50-й уровень: возьмите у наставника задание на призыв инфернала
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -9907,16 +9907,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -9926,16 +9926,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -9945,18 +9945,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -9965,27 +9965,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -9995,24 +9995,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
-    >>Shaman, level 4: Call of Earth - the Earth totem quest from your shaman trainer
+    >>Шаман, 4-й уровень: возьмите у наставника задание Call of Earth на тотем земли
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника шаманов. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -10022,24 +10022,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Shaman, level 10: Call of Fire - the Fire totem quest from your trainer in your capital city. Talents: Enhancement
+    >>Шаман, 10-й уровень: возьмите у наставника в столице задание Call of Fire на тотем огня. Развивайте ветку «Совершенствование»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -10049,16 +10049,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -10068,18 +10068,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Shaman, level 20: Call of Water - the Water totem quest. Ghost Wolf is trained at 20
+    >>Шаман, 20-й уровень: выполните задание Call of Water на тотем воды. Изучите Призрачного волка
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -10089,19 +10089,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -10111,22 +10111,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -10136,21 +10136,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Shaman, level 30: Call of Air - the Air totem quest (Windfury Totem)
+    >>Шаман, 30-й уровень: выполните задание Call of Air на тотем воздуха. Используйте Тотем неистовства ветра
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -10160,16 +10160,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -10179,19 +10179,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -10201,16 +10201,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -10220,18 +10220,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Shaman, level 40: train Mail at your capital city and wear mail from now on
+    >>Шаман, 40-й уровень: изучите ношение кольчуги в столице. Теперь используйте кольчужные доспехи
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -10241,16 +10241,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -10260,16 +10260,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -10279,16 +10279,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -10298,16 +10298,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -10317,16 +10317,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -10336,18 +10336,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Shaman
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -10356,27 +10356,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 1-6 Mulgore
-#displayname 1-6 Mulgore
+#displayname 1-6 Мулгор
 #next Mulgore 6-12 Mulgore
 #version 2
 
 step
-    >>Getting to Mulgore: if you did not start here, travel to Camp Narache (Mulgore 44,77) first. From Orgrimmar run south-west through The Barrens (Crossroads, then the road south to Mulgore's gates), then down to Camp Narache
+    >>Если вы начали в другой зоне, отправляйтесь в лагерь Нараче (Мулгор, 44,77). Из Оргриммара бегите через Степи к Перекрёстку, затем на юг к воротам Мулгора и лагерю Нараче
 step
     .goto Mulgore,44.7,77.0
-    >>Camp Narache: take The Hunt Begins from Grull Hawkwind, Etched Note / class quest from your trainer in the camp
+    >>В лагере Нараче возьмите The Hunt Begins у Грулла Соколиного Ветра. Возьмите Etched Note или классовое задание у наставника
 step
     .goto Mulgore,48.0,80.0
-    >>Kill Plainstriders for meat and feathers (The Hunt Begins); Battleboars for The Battleboars
+    >>Убивайте долгоногов ради мяса и перьев для The Hunt Begins. Убивайте боевых вепрей для The Battleboars
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take The Hunt Continues, Break Sharptusk!, The Battleboars
+    >>Сдайте задания. Возьмите The Hunt Continues, Break Sharptusk! и The Battleboars
 step
     .goto Mulgore,63.0,82.0
-    >>Brambleblade Ravine: the Bristleback quilboars (Break Sharptusk! - Chief Sharptusk Thornmantle's camp)
+    >>В лощине Тернового Шипа убивайте иглогривых свинобразов. Для Break Sharptusk! найдите лагерь вождя Остроклыка
 step
     .goto Mulgore,44.7,77.0
-    >>Hand in, take Rites of the Earthmother and A Humble Task, then run north to Bloodhoof Village
+    >>Сдайте задания. Возьмите Rites of the Earthmother и A Humble Task. Бегите на север в деревню Кровавого Копыта
     .xp 6
 ]])
 
@@ -10386,22 +10386,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 6-12 Mulgore
-#displayname 6-12 Mulgore
+#displayname 6-12 Мулгор
 #next Mulgore 12-17 The Barrens
 #version 2
 
 step
     .goto Mulgore,47.0,58.0
-    >>Bloodhoof Village: set your home, take every quest (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
+    >>В деревне Кровавого Копыта привяжите камень возвращения. Возьмите задания (Dwarven Digging, Mazzranache, Swoop Hunting, Poison Water, Mulgore Plainstriders, Rite of Strength)
 step
     .goto Mulgore,61.0,47.0
-    >>Venture Co. Mine (61,47) and the Red Rocks (59,62) - Venture Co. workers, Palemane gnolls (Palemane Rock 35,62), Prairie Wolves and Swoops
+    >>В шахте Торговой компании (61,47) убивайте её работников. Посетите Красные скалы (59,62) и скалу Бледногривых (35,62). Убивайте гноллов, степных волков и перепелятников
 step
     .goto Mulgore,32.0,48.0
-    >>West Mulgore: Mazzranache hunt items, the Windfury harpies (Windfury Ridge 53,10) and the Well of the Earthmother
+    >>На западе Мулгора собирайте предметы для Mazzranache. Убивайте гарпий Ярости Ветра (53,10). Посетите колодец Матери-Земли
 step
     .goto Mulgore,47.0,58.0
-    >>Hand in at Bloodhoof. Thunder Bluff (38,30): flight path, class trainer. Then run north-east through the gates into The Barrens
+    >>Сдайте задания в деревне Кровавого Копыта. В Громовом Утёсе (38,30) откройте точку полёта и посетите наставника друидов. Бегите через северо-восточные ворота в Степи
     .xp 12
 ]])
 
@@ -10411,24 +10411,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 12-17 The Barrens
-#displayname 12-17 The Barrens
+#displayname 12-17 Степи
 #next Mulgore 17-21 The Barrens
 #version 2
 
 step
-    >>Druid, level 10: your druid trainer in your capital city starts the Bear Form quest (Teleport: Moonglade - talk to the Great Bear Spirit). Talents: Feral
+    >>Друид, 10-й уровень: возьмите у наставника задание на облик медведя. Телепортируйтесь в Лунную поляну и поговорите с Великим духом медведя. Развивайте ветку «Сила зверя»
 step
     .goto The Barrens,52.0,30.0
-    >>The Crossroads (centre of the Barrens): set your home, flight path, take every quest (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
+    >>На Перекрёстке привяжите камень возвращения и откройте точку полёта. Возьмите задания (Disrupt the Attacks, Plainstrider Menace, Raptor Thieves, Fungal Spores, Kolkar Leaders, The Forgotten Pools, Southsea Freebooters)
 step
     .goto The Barrens,55.0,25.0
-    >>North Barrens: Kolkar centaurs, Plainstriders, Raptors, the Oases (The Forgotten Pools 45,22 / The Stagnant Oasis 55,42); Far Watch Post (62,19) quests
+    >>На севере Степей убивайте кентавров Колкар, долгоногов и ящеров. Посетите Забытые пруды (45,22) и Застывший оазис (55,42). Возьмите задания на Дальней заставе (62,19)
 step
     .goto The Barrens,62.6,37.4
-    >>Ratchet (east coast): flight path, take the Southsea pirate quests (Southsea Freebooters, The Baron's Demands)
+    >>В Кабестане откройте точку полёта. Возьмите задания о пиратах (Southsea Freebooters, The Baron's Demands)
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads and pick up the next round
+    >>Сдайте задания на Перекрёстке и возьмите следующие
     .xp 17
 ]])
 
@@ -10438,18 +10438,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 17-21 The Barrens
-#displayname 17-21 The Barrens
+#displayname 17-21 Степи
 #next Mulgore 21-23 Stonetalon Mountains
 #version 2
 
 step
-    >>Druid, level 16: Aquatic Form quest chain from your trainer
+    >>Друид, 16-й уровень: возьмите у наставника цепочку заданий на водный облик
 step
     .goto The Barrens,45.0,58.0
-    >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
+    >>В лагере Таурахо (44,59) откройте точку полёта и возьмите задания. Посетите Баел Модан (48,85), окрестности Лабиринтов Иглошкурых и Цветущий оазис. Пещеры Стенаний (46,36) подходят для группы 18–22-го уровня
 step
     .goto The Barrens,52.0,30.0
-    >>Hand in at the Crossroads
+    >>Сдайте задания на Перекрёстке
     .xp 21
 ]])
 
@@ -10459,18 +10459,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 21-23 Stonetalon Mountains
-#displayname 21-23 Stonetalon Mountains
+#displayname 21-23 Когтистые горы
 #next Mulgore 23-26 Ashenvale
 #version 2
 
 step
-    >>Druid, level 20: train Cat Form at your trainer in your capital city
+    >>Друид, 20-й уровень: изучите облик кошки у наставника в столице
 step
     .goto Stonetalon Mountains,45.0,60.0
-    >>Stonetalon Mountains: Sun Rock Retreat (47,62) - set your home, take the quests (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
+    >>На заставе Солнечного Камня (47,62) привяжите камень возвращения. Возьмите задания (Arachnophobia, Cenarius' Legacy, Boulderslide Ravine, Avast Ye, Admiral!)
 step
     .goto Stonetalon Mountains,62.0,55.0
-    >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
+    >>В Утёсе Ветрорезов убивайте работников Торговой компании для Cenarius' Legacy. В долине Великого Дерева убивайте пауков
     .xp 23
 ]])
 
@@ -10480,19 +10480,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 23-26 Ashenvale
-#displayname 23-26 Ashenvale
+#displayname 23-26 Ясеневый лес
 #next Mulgore 26-30 Hillsbrad Foothills
 #version 2
 
 step
     .goto Ashenvale,73.6,61.6
-    >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
+    >>На заставе Расщеплённого Дерева (73,61) откройте точку полёта. Возьмите задания (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
 step
     .goto Ashenvale,58.0,61.0
-    >>Satyrs at Night Run / Satyrnaar (81,47), Warsong Lumber Camp (89,58), Foulweald furbolgs; Zoram'gar Outpost (west coast 11,34) for the naga quests and Blackfathom Deeps
+    >>Убивайте сатиров в Ночной поляне и Сатирнааре (81,47). Посетите лесозаготовки Песни Войны (89,58) и фурболгов Гнилой Чащи. На западном побережье находится Зорам'гар (11,34): задания о нагах и Непроглядная Пучина
 step
     .goto Ashenvale,73.6,61.6
-    >>Hand in at Splintertree
+    >>Сдайте задания на заставе Расщеплённого Дерева
     .xp 26
 ]])
 
@@ -10502,22 +10502,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 26-30 Hillsbrad Foothills
-#displayname 26-30 Hillsbrad Foothills
+#displayname 26-30 Предгорья Хилсбрада
 #next Mulgore 30-33 Desolace
 #version 2
 
 step
     .goto Thousand Needles,46.0,51.0
-    >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
+    >>На заставе Вольного Ветра (45,50) откройте точку полёта. Возьмите задания (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound). На Мерцающей равнине (78,77) возьмите задания гонщиков
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Fly to Tarren Mill (Hillsbrad Foothills): flight path, take every quest (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
+    >>Летите в Мельницу Таррен. Откройте точку полёта и возьмите задания (Battle of Hillsbrad, Elixir of Pain, Helcular's Revenge, Souvenirs of Death)
 step
     .goto Hillsbrad Foothills,40.0,45.0
-    >>Southshore farmers and the Hillsbrad Fields (Battle of Hillsbrad), Alterac Mountains ogres (Crushridge) and Syndicate at Strahnbrad
+    >>Убивайте фермеров Южнобережья для Battle of Hillsbrad, огров Раздробленного Хребта в Альтераке и членов Синдиката в Странбраде
 step
     .goto Hillsbrad Foothills,62.0,20.0
-    >>Hand in at Tarren Mill
+    >>Сдайте задания в Мельнице Таррен
     .xp 30
 ]])
 
@@ -10527,21 +10527,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 30-33 Desolace
-#displayname 30-33 Desolace
+#displayname 30-33 Пустоши
 #next Mulgore 33-35 Arathi Highlands
 #version 2
 
 step
-    >>Druid, level 30: train Travel Form at your trainer
+    >>Друид, 30-й уровень: изучите походный облик у наставника
 step
     .goto Desolace,24.6,71.4
-    >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
+    >>В деревне Ночных Охотников откройте точку полёта. Возьмите задания (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
 step
     .goto Desolace,55.0,50.0
-    >>Kodo Graveyard (Kodo Roundup), Gelkis and Magram centaur camps, Thunder Axe Fortress (55,28), Sar'theris Strand naga
+    >>Посетите кладбище кодо для Kodo Roundup, лагеря кентавров Гелкис и Маграм, крепость Громового Топора (55,28) и наг на берегу Сар'Терис
 step
     .goto Desolace,24.6,71.4
-    >>Hand in at Shadowprey
+    >>Сдайте задания в деревне Ночных Охотников
     .xp 33
 ]])
 
@@ -10551,16 +10551,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 33-35 Arathi Highlands
-#displayname 33-35 Arathi Highlands
+#displayname 33-35 Нагорье Арати
 #next Mulgore 35-38 Stranglethorn Vale
 #version 2
 
 step
     .goto Arathi Highlands,73.6,32.6
-    >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
+    >>В Опорном пункте откройте точку полёта. Возьмите задания об ограх и троллях Сухокожих (The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
 step
     .goto Arathi Highlands,52.0,52.0
-    >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
+    >>Убивайте огров Каменного Кулака, троллей Сухокожих (68,70), людей Стромгарда и членов Синдиката у Внутреннего круга связывания
     .xp 35
 ]])
 
@@ -10570,19 +10570,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Mulgore 38-42 Dustwallow Marsh
 #version 2
 
 step
     .goto Stranglethorn Vale,32.4,29.2
-    >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
+    >>В лагере Гром'гол откройте точку полёта и возьмите задания. Сюда летает дирижабль из Оргриммара и Подгорода. В экспедиции Эрнестуэя (35,10) возьмите Tiger Mastery, Panther Mastery и Raptor Mastery
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Booty Bay (south): set your home, flight path, the Bloodsail and Venture Company quests
+    >>В Пиратской Бухте привяжите камень возвращения и откройте точку полёта. Возьмите задания о Кровавом Парусе и Торговой компании
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
+    >>Продолжайте задания Эрнестуэя и задания о Курцене и троллях Кровавого Скальпа и Дробителей Черепов
     .xp 38
 ]])
 
@@ -10592,16 +10592,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 38-42 Dustwallow Marsh
-#displayname 38-42 Dustwallow Marsh
+#displayname 38-42 Пылевые топи
 #next Mulgore 42-44 Tanaris
 #version 2
 
 step
     .goto Dustwallow Marsh,35.6,31.0
-    >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
+    >>В деревне Гиблотопь возьмите задания (Hungry!, Theramore spies, Mudrock Soup и задания лейтенанта Паваля)
 step
     .goto Badlands,4.0,47.0
-    >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
+    >>В Каргате откройте точку полёта. Возьмите Barbecued Buzzard Wings и Coyote Thieves. Убивайте огров Пыльного Рыла. Вход в Ульдаман — 42,11
     .xp 42
 ]])
 
@@ -10611,18 +10611,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 42-44 Tanaris
-#displayname 42-44 Tanaris
+#displayname 42-44 Танарис
 #next Mulgore 44-47 Feralas
 #version 2
 
 step
-    >>Druid, level 40: train Dire Bear Form at your trainer
+    >>Друид, 40-й уровень: изучите облик лютого медведя у наставника
 step
     .goto Tanaris,51.6,26.8
-    >>Tanaris: Gadgetzan - set your home, flight path, quests (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
+    >>В Прибамбасске привяжите камень возвращения и откройте точку полёта. Возьмите задания (Wastewander Justice, Water Pouch Bounty, Thistleshrub Valley, WANTED: Andre Firebeard)
 step
     .goto Tanaris,63.0,30.0
-    >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
+    >>Убивайте бандитов Скитальцев Пустыни у руин Полуденной Тени. Зул'Фаррак (39,21) подходит для группы 44–48-го уровня
     .xp 44
 ]])
 
@@ -10632,16 +10632,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 44-47 Feralas
-#displayname 44-47 Feralas
+#displayname 44-47 Фералас
 #next Mulgore 47-50 The Hinterlands
 #version 2
 
 step
     .goto Feralas,75.4,44.4
-    >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
+    >>В лагере Мохаче откройте точку полёта. Возьмите задания (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
 step
     .goto Feralas,70.0,58.0
-    >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
+    >>Убивайте огров Гордунни (72,61), гноллов Древолапов и представителей Зловещего Тотема. В Забытый Город (59,44) идите с группой
     .xp 47
 ]])
 
@@ -10651,16 +10651,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 47-50 The Hinterlands
-#displayname 47-50 The Hinterlands
+#displayname 47-50 Внутренние земли
 #next Mulgore 50-53 Un'Goro Crater
 #version 2
 
 step
     .goto The Hinterlands,79.0,79.0
-    >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
+    >>В деревне Сломанного Клыка откройте точку полёта. Возьмите задания (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
 step
     .goto The Hinterlands,60.0,70.0
-    >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
+    >>Убивайте троллей Порочной Ветви в Джинта'Алоре (60,70), троллей Сухокожих и эльфов Высокогорья
     .xp 50
 ]])
 
@@ -10670,16 +10670,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 50-53 Un'Goro Crater
-#displayname 50-53 Un'Goro Crater
+#displayname 50-53 Кратер Ун'Горо
 #next Mulgore 53-55 Felwood
 #version 2
 
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
+    >>В Укрытии Маршалла возьмите задания (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
+    >>Убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов
     .xp 53
 ]])
 
@@ -10689,16 +10689,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 53-55 Felwood
-#displayname 53-55 Felwood
+#displayname 53-55 Осквернённый лес
 #next Mulgore 55-57 Winterspring
 #version 2
 
 step
     .goto Felwood,34.6,53.6
-    >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
+    >>На заставе Отравленной Крови откройте точку полёта. Возьмите задания (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally). Изумрудное святилище — 51,82
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
+    >>Убивайте членов Совета Теней в Джеденаре, сатиров Нефритового Пламени и фурболгов Мертвого Леса. Получайте репутацию у Древобрюхов
     .xp 55
 ]])
 
@@ -10708,16 +10708,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 55-57 Winterspring
-#displayname 55-57 Winterspring
+#displayname 55-57 Зимние Ключи
 #next Mulgore 57-60 Western Plaguelands
 #version 2
 
 step
     .goto Winterspring,61.4,38.6
-    >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
+    >>Через тоннель Древобрюхов (Осквернённый лес, 64,8) идите в Круговзор. Возьмите Are We There, Yeti? и Winterfall Activity. Донова Сноуден — 31,45
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки, ледопардов, йети Ледяного Чертополоха и химер Морозного Ветра
     .xp 57
 ]])
 
@@ -10727,16 +10727,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Start in Mulgore
 #name Mulgore 57-60 Western Plaguelands
-#displayname 57-60 Western Plaguelands
+#displayname 57-60 Западные Чумные земли
 #version 2
 
 step
     .goto Western Plaguelands,47.0,67.0
-    >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
+    >>У Бастиона (Тирисфаль, 83,69) возьмите A Call to Arms: The Plaguelands! и The Scourge Cauldrons. Посетите Андорал и места с котлами Плети
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Eastern Plaguelands: Light's Hope Chapel - quests (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Argent Dawn). Silithus (Cenarion Hold 51,38) is the alternative for the last bars
+    >>У часовни Последней Надежды возьмите Demon Dogs, Blood Tinged Skies и Carrion Grubbage. Получайте репутацию у Серебряного Рассвета. Оставшийся опыт можно получить в Силитусе (Крепость Кенария, 51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите оставшиеся заклинания в своей столице
 ]])
