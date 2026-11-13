@@ -7,124 +7,124 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 1-14 Teldrassil/Darkshore
-#displayname 1-14 Teldrassil/Darkshore
+#displayname 1-14 Тельдрассил/Тёмные берега
 #next Night Elf 14-17 Darkshore
 #version 2
 
 step
     .goto Teldrassil,58.6,44.7
-    .accept 456 >>Accept The Balance of Nature from Conservator Ilthalaine
+    .accept 456 >>Возьмите The Balance of Nature у хранителя Ильталайна
 step
     .goto Teldrassil,59.9,42.5
-    .accept 458 >>Accept The Woodland Protector from Melithar Staghelm
+    .accept 458 >>Возьмите The Woodland Protector у Мелитара Оленерога
 step
     .goto Teldrassil,57.8,45.1
-    .accept 4495 >>Accept A Good Friend from Dirania Silvershine
+    .accept 4495 >>Возьмите A Good Friend у Дирании Серебряное Сияние
 step
     .goto Teldrassil,58.0,48.0
-    >>Kill Young Nightsabers and Young Thistle Boars around Shadowglen
+    >>Убивайте молодых ночных саблезубов и молодых щетинистых вепрей вокруг Тенистой долины
     .complete 456,1 --Young Nightsaber (7)
     .complete 456,2 --Young Thistle Boar (4)
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 456 >>Turn in The Balance of Nature
-    .accept 457 >>Accept The Balance of Nature (part 2)
+    .turnin 456 >>Сдайте The Balance of Nature
+    .accept 457 >>Возьмите продолжение The Balance of Nature
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 458 >>Turn in The Woodland Protector to Tarindrella
-    .accept 459 >>Accept The Woodland Protector (part 2)
+    .turnin 458 >>Сдайте The Woodland Protector Тариндрелле
+    .accept 459 >>Возьмите продолжение The Woodland Protector
 step
     .goto Teldrassil,55.5,43.0
-    >>Kill Mangy Nightsabers and Thistle Boars, and Grells for Fel Moss
+    >>Убивайте паршивых ночных саблезубов и щетинистых вепрей. Соберите порченый мох с греллей
     .complete 457,1 --Mangy Nightsaber (7)
     .complete 457,2 --Thistle Boar (7)
     .complete 459,1 --Fel Moss (8)
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 459 >>Turn in The Woodland Protector
+    .turnin 459 >>Сдайте The Woodland Protector
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 457 >>Turn in The Balance of Nature
+    .turnin 457 >>Сдайте The Balance of Nature
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 4495 >>Head north and turn in A Good Friend to Iverron
-    .accept 3519 >>Accept A Friend in Need
+    .turnin 4495 >>Идите на север и сдайте A Good Friend Иверрону
+    .accept 3519 >>Возьмите A Friend in Need
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3519 >>Turn in A Friend in Need to Dirania Silvershine
-    .accept 3521 >>Accept Iverron's Antidote
+    .turnin 3519 >>Сдайте A Friend in Need Дирании Серебряное Сияние
+    .accept 3521 >>Возьмите Iverron's Antidote
 step
     .goto Teldrassil,57.8,41.6
-    .accept 916 >>Accept Webwood Venom from Gilshalan Windwalker
+    .accept 916 >>Возьмите Webwood Venom у Гилшалана Бегущего по Ветру
 step
     .goto Teldrassil,57.0,33.0
-    >>Kill Webwood Spiders in the cave north of Shadowglen. Loot Hyacinth Mushrooms on the ground and Moonpetal Lilies at the pond
+    >>Убивайте пауков в пещере к северу от Тенистой долины. Соберите гиацинтовые грибы на земле и лунные лилии у пруда
     .complete 916,1 --Webwood Venom Sac (10)
     .complete 3521,1 --Hyacinth Mushroom (7)
     .complete 3521,2 --Moonpetal Lily (4)
     .complete 3521,3 --Webwood Ichor (1)
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3521 >>Turn in Iverron's Antidote
-    .accept 3522 >>Accept Iverron's Antidote (part 2)
+    .turnin 3521 >>Сдайте Iverron's Antidote
+    .accept 3522 >>Возьмите продолжение Iverron's Antidote
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 3522 >>Turn in Iverron's Antidote to Iverron
+    .turnin 3522 >>Сдайте Iverron's Antidote Иверрону
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 916 >>Turn in Webwood Venom
-    .accept 917 >>Accept Webwood Egg
+    .turnin 916 >>Сдайте Webwood Venom
+    .accept 917 >>Возьмите Webwood Egg
 step
     .goto Teldrassil,56.8,26.5
-    >>Go deep into the spider cave and loot a Webwood Egg
+    >>Пройдите вглубь паучьей пещеры и заберите яйцо паука
     .complete 917,1 --Webwood Egg (1)
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 917 >>Turn in Webwood Egg
-    .accept 920 >>Accept Tenaron's Summons
+    .turnin 917 >>Сдайте Webwood Egg
+    .accept 920 >>Возьмите Tenaron's Summons
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 920 >>Go up the ramp of Aldrassil and turn in Tenaron's Summons to Tenaron Stormgrip
-    .accept 921 >>Accept Crown of the Earth
+    .turnin 920 >>Поднимитесь по склону Альдрассила и сдайте Tenaron's Summons Тенарону Хватке Бури
+    .accept 921 >>Возьмите Crown of the Earth
 step
     .goto Teldrassil,59.9,33.0
-    >>Fill the Jade Phial at the moonwell north of Aldrassil
+    >>Наполните нефритовый фиал в лунном колодце к северу от Альдрассила
     .complete 921,1 --Filled Jade Phial (1)
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 921 >>Turn in Crown of the Earth
-    .accept 928 >>Accept Crown of the Earth (part 2)
+    .turnin 921 >>Сдайте Crown of the Earth
+    .accept 928 >>Возьмите продолжение Crown of the Earth
 step
     .goto Teldrassil,58.6,44.7
-    .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
-    >>Train your class spells at your trainer before you leave (level 4 and 6)
+    .accept 2159 >>Возьмите Dolanaar Delivery у Портанниуса на выходе из Тенистой долины
+    >>Перед уходом изучите способности 4-го и 6-го уровней у наставника своего класса
 step
     .goto Teldrassil,55.6,59.8
-    .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
-    .home >>Make Dolanaar your home
+    .turnin 2159 >>Идите на юг в Доланаар и сдайте Dolanaar Delivery хозяйке таверны Кельдамир
+    .home >>Привяжите камень возвращения в Доланааре
 step
     .goto Teldrassil,56.1,61.7
-    .accept 488 >>Accept Zenn's Bidding from Zenn Foulhoof (outside Dolanaar)
+    .accept 488 >>Возьмите Zenn's Bidding у Зенна Грязного Копыта за пределами Доланаара
 step
     .goto Teldrassil,55.9,57.3
-    .accept 475 >>Accept A Troubling Breeze from Athridas Bearmantle
-    .accept 997 >>Accept Denalan's Earth from Corithras Moonrage
+    .accept 475 >>Возьмите A Troubling Breeze у Атридаса Медвежьей Шкуры
+    .accept 997 >>Возьмите Denalan's Earth у Коритраса Лунного Гнева
 step
     .goto Teldrassil,57.1,61.3
-    .accept 2438 >>Accept The Emerald Dreamcatcher from Tallonkai Swiftroot
-    .accept 489 >>Accept Seek Redemption! (if offered after Zenn)
+    .accept 2438 >>Возьмите The Emerald Dreamcatcher у Таллонкая Гибкого Корня
+    .accept 489 >>Возьмите Seek Redemption!, если задание появится после Zenn's Bidding
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 928 >>Turn in Crown of the Earth to Corithras
-    .accept 929 >>Accept Crown of the Earth (part 3)
+    .turnin 928 >>Сдайте Crown of the Earth Коритрасу
+    .accept 929 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 997 >>Turn in Denalan's Earth at Lake Al'Ameth
-    .accept 918 >>Accept Timberling Seeds
-    .accept 919 >>Accept Timberling Sprouts
+    .turnin 997 >>Сдайте Denalan's Earth у озера Аль'Амет
+    .accept 918 >>Возьмите Timberling Seeds
+    .accept 919 >>Возьмите Timberling Sprouts
 step
     .goto Teldrassil,63.0,58.0
-    >>Kill Nightsabers, Webwood Lurkers and Strigid Owls for Zenn. Kill Timberlings around the lake for seeds and sprouts
+    >>Убивайте ночных саблезубов, пауков и сов для Зенна. Соберите семена и ростки с древесников у озера
     .complete 488,1 --Nightsaber Fang (3)
     .complete 488,2 --Strigid Owl Feather (3)
     .complete 488,3 --Webwood Spider Silk (3)
@@ -132,78 +132,78 @@ step
     .complete 919,1 --Timberling Sprout (12)
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 918 >>Turn in Timberling Seeds
-    .turnin 919 >>Turn in Timberling Sprouts
+    .turnin 918 >>Сдайте Timberling Seeds
+    .turnin 919 >>Сдайте Timberling Sprouts
 step
     .goto Teldrassil,66.2,58.6
-    .turnin 475 >>Go to Starbreeze Village and turn in A Troubling Breeze
-    .accept 476 >>Accept Gnarlpine Corruption
+    .turnin 475 >>Идите в деревню Звёздного Ветра и сдайте A Troubling Breeze
+    .accept 476 >>Возьмите Gnarlpine Corruption
 step
     .goto Teldrassil,68.0,59.6
-    >>Loot Tallonkai's Dresser in the house at Starbreeze Village
+    >>Заберите предмет из комода Таллонкая в доме деревни Звёздного Ветра
     .complete 2438,1 --Emerald Dreamcatcher (1)
 step
     .goto Teldrassil,56.1,61.7
-    .turnin 488 >>Turn in Zenn's Bidding
+    .turnin 488 >>Сдайте Zenn's Bidding
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 476 >>Turn in Gnarlpine Corruption
-    .accept 483 >>Accept The Relics of Wakening
+    .turnin 476 >>Сдайте Gnarlpine Corruption
+    .accept 483 >>Возьмите The Relics of Wakening
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2438 >>Turn in The Emerald Dreamcatcher
-    .accept 2459 >>Accept Ferocitas the Dream Eater
+    .turnin 2438 >>Сдайте The Emerald Dreamcatcher
+    .accept 2459 >>Возьмите Ferocitas the Dream Eater
 step
     .goto Teldrassil,62.0,74.0
-    >>Fill the Amethyst Phial at the Moonwell in Lake Al'Ameth
+    >>Наполните аметистовый фиал в лунном колодце у озера Аль'Амет
     .complete 929,1 --Filled Amethyst Phial (1)
 step
     .goto Teldrassil,67.0,51.0
-    >>Kill Ferocitas the Dream Eater and the Gnarlpine Mystics at the furbolg camp east of Dolanaar
+    >>Убейте Фероситаса Пожирателя Снов и мистиков из племени Кривой Сосны в лагере фурболгов к востоку от Доланаара
     .complete 2459,1 --Ferocitas' Head / Tallonkai's Jewel (1)
     .complete 2459,2 --Gnarlpine Mystic (7)
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2459 >>Turn in Ferocitas the Dream Eater
+    .turnin 2459 >>Сдайте Ferocitas the Dream Eater
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 929 >>Turn in Crown of the Earth
-    .accept 933 >>Accept Crown of the Earth (part 4)
+    .turnin 929 >>Сдайте Crown of the Earth
+    .accept 933 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,44.0,58.0
-    >>Go to Ban'ethil Barrow Den (west). Loot the Relics of Wakening inside
+    >>Идите в курганы Бан'этил на западе. Соберите там реликвии для The Relics of Wakening
     .complete 483,1 --Rune of Nesting (1)
     .complete 483,2 --Black Feather Quill (1)
     .complete 483,3 --Sapphire of Sky (1)
     .complete 483,4 --Raven Claw Talisman (1)
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 483 >>Turn in The Relics of Wakening
+    .turnin 483 >>Сдайте The Relics of Wakening
 step
     .goto Darnassus,35.4,8.4
-    .turnin 933 >>Take the path to Darnassus and turn in Crown of the Earth to Arch Druid Fandral Staghelm (Cenarion Enclave)
-    .accept 7383 >>Accept Crown of the Earth (part 5)
+    .turnin 933 >>Идите в Дарнас и сдайте Crown of the Earth верховному друиду Фэндралу Оленьему Шлему в Анклаве Кенария
+    .accept 7383 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 7383 >>Turn in Crown of the Earth to Corithras in Dolanaar
+    .turnin 7383 >>Сдайте Crown of the Earth Коритрасу в Доланааре
 step
     .goto Teldrassil,58.4,94.0
-    >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
+    >>Идите в деревню Рут'теран на юге Тельдрассила и сядьте на корабль до Аубердина в Тёмных берегах
 step
     .goto Darkshore,36.8,44.3
-    >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
+    >>В Аубердине привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms и For Love Eternal
 step
     .goto Darkshore,36.4,50.4
-    >>Kill crabs and Darkshore Thresher along the coast south of Auberdine; loot the Sea Creature Bones on the beach (Washed Ashore) and gather Threshers' parts (Buzzbox 827 / Fruit of the Sea)
+    >>Убивайте крабов и морских молотильщиков на берегу к югу от Аубердина. Соберите кости морского существа для Washed Ashore и части молотильщиков для Buzzbox 827 и Fruit of the Sea
 step
     .goto Darkshore,44.2,36.3
-    >>Go to Bashal'Aran (east of Auberdine). Hand in Bashal'Aran, then kill Deth'ryll Satyrs for the Ancient Moonstone Seal and grab the Moonstone pieces nearby
+    >>Идите в Башал'Аран к востоку от Аубердина и сдайте Bashal'Aran. Убивайте сатиров за древней печатью из лунного камня и соберите осколки поблизости
 step
     .goto Darkshore,40.6,54.4
-    >>The Red Crystal (stone circle south-east of Auberdine). Kill Moonstalkers and Grizzled Bears around it for Buzzbox quests
+    >>Найдите красный кристалл в каменном круге к юго-востоку от Аубердина. Убивайте лунопардов и медведей вокруг него для заданий Buzzbox
 step
     .goto Darkshore,37.0,44.0
-    >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
+    >>Вернитесь в Аубердин и сдайте задания. Возьмите продолжение Bashal'Aran, задание The Tower of Althalaxx у Тандрис Ветропряд и Plagued Lands у Матиаса
     .xp 14
 ]])
 
@@ -213,21 +213,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 14-17 Darkshore
-#displayname 14-17 Darkshore
+#displayname 14-17 Тёмные берега
 #next Night Elf 17-20 Darkshore
 #version 2
 
 step
-    >>Warrior, level 10: your warrior trainer in Darnassus starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
+    >>Воин, 10-й уровень: возьмите у наставника воинов в Дарнасе задание на «Оборонительную стойку». Развивайте ветку «Оружие»: «Отражение», «Тактическое превосходство», «Размашистые удары» и «Смертельный удар» на 30-м уровне
 step
     .goto Darkshore,55.0,24.8
-    >>The Tower of Althalaxx (north-east): kill Dark Strand Fanatics and Voidcallers, loot the Faded Shadowmoon Blades. Grab Cliffspring River cave quests (Naga in the cave at 55,34)
+    >>У башни Алталакса на северо-востоке убивайте фанатиков Тёмного Берега и призывателей Бездны. Соберите потускневшие клинки Тёмной Луны. Возьмите задания у реки Скалистых Берегов; наги находятся в пещере (55,34)
 step
     .goto Darkshore,43.4,58.4
-    >>Ameth'Aran (south): read the Ancient Flame tablets (The Fall of Ameth'Aran), kill Lady Sathrah and the Writhing Highborne / Anguished Highborne, light the Sentinel's ghost shrine
+    >>В Амет'Аране на юге прочтите таблички Древнего Пламени для The Fall of Ameth'Aran. Убейте леди Сатру и призраков высокорождённых. Зажгите святилище призрачной часовой
 step
     .goto Darkshore,37.0,44.0
-    >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
+    >>Сдайте задания в Аубердине. Возьмите The Absent Minded Prospector и задания в Роще Древних у Ону
     .xp 17
 ]])
 
@@ -237,19 +237,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 17-20 Darkshore
-#displayname 17-20 Darkshore
+#displayname 17-20 Тёмные берега
 #next Night Elf 20-24 Ashenvale
 #version 2
 
 step
     .goto Darkshore,43.0,80.0
-    >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
+    >>На крайнем юге в Роще Древних поговорите с Ону. Убейте фурболгов и разъярённых железноспинов. Затем у Меча Властителя (38,86) убейте служителей Сумеречного Молота и найдите фиал для предсказаний
 step
     .goto Darkshore,35.6,83.6
-    >>Remtravel's Excavation: escort / find Prospector Remtravel (Absent Minded Prospector) and kill Gelkak; loot the fossils
+    >>На раскопках Ремтревела найдите геолога Ремтревела для The Absent Minded Prospector. Сопроводите его, убейте Гелкака и соберите окаменелости
 step
     .goto Darkshore,37.0,44.0
-    >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
+    >>Вернитесь в Аубердин и сдайте задания. Изучите новые способности в Дарнасе; туда идёт корабль из Рут'терана
     .xp 20
 ]])
 
@@ -259,27 +259,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 20-24 Ashenvale
-#displayname 20-24 Ashenvale
+#displayname 20-24 Ясеневый лес
 #next Night Elf 24-28 Wetlands
 #version 2
 
 step
-    >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
+    >>Воин: для заданий используйте медленное двуручное оружие. Изучайте все ранги «Удара героя», «Кровопускания», «Превосходства» и «Удара грома»
 step
     .goto Ashenvale,26.4,38.6
-    >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
+    >>Бегите на юг из Тёмных берегов в Ясеневый лес. На заставе Мейстры (26,38) возьмите The Ruins of Ordil'Aran, Bathran's Hair и Raene's Cleansing
 step
     .goto Ashenvale,36.6,49.6
-    >>Astranaar: set your home, get the flight path, and take every quest (Raene's Cleansing, The Zoram Strand, Elemental Bracers, The Tower of Althalaxx follow-up, Naga at the Zoram Strand)
+    >>В Астранааре привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Raene's Cleansing, The Zoram Strand, Elemental Bracers, продолжение The Tower of Althalaxx и задания о нагах на берегу Зорам
 step
     .goto Ashenvale,14.2,26.0
-    >>The Zoram Strand (west coast): kill Wrathtail Naga for heads and Zoram's crystals; Blackfathom Deeps entrance is here (14,13) if you want the dungeon at 22-24
+    >>На берегу Зорам на западе убивайте наг Зловещего Хвоста ради голов и собирайте кристаллы Зорам. Вход в Непроглядную Пучину находится у (14,13); подземелье подходит для 22-24-го уровня
 step
     .goto Ashenvale,46.0,47.0
-    >>Fallen Sky Lake / Iris Lake: kill elementals for Elemental Bracers (use the Divining Scroll), loot Bathran's Hair at the ruins
+    >>У озёр Упавшего Неба и Ирис убивайте элементалей для Elemental Bracers. Используйте гадальный свиток и соберите волосы Батрана у руин
 step
     .goto Ashenvale,36.6,49.6
-    >>Back to Astranaar, hand in, and pick up the follow-ups
+    >>Вернитесь в Астранаар, сдайте задания и возьмите продолжения
     .xp 24
 ]])
 
@@ -289,24 +289,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 24-28 Wetlands
-#displayname 24-28 Wetlands
+#displayname 24-28 Болотина
 #next Night Elf 28-31 Duskwood
 #version 2
 
 step
-    >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
+    >>Летите в Аубердин и садитесь на корабль до гавани Менетил в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетил привяжите камень возвращения и откройте маршрут полёта. Возьмите Young Crocolisk Skins, Claws from the Deep, The Greenwarden и Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков на побережье и молодых кроколисков к югу от Менетила
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>У Дун Модра и во владениях Драконьей Пасти выполните Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в Менетиле
     .xp 28
 ]])
 
@@ -316,21 +316,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Night Elf 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозёрье и бегите в Тёмнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Тёмнолесье привяжите камень возвращения. Возьмите Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim и Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>Убивайте воргенов Ночной Погибели и скелетов в лесу. Лагерь Свена находится у (7,34), а Вороний Холм — у (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Тёмнолесье и возьмите продолжения
     .xp 31
 ]])
 
@@ -340,23 +340,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Night Elf 33-35 Desolace
 #version 2
 
 step
-    >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
+    >>Воин, 30-й уровень: выполните задание на «Стойку берсерка». Из Кабестана идите на остров Битв (Степи, 68,49). Поговорите с Кланноком Маклеодом для The Affray и победите в бою. Затем выполните The Windwatcher в Тысяче Игл
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из Менетила бегите на север через мост Тандола в Южнобережье или летите туда. По пути откройте маршрут полёта в Опорном пункте Арати (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте маршрут полёта. Возьмите Down the Coast, Crushridge Bounty, Syndicate Assassins и задания на языки медведей
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>Убивайте мурлоков Острого Плавника на побережье, а медведей и пауков — вдали от берега. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -366,21 +366,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Night Elf 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Садитесь на корабль из Менетила в Аубердин. Бегите через Ясеневый лес и Когтистые горы в Пустоши; по пути откройте маршруты полёта в Аубердине и Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>На высоте Найджела на севере Пустошей привяжите камень возвращения и откройте маршрут полёта. Возьмите Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup и Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре выполните Kodo Roundup с помощью кодобоя. Убивайте кентавров Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания на высоте Найджела
     .xp 35
 ]])
 
@@ -390,24 +390,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Night Elf 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о Курцене и троллях Кровавого Скальпа: Krazek's Cookery и Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>У экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Убивайте молодых тигров, пантер и ящеров вокруг лагеря
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте маршрут полёта и возьмите The Bloodsail Buccaneers, Supply and Demand и Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>Выполняйте вторую часть охотничьих заданий Эрнестуэя по мере повышения уровня
     .xp 38
 ]])
 
@@ -417,21 +417,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Night Elf 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан, затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>В Тераморе привяжите камень возвращения и откройте маршрут полёта. Возьмите Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield и Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>Убивайте черепах и ящеров у берега. Выполните задания о таверне «Последний привал» и деревне Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе и изучите способности 40-го уровня
     .xp 40
 ]])
 
@@ -441,21 +441,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Night Elf 42-45 Feralas
 #version 2
 
 step
-    >>Warrior, level 40: train Plate Mail in Darnassus and wear plate from now on
+    >>Воин, 40-й уровень: изучите ношение лат в Дарнасе. Теперь носите латные доспехи
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте маршрут полёта. Возьмите WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley и The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>Убивайте бандитов и воров Скитальцев Пустыни у руин Полуденной Тени и на поле Источников для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -465,21 +465,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Night Elf 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта закрыт, плывите на корабле с побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants и The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров Гордунни у заставы (72,61), членов племени Зловещего Тотема и гноллов Древолапов. Применяйте уменьшитель Зорбина к великанам для Zapped Giants
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -489,21 +489,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Night Elf 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут закрыт, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте маршрут полёта. Возьмите Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания на яйца грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей Сухокожих у Шадра'Алора и Зун'ваты, волков Серебряной Гривы и эльфов Высокогорья у Кель'Данила (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -513,21 +513,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Night Elf 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в Кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере откройте маршрут полёта. Возьмите Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax и Super Sticky. Собирайте кристаллы силы по пути
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -537,21 +537,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Night Elf 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар и бегите на север в Осквернённый лес. Если маршрут открыт, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire и Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>На западе в Джеденаре убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени (41,85 и 40,15), а фурболгов Мёртвого Леса — для репутации Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>На Поляне Когтистых Ветвей на севере откройте маршрут полёта. Возьмите Deadwood of the North и Felbound Ancients
     .xp 54
 ]])
 
@@ -561,21 +561,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Night Elf 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если маршрут закрыт, идите из Южнобережья
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons и Better Late Than Never. Начните повышать репутацию Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы на фермах Фелстоун, Слёзы Далсона, Удел Страданий и пустоши Гаррона. Убивайте нежить в Андорале и у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -585,21 +585,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Night Elf 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут закрыт, пройдите через тоннель Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте маршрут полёта. Возьмите Are We There, Yeti?, Winterfall Activity, задания на Урсиуса и ледопардов. Найдите Донову Сноуден у горячих источников (31,45)
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в деревне (67,36), ледопардов, йети Ледяного Чертополоха (67,42) и химер Студёного Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -609,23 +609,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Night Elf route
 #name Night Elf 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В Часовне Последней Надежды на востоке откройте маршрут полёта. Возьмите Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания герцога Николаса Зверенхоффа для Серебряного Рассвета и задание Тириона Фордринга
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных гончих, чумных нетопырей и личинок. Для заданий Часовни убивайте членов Алого ордена в Коринском перекрёстке и Длани Тира
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в Часовне Последней Надежды. Для последних делений опыта можно отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите последние способности у наставника в столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -634,124 +634,124 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 1-14 Teldrassil/Darkshore
-#displayname 1-14 Teldrassil/Darkshore
+#displayname 1-14 Тельдрассил/Тёмные берега
 #next Night Elf 14-17 Darkshore
 #version 2
 
 step
     .goto Teldrassil,58.6,44.7
-    .accept 456 >>Accept The Balance of Nature from Conservator Ilthalaine
+    .accept 456 >>Возьмите The Balance of Nature у хранителя Ильталайна
 step
     .goto Teldrassil,59.9,42.5
-    .accept 458 >>Accept The Woodland Protector from Melithar Staghelm
+    .accept 458 >>Возьмите The Woodland Protector у Мелитара Оленерога
 step
     .goto Teldrassil,57.8,45.1
-    .accept 4495 >>Accept A Good Friend from Dirania Silvershine
+    .accept 4495 >>Возьмите A Good Friend у Дирании Серебряное Сияние
 step
     .goto Teldrassil,58.0,48.0
-    >>Kill Young Nightsabers and Young Thistle Boars around Shadowglen
+    >>Убивайте молодых ночных саблезубов и молодых щетинистых вепрей вокруг Тенистой долины
     .complete 456,1 --Young Nightsaber (7)
     .complete 456,2 --Young Thistle Boar (4)
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 456 >>Turn in The Balance of Nature
-    .accept 457 >>Accept The Balance of Nature (part 2)
+    .turnin 456 >>Сдайте The Balance of Nature
+    .accept 457 >>Возьмите продолжение The Balance of Nature
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 458 >>Turn in The Woodland Protector to Tarindrella
-    .accept 459 >>Accept The Woodland Protector (part 2)
+    .turnin 458 >>Сдайте The Woodland Protector Тариндрелле
+    .accept 459 >>Возьмите продолжение The Woodland Protector
 step
     .goto Teldrassil,55.5,43.0
-    >>Kill Mangy Nightsabers and Thistle Boars, and Grells for Fel Moss
+    >>Убивайте паршивых ночных саблезубов и щетинистых вепрей. Соберите порченый мох с греллей
     .complete 457,1 --Mangy Nightsaber (7)
     .complete 457,2 --Thistle Boar (7)
     .complete 459,1 --Fel Moss (8)
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 459 >>Turn in The Woodland Protector
+    .turnin 459 >>Сдайте The Woodland Protector
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 457 >>Turn in The Balance of Nature
+    .turnin 457 >>Сдайте The Balance of Nature
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 4495 >>Head north and turn in A Good Friend to Iverron
-    .accept 3519 >>Accept A Friend in Need
+    .turnin 4495 >>Идите на север и сдайте A Good Friend Иверрону
+    .accept 3519 >>Возьмите A Friend in Need
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3519 >>Turn in A Friend in Need to Dirania Silvershine
-    .accept 3521 >>Accept Iverron's Antidote
+    .turnin 3519 >>Сдайте A Friend in Need Дирании Серебряное Сияние
+    .accept 3521 >>Возьмите Iverron's Antidote
 step
     .goto Teldrassil,57.8,41.6
-    .accept 916 >>Accept Webwood Venom from Gilshalan Windwalker
+    .accept 916 >>Возьмите Webwood Venom у Гилшалана Бегущего по Ветру
 step
     .goto Teldrassil,57.0,33.0
-    >>Kill Webwood Spiders in the cave north of Shadowglen. Loot Hyacinth Mushrooms on the ground and Moonpetal Lilies at the pond
+    >>Убивайте пауков в пещере к северу от Тенистой долины. Соберите гиацинтовые грибы на земле и лунные лилии у пруда
     .complete 916,1 --Webwood Venom Sac (10)
     .complete 3521,1 --Hyacinth Mushroom (7)
     .complete 3521,2 --Moonpetal Lily (4)
     .complete 3521,3 --Webwood Ichor (1)
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3521 >>Turn in Iverron's Antidote
-    .accept 3522 >>Accept Iverron's Antidote (part 2)
+    .turnin 3521 >>Сдайте Iverron's Antidote
+    .accept 3522 >>Возьмите продолжение Iverron's Antidote
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 3522 >>Turn in Iverron's Antidote to Iverron
+    .turnin 3522 >>Сдайте Iverron's Antidote Иверрону
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 916 >>Turn in Webwood Venom
-    .accept 917 >>Accept Webwood Egg
+    .turnin 916 >>Сдайте Webwood Venom
+    .accept 917 >>Возьмите Webwood Egg
 step
     .goto Teldrassil,56.8,26.5
-    >>Go deep into the spider cave and loot a Webwood Egg
+    >>Пройдите вглубь паучьей пещеры и заберите яйцо паука
     .complete 917,1 --Webwood Egg (1)
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 917 >>Turn in Webwood Egg
-    .accept 920 >>Accept Tenaron's Summons
+    .turnin 917 >>Сдайте Webwood Egg
+    .accept 920 >>Возьмите Tenaron's Summons
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 920 >>Go up the ramp of Aldrassil and turn in Tenaron's Summons to Tenaron Stormgrip
-    .accept 921 >>Accept Crown of the Earth
+    .turnin 920 >>Поднимитесь по склону Альдрассила и сдайте Tenaron's Summons Тенарону Хватке Бури
+    .accept 921 >>Возьмите Crown of the Earth
 step
     .goto Teldrassil,59.9,33.0
-    >>Fill the Jade Phial at the moonwell north of Aldrassil
+    >>Наполните нефритовый фиал в лунном колодце к северу от Альдрассила
     .complete 921,1 --Filled Jade Phial (1)
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 921 >>Turn in Crown of the Earth
-    .accept 928 >>Accept Crown of the Earth (part 2)
+    .turnin 921 >>Сдайте Crown of the Earth
+    .accept 928 >>Возьмите продолжение Crown of the Earth
 step
     .goto Teldrassil,58.6,44.7
-    .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
-    >>Train your class spells at your trainer before you leave (level 4 and 6)
+    .accept 2159 >>Возьмите Dolanaar Delivery у Портанниуса на выходе из Тенистой долины
+    >>Перед уходом изучите способности 4-го и 6-го уровней у наставника своего класса
 step
     .goto Teldrassil,55.6,59.8
-    .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
-    .home >>Make Dolanaar your home
+    .turnin 2159 >>Идите на юг в Доланаар и сдайте Dolanaar Delivery хозяйке таверны Кельдамир
+    .home >>Привяжите камень возвращения в Доланааре
 step
     .goto Teldrassil,56.1,61.7
-    .accept 488 >>Accept Zenn's Bidding from Zenn Foulhoof (outside Dolanaar)
+    .accept 488 >>Возьмите Zenn's Bidding у Зенна Грязного Копыта за пределами Доланаара
 step
     .goto Teldrassil,55.9,57.3
-    .accept 475 >>Accept A Troubling Breeze from Athridas Bearmantle
-    .accept 997 >>Accept Denalan's Earth from Corithras Moonrage
+    .accept 475 >>Возьмите A Troubling Breeze у Атридаса Медвежьей Шкуры
+    .accept 997 >>Возьмите Denalan's Earth у Коритраса Лунного Гнева
 step
     .goto Teldrassil,57.1,61.3
-    .accept 2438 >>Accept The Emerald Dreamcatcher from Tallonkai Swiftroot
-    .accept 489 >>Accept Seek Redemption! (if offered after Zenn)
+    .accept 2438 >>Возьмите The Emerald Dreamcatcher у Таллонкая Гибкого Корня
+    .accept 489 >>Возьмите Seek Redemption!, если задание появится после Zenn's Bidding
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 928 >>Turn in Crown of the Earth to Corithras
-    .accept 929 >>Accept Crown of the Earth (part 3)
+    .turnin 928 >>Сдайте Crown of the Earth Коритрасу
+    .accept 929 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 997 >>Turn in Denalan's Earth at Lake Al'Ameth
-    .accept 918 >>Accept Timberling Seeds
-    .accept 919 >>Accept Timberling Sprouts
+    .turnin 997 >>Сдайте Denalan's Earth у озера Аль'Амет
+    .accept 918 >>Возьмите Timberling Seeds
+    .accept 919 >>Возьмите Timberling Sprouts
 step
     .goto Teldrassil,63.0,58.0
-    >>Kill Nightsabers, Webwood Lurkers and Strigid Owls for Zenn. Kill Timberlings around the lake for seeds and sprouts
+    >>Убивайте ночных саблезубов, пауков и сов для Зенна. Соберите семена и ростки с древесников у озера
     .complete 488,1 --Nightsaber Fang (3)
     .complete 488,2 --Strigid Owl Feather (3)
     .complete 488,3 --Webwood Spider Silk (3)
@@ -759,78 +759,78 @@ step
     .complete 919,1 --Timberling Sprout (12)
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 918 >>Turn in Timberling Seeds
-    .turnin 919 >>Turn in Timberling Sprouts
+    .turnin 918 >>Сдайте Timberling Seeds
+    .turnin 919 >>Сдайте Timberling Sprouts
 step
     .goto Teldrassil,66.2,58.6
-    .turnin 475 >>Go to Starbreeze Village and turn in A Troubling Breeze
-    .accept 476 >>Accept Gnarlpine Corruption
+    .turnin 475 >>Идите в деревню Звёздного Ветра и сдайте A Troubling Breeze
+    .accept 476 >>Возьмите Gnarlpine Corruption
 step
     .goto Teldrassil,68.0,59.6
-    >>Loot Tallonkai's Dresser in the house at Starbreeze Village
+    >>Заберите предмет из комода Таллонкая в доме деревни Звёздного Ветра
     .complete 2438,1 --Emerald Dreamcatcher (1)
 step
     .goto Teldrassil,56.1,61.7
-    .turnin 488 >>Turn in Zenn's Bidding
+    .turnin 488 >>Сдайте Zenn's Bidding
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 476 >>Turn in Gnarlpine Corruption
-    .accept 483 >>Accept The Relics of Wakening
+    .turnin 476 >>Сдайте Gnarlpine Corruption
+    .accept 483 >>Возьмите The Relics of Wakening
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2438 >>Turn in The Emerald Dreamcatcher
-    .accept 2459 >>Accept Ferocitas the Dream Eater
+    .turnin 2438 >>Сдайте The Emerald Dreamcatcher
+    .accept 2459 >>Возьмите Ferocitas the Dream Eater
 step
     .goto Teldrassil,62.0,74.0
-    >>Fill the Amethyst Phial at the Moonwell in Lake Al'Ameth
+    >>Наполните аметистовый фиал в лунном колодце у озера Аль'Амет
     .complete 929,1 --Filled Amethyst Phial (1)
 step
     .goto Teldrassil,67.0,51.0
-    >>Kill Ferocitas the Dream Eater and the Gnarlpine Mystics at the furbolg camp east of Dolanaar
+    >>Убейте Фероситаса Пожирателя Снов и мистиков из племени Кривой Сосны в лагере фурболгов к востоку от Доланаара
     .complete 2459,1 --Ferocitas' Head / Tallonkai's Jewel (1)
     .complete 2459,2 --Gnarlpine Mystic (7)
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2459 >>Turn in Ferocitas the Dream Eater
+    .turnin 2459 >>Сдайте Ferocitas the Dream Eater
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 929 >>Turn in Crown of the Earth
-    .accept 933 >>Accept Crown of the Earth (part 4)
+    .turnin 929 >>Сдайте Crown of the Earth
+    .accept 933 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,44.0,58.0
-    >>Go to Ban'ethil Barrow Den (west). Loot the Relics of Wakening inside
+    >>Идите в курганы Бан'этил на западе. Соберите там реликвии для The Relics of Wakening
     .complete 483,1 --Rune of Nesting (1)
     .complete 483,2 --Black Feather Quill (1)
     .complete 483,3 --Sapphire of Sky (1)
     .complete 483,4 --Raven Claw Talisman (1)
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 483 >>Turn in The Relics of Wakening
+    .turnin 483 >>Сдайте The Relics of Wakening
 step
     .goto Darnassus,35.4,8.4
-    .turnin 933 >>Take the path to Darnassus and turn in Crown of the Earth to Arch Druid Fandral Staghelm (Cenarion Enclave)
-    .accept 7383 >>Accept Crown of the Earth (part 5)
+    .turnin 933 >>Идите в Дарнас и сдайте Crown of the Earth верховному друиду Фэндралу Оленьему Шлему в Анклаве Кенария
+    .accept 7383 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 7383 >>Turn in Crown of the Earth to Corithras in Dolanaar
+    .turnin 7383 >>Сдайте Crown of the Earth Коритрасу в Доланааре
 step
     .goto Teldrassil,58.4,94.0
-    >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
+    >>Идите в деревню Рут'теран на юге Тельдрассила и сядьте на корабль до Аубердина в Тёмных берегах
 step
     .goto Darkshore,36.8,44.3
-    >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
+    >>В Аубердине привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms и For Love Eternal
 step
     .goto Darkshore,36.4,50.4
-    >>Kill crabs and Darkshore Thresher along the coast south of Auberdine; loot the Sea Creature Bones on the beach (Washed Ashore) and gather Threshers' parts (Buzzbox 827 / Fruit of the Sea)
+    >>Убивайте крабов и морских молотильщиков на берегу к югу от Аубердина. Соберите кости морского существа для Washed Ashore и части молотильщиков для Buzzbox 827 и Fruit of the Sea
 step
     .goto Darkshore,44.2,36.3
-    >>Go to Bashal'Aran (east of Auberdine). Hand in Bashal'Aran, then kill Deth'ryll Satyrs for the Ancient Moonstone Seal and grab the Moonstone pieces nearby
+    >>Идите в Башал'Аран к востоку от Аубердина и сдайте Bashal'Aran. Убивайте сатиров за древней печатью из лунного камня и соберите осколки поблизости
 step
     .goto Darkshore,40.6,54.4
-    >>The Red Crystal (stone circle south-east of Auberdine). Kill Moonstalkers and Grizzled Bears around it for Buzzbox quests
+    >>Найдите красный кристалл в каменном круге к юго-востоку от Аубердина. Убивайте лунопардов и медведей вокруг него для заданий Buzzbox
 step
     .goto Darkshore,37.0,44.0
-    >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
+    >>Вернитесь в Аубердин и сдайте задания. Возьмите продолжение Bashal'Aran, задание The Tower of Althalaxx у Тандрис Ветропряд и Plagued Lands у Матиаса
     .xp 14
 ]])
 
@@ -840,21 +840,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 14-17 Darkshore
-#displayname 14-17 Darkshore
+#displayname 14-17 Тёмные берега
 #next Night Elf 17-20 Darkshore
 #version 2
 
 step
-    >>Hunter, level 10: your hunter trainer starts Taming the Beast - tame the three beasts it asks for, then you can tame your own pet. Visit the pet trainer in Darnassus. Talents: Beast Mastery
+    >>Охотник, 10-й уровень: возьмите у наставника задание Taming the Beast. Приручите трёх указанных зверей, затем приручите своего питомца. Посетите наставника питомцев в Дарнасе. Развивайте ветку «Повелитель зверей»
 step
     .goto Darkshore,55.0,24.8
-    >>The Tower of Althalaxx (north-east): kill Dark Strand Fanatics and Voidcallers, loot the Faded Shadowmoon Blades. Grab Cliffspring River cave quests (Naga in the cave at 55,34)
+    >>У башни Алталакса на северо-востоке убивайте фанатиков Тёмного Берега и призывателей Бездны. Соберите потускневшие клинки Тёмной Луны. Возьмите задания у реки Скалистых Берегов; наги находятся в пещере (55,34)
 step
     .goto Darkshore,43.4,58.4
-    >>Ameth'Aran (south): read the Ancient Flame tablets (The Fall of Ameth'Aran), kill Lady Sathrah and the Writhing Highborne / Anguished Highborne, light the Sentinel's ghost shrine
+    >>В Амет'Аране на юге прочтите таблички Древнего Пламени для The Fall of Ameth'Aran. Убейте леди Сатру и призраков высокорождённых. Зажгите святилище призрачной часовой
 step
     .goto Darkshore,37.0,44.0
-    >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
+    >>Сдайте задания в Аубердине. Возьмите The Absent Minded Prospector и задания в Роще Древних у Ону
     .xp 17
 ]])
 
@@ -864,19 +864,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 17-20 Darkshore
-#displayname 17-20 Darkshore
+#displayname 17-20 Тёмные берега
 #next Night Elf 20-24 Ashenvale
 #version 2
 
 step
     .goto Darkshore,43.0,80.0
-    >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
+    >>На крайнем юге в Роще Древних поговорите с Ону. Убейте фурболгов и разъярённых железноспинов. Затем у Меча Властителя (38,86) убейте служителей Сумеречного Молота и найдите фиал для предсказаний
 step
     .goto Darkshore,35.6,83.6
-    >>Remtravel's Excavation: escort / find Prospector Remtravel (Absent Minded Prospector) and kill Gelkak; loot the fossils
+    >>На раскопках Ремтревела найдите геолога Ремтревела для The Absent Minded Prospector. Сопроводите его, убейте Гелкака и соберите окаменелости
 step
     .goto Darkshore,37.0,44.0
-    >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
+    >>Вернитесь в Аубердин и сдайте задания. Изучите новые способности в Дарнасе; туда идёт корабль из Рут'терана
     .xp 20
 ]])
 
@@ -886,27 +886,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 20-24 Ashenvale
-#displayname 20-24 Ashenvale
+#displayname 20-24 Ясеневый лес
 #next Night Elf 24-28 Wetlands
 #version 2
 
 step
-    >>Hunter: Aspect of the Cheetah at 20. Keep your pet fed and buy arrows/bullets in every town. A slow ranged weapon is best
+    >>Охотник: на 20-м уровне изучите «Дух гепарда». Кормите питомца и покупайте стрелы или пули в каждом поселении. Используйте медленное оружие дальнего боя
 step
     .goto Ashenvale,26.4,38.6
-    >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
+    >>Бегите на юг из Тёмных берегов в Ясеневый лес. На заставе Мейстры (26,38) возьмите The Ruins of Ordil'Aran, Bathran's Hair и Raene's Cleansing
 step
     .goto Ashenvale,36.6,49.6
-    >>Astranaar: set your home, get the flight path, and take every quest (Raene's Cleansing, The Zoram Strand, Elemental Bracers, The Tower of Althalaxx follow-up, Naga at the Zoram Strand)
+    >>В Астранааре привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Raene's Cleansing, The Zoram Strand, Elemental Bracers, продолжение The Tower of Althalaxx и задания о нагах на берегу Зорам
 step
     .goto Ashenvale,14.2,26.0
-    >>The Zoram Strand (west coast): kill Wrathtail Naga for heads and Zoram's crystals; Blackfathom Deeps entrance is here (14,13) if you want the dungeon at 22-24
+    >>На берегу Зорам на западе убивайте наг Зловещего Хвоста ради голов и собирайте кристаллы Зорам. Вход в Непроглядную Пучину находится у (14,13); подземелье подходит для 22-24-го уровня
 step
     .goto Ashenvale,46.0,47.0
-    >>Fallen Sky Lake / Iris Lake: kill elementals for Elemental Bracers (use the Divining Scroll), loot Bathran's Hair at the ruins
+    >>У озёр Упавшего Неба и Ирис убивайте элементалей для Elemental Bracers. Используйте гадальный свиток и соберите волосы Батрана у руин
 step
     .goto Ashenvale,36.6,49.6
-    >>Back to Astranaar, hand in, and pick up the follow-ups
+    >>Вернитесь в Астранаар, сдайте задания и возьмите продолжения
     .xp 24
 ]])
 
@@ -916,24 +916,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 24-28 Wetlands
-#displayname 24-28 Wetlands
+#displayname 24-28 Болотина
 #next Night Elf 28-31 Duskwood
 #version 2
 
 step
-    >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
+    >>Летите в Аубердин и садитесь на корабль до гавани Менетил в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетил привяжите камень возвращения и откройте маршрут полёта. Возьмите Young Crocolisk Skins, Claws from the Deep, The Greenwarden и Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков на побережье и молодых кроколисков к югу от Менетила
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>У Дун Модра и во владениях Драконьей Пасти выполните Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в Менетиле
     .xp 28
 ]])
 
@@ -943,21 +943,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Night Elf 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозёрье и бегите в Тёмнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Тёмнолесье привяжите камень возвращения. Возьмите Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim и Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>Убивайте воргенов Ночной Погибели и скелетов в лесу. Лагерь Свена находится у (7,34), а Вороний Холм — у (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Тёмнолесье и возьмите продолжения
     .xp 31
 ]])
 
@@ -967,23 +967,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Night Elf 33-35 Desolace
 #version 2
 
 step
-    >>Hunter: upgrade your pet to a level-appropriate beast (a cat or boar from the zone you are in)
+    >>Охотник: приручите зверя подходящего уровня. Подойдёт кошка или вепрь из текущей зоны
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из Менетила бегите на север через мост Тандола в Южнобережье или летите туда. По пути откройте маршрут полёта в Опорном пункте Арати (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте маршрут полёта. Возьмите Down the Coast, Crushridge Bounty, Syndicate Assassins и задания на языки медведей
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>Убивайте мурлоков Острого Плавника на побережье, а медведей и пауков — вдали от берега. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -993,21 +993,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Night Elf 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Садитесь на корабль из Менетила в Аубердин. Бегите через Ясеневый лес и Когтистые горы в Пустоши; по пути откройте маршруты полёта в Аубердине и Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>На высоте Найджела на севере Пустошей привяжите камень возвращения и откройте маршрут полёта. Возьмите Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup и Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре выполните Kodo Roundup с помощью кодобоя. Убивайте кентавров Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания на высоте Найджела
     .xp 35
 ]])
 
@@ -1017,24 +1017,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Night Elf 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о Курцене и троллях Кровавого Скальпа: Krazek's Cookery и Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>У экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Убивайте молодых тигров, пантер и ящеров вокруг лагеря
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте маршрут полёта и возьмите The Bloodsail Buccaneers, Supply and Demand и Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>Выполняйте вторую часть охотничьих заданий Эрнестуэя по мере повышения уровня
     .xp 38
 ]])
 
@@ -1044,21 +1044,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Night Elf 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан, затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>В Тераморе привяжите камень возвращения и откройте маршрут полёта. Возьмите Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield и Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>Убивайте черепах и ящеров у берега. Выполните задания о таверне «Последний привал» и деревне Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе и изучите способности 40-го уровня
     .xp 40
 ]])
 
@@ -1068,21 +1068,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Night Elf 42-45 Feralas
 #version 2
 
 step
-    >>Hunter, level 40: train Mail at Darnassus and wear mail from now on
+    >>Охотник, 40-й уровень: изучите ношение кольчуги в Дарнасе. Теперь носите кольчужные доспехи
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте маршрут полёта. Возьмите WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley и The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>Убивайте бандитов и воров Скитальцев Пустыни у руин Полуденной Тени и на поле Источников для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -1092,21 +1092,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Night Elf 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта закрыт, плывите на корабле с побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants и The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров Гордунни у заставы (72,61), членов племени Зловещего Тотема и гноллов Древолапов. Применяйте уменьшитель Зорбина к великанам для Zapped Giants
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -1116,21 +1116,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Night Elf 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут закрыт, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте маршрут полёта. Возьмите Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания на яйца грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей Сухокожих у Шадра'Алора и Зун'ваты, волков Серебряной Гривы и эльфов Высокогорья у Кель'Данила (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -1140,21 +1140,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Night Elf 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в Кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере откройте маршрут полёта. Возьмите Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax и Super Sticky. Собирайте кристаллы силы по пути
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -1164,21 +1164,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Night Elf 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар и бегите на север в Осквернённый лес. Если маршрут открыт, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire и Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>На западе в Джеденаре убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени (41,85 и 40,15), а фурболгов Мёртвого Леса — для репутации Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>На Поляне Когтистых Ветвей на севере откройте маршрут полёта. Возьмите Deadwood of the North и Felbound Ancients
     .xp 54
 ]])
 
@@ -1188,21 +1188,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Night Elf 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если маршрут закрыт, идите из Южнобережья
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons и Better Late Than Never. Начните повышать репутацию Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы на фермах Фелстоун, Слёзы Далсона, Удел Страданий и пустоши Гаррона. Убивайте нежить в Андорале и у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -1212,21 +1212,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Night Elf 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут закрыт, пройдите через тоннель Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте маршрут полёта. Возьмите Are We There, Yeti?, Winterfall Activity, задания на Урсиуса и ледопардов. Найдите Донову Сноуден у горячих источников (31,45)
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в деревне (67,36), ледопардов, йети Ледяного Чертополоха (67,42) и химер Студёного Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -1236,23 +1236,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Night Elf route
 #name Night Elf 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В Часовне Последней Надежды на востоке откройте маршрут полёта. Возьмите Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания герцога Николаса Зверенхоффа для Серебряного Рассвета и задание Тириона Фордринга
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных гончих, чумных нетопырей и личинок. Для заданий Часовни убивайте членов Алого ордена в Коринском перекрёстке и Длани Тира
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в Часовне Последней Надежды. Для последних делений опыта можно отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите последние способности у наставника в столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1261,124 +1261,124 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 1-14 Teldrassil/Darkshore
-#displayname 1-14 Teldrassil/Darkshore
+#displayname 1-14 Тельдрассил/Тёмные берега
 #next Night Elf 14-17 Darkshore
 #version 2
 
 step
     .goto Teldrassil,58.6,44.7
-    .accept 456 >>Accept The Balance of Nature from Conservator Ilthalaine
+    .accept 456 >>Возьмите The Balance of Nature у хранителя Ильталайна
 step
     .goto Teldrassil,59.9,42.5
-    .accept 458 >>Accept The Woodland Protector from Melithar Staghelm
+    .accept 458 >>Возьмите The Woodland Protector у Мелитара Оленерога
 step
     .goto Teldrassil,57.8,45.1
-    .accept 4495 >>Accept A Good Friend from Dirania Silvershine
+    .accept 4495 >>Возьмите A Good Friend у Дирании Серебряное Сияние
 step
     .goto Teldrassil,58.0,48.0
-    >>Kill Young Nightsabers and Young Thistle Boars around Shadowglen
+    >>Убивайте молодых ночных саблезубов и молодых щетинистых вепрей вокруг Тенистой долины
     .complete 456,1 --Young Nightsaber (7)
     .complete 456,2 --Young Thistle Boar (4)
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 456 >>Turn in The Balance of Nature
-    .accept 457 >>Accept The Balance of Nature (part 2)
+    .turnin 456 >>Сдайте The Balance of Nature
+    .accept 457 >>Возьмите продолжение The Balance of Nature
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 458 >>Turn in The Woodland Protector to Tarindrella
-    .accept 459 >>Accept The Woodland Protector (part 2)
+    .turnin 458 >>Сдайте The Woodland Protector Тариндрелле
+    .accept 459 >>Возьмите продолжение The Woodland Protector
 step
     .goto Teldrassil,55.5,43.0
-    >>Kill Mangy Nightsabers and Thistle Boars, and Grells for Fel Moss
+    >>Убивайте паршивых ночных саблезубов и щетинистых вепрей. Соберите порченый мох с греллей
     .complete 457,1 --Mangy Nightsaber (7)
     .complete 457,2 --Thistle Boar (7)
     .complete 459,1 --Fel Moss (8)
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 459 >>Turn in The Woodland Protector
+    .turnin 459 >>Сдайте The Woodland Protector
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 457 >>Turn in The Balance of Nature
+    .turnin 457 >>Сдайте The Balance of Nature
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 4495 >>Head north and turn in A Good Friend to Iverron
-    .accept 3519 >>Accept A Friend in Need
+    .turnin 4495 >>Идите на север и сдайте A Good Friend Иверрону
+    .accept 3519 >>Возьмите A Friend in Need
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3519 >>Turn in A Friend in Need to Dirania Silvershine
-    .accept 3521 >>Accept Iverron's Antidote
+    .turnin 3519 >>Сдайте A Friend in Need Дирании Серебряное Сияние
+    .accept 3521 >>Возьмите Iverron's Antidote
 step
     .goto Teldrassil,57.8,41.6
-    .accept 916 >>Accept Webwood Venom from Gilshalan Windwalker
+    .accept 916 >>Возьмите Webwood Venom у Гилшалана Бегущего по Ветру
 step
     .goto Teldrassil,57.0,33.0
-    >>Kill Webwood Spiders in the cave north of Shadowglen. Loot Hyacinth Mushrooms on the ground and Moonpetal Lilies at the pond
+    >>Убивайте пауков в пещере к северу от Тенистой долины. Соберите гиацинтовые грибы на земле и лунные лилии у пруда
     .complete 916,1 --Webwood Venom Sac (10)
     .complete 3521,1 --Hyacinth Mushroom (7)
     .complete 3521,2 --Moonpetal Lily (4)
     .complete 3521,3 --Webwood Ichor (1)
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3521 >>Turn in Iverron's Antidote
-    .accept 3522 >>Accept Iverron's Antidote (part 2)
+    .turnin 3521 >>Сдайте Iverron's Antidote
+    .accept 3522 >>Возьмите продолжение Iverron's Antidote
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 3522 >>Turn in Iverron's Antidote to Iverron
+    .turnin 3522 >>Сдайте Iverron's Antidote Иверрону
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 916 >>Turn in Webwood Venom
-    .accept 917 >>Accept Webwood Egg
+    .turnin 916 >>Сдайте Webwood Venom
+    .accept 917 >>Возьмите Webwood Egg
 step
     .goto Teldrassil,56.8,26.5
-    >>Go deep into the spider cave and loot a Webwood Egg
+    >>Пройдите вглубь паучьей пещеры и заберите яйцо паука
     .complete 917,1 --Webwood Egg (1)
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 917 >>Turn in Webwood Egg
-    .accept 920 >>Accept Tenaron's Summons
+    .turnin 917 >>Сдайте Webwood Egg
+    .accept 920 >>Возьмите Tenaron's Summons
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 920 >>Go up the ramp of Aldrassil and turn in Tenaron's Summons to Tenaron Stormgrip
-    .accept 921 >>Accept Crown of the Earth
+    .turnin 920 >>Поднимитесь по склону Альдрассила и сдайте Tenaron's Summons Тенарону Хватке Бури
+    .accept 921 >>Возьмите Crown of the Earth
 step
     .goto Teldrassil,59.9,33.0
-    >>Fill the Jade Phial at the moonwell north of Aldrassil
+    >>Наполните нефритовый фиал в лунном колодце к северу от Альдрассила
     .complete 921,1 --Filled Jade Phial (1)
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 921 >>Turn in Crown of the Earth
-    .accept 928 >>Accept Crown of the Earth (part 2)
+    .turnin 921 >>Сдайте Crown of the Earth
+    .accept 928 >>Возьмите продолжение Crown of the Earth
 step
     .goto Teldrassil,58.6,44.7
-    .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
-    >>Train your class spells at your trainer before you leave (level 4 and 6)
+    .accept 2159 >>Возьмите Dolanaar Delivery у Портанниуса на выходе из Тенистой долины
+    >>Перед уходом изучите способности 4-го и 6-го уровней у наставника своего класса
 step
     .goto Teldrassil,55.6,59.8
-    .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
-    .home >>Make Dolanaar your home
+    .turnin 2159 >>Идите на юг в Доланаар и сдайте Dolanaar Delivery хозяйке таверны Кельдамир
+    .home >>Привяжите камень возвращения в Доланааре
 step
     .goto Teldrassil,56.1,61.7
-    .accept 488 >>Accept Zenn's Bidding from Zenn Foulhoof (outside Dolanaar)
+    .accept 488 >>Возьмите Zenn's Bidding у Зенна Грязного Копыта за пределами Доланаара
 step
     .goto Teldrassil,55.9,57.3
-    .accept 475 >>Accept A Troubling Breeze from Athridas Bearmantle
-    .accept 997 >>Accept Denalan's Earth from Corithras Moonrage
+    .accept 475 >>Возьмите A Troubling Breeze у Атридаса Медвежьей Шкуры
+    .accept 997 >>Возьмите Denalan's Earth у Коритраса Лунного Гнева
 step
     .goto Teldrassil,57.1,61.3
-    .accept 2438 >>Accept The Emerald Dreamcatcher from Tallonkai Swiftroot
-    .accept 489 >>Accept Seek Redemption! (if offered after Zenn)
+    .accept 2438 >>Возьмите The Emerald Dreamcatcher у Таллонкая Гибкого Корня
+    .accept 489 >>Возьмите Seek Redemption!, если задание появится после Zenn's Bidding
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 928 >>Turn in Crown of the Earth to Corithras
-    .accept 929 >>Accept Crown of the Earth (part 3)
+    .turnin 928 >>Сдайте Crown of the Earth Коритрасу
+    .accept 929 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 997 >>Turn in Denalan's Earth at Lake Al'Ameth
-    .accept 918 >>Accept Timberling Seeds
-    .accept 919 >>Accept Timberling Sprouts
+    .turnin 997 >>Сдайте Denalan's Earth у озера Аль'Амет
+    .accept 918 >>Возьмите Timberling Seeds
+    .accept 919 >>Возьмите Timberling Sprouts
 step
     .goto Teldrassil,63.0,58.0
-    >>Kill Nightsabers, Webwood Lurkers and Strigid Owls for Zenn. Kill Timberlings around the lake for seeds and sprouts
+    >>Убивайте ночных саблезубов, пауков и сов для Зенна. Соберите семена и ростки с древесников у озера
     .complete 488,1 --Nightsaber Fang (3)
     .complete 488,2 --Strigid Owl Feather (3)
     .complete 488,3 --Webwood Spider Silk (3)
@@ -1386,78 +1386,78 @@ step
     .complete 919,1 --Timberling Sprout (12)
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 918 >>Turn in Timberling Seeds
-    .turnin 919 >>Turn in Timberling Sprouts
+    .turnin 918 >>Сдайте Timberling Seeds
+    .turnin 919 >>Сдайте Timberling Sprouts
 step
     .goto Teldrassil,66.2,58.6
-    .turnin 475 >>Go to Starbreeze Village and turn in A Troubling Breeze
-    .accept 476 >>Accept Gnarlpine Corruption
+    .turnin 475 >>Идите в деревню Звёздного Ветра и сдайте A Troubling Breeze
+    .accept 476 >>Возьмите Gnarlpine Corruption
 step
     .goto Teldrassil,68.0,59.6
-    >>Loot Tallonkai's Dresser in the house at Starbreeze Village
+    >>Заберите предмет из комода Таллонкая в доме деревни Звёздного Ветра
     .complete 2438,1 --Emerald Dreamcatcher (1)
 step
     .goto Teldrassil,56.1,61.7
-    .turnin 488 >>Turn in Zenn's Bidding
+    .turnin 488 >>Сдайте Zenn's Bidding
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 476 >>Turn in Gnarlpine Corruption
-    .accept 483 >>Accept The Relics of Wakening
+    .turnin 476 >>Сдайте Gnarlpine Corruption
+    .accept 483 >>Возьмите The Relics of Wakening
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2438 >>Turn in The Emerald Dreamcatcher
-    .accept 2459 >>Accept Ferocitas the Dream Eater
+    .turnin 2438 >>Сдайте The Emerald Dreamcatcher
+    .accept 2459 >>Возьмите Ferocitas the Dream Eater
 step
     .goto Teldrassil,62.0,74.0
-    >>Fill the Amethyst Phial at the Moonwell in Lake Al'Ameth
+    >>Наполните аметистовый фиал в лунном колодце у озера Аль'Амет
     .complete 929,1 --Filled Amethyst Phial (1)
 step
     .goto Teldrassil,67.0,51.0
-    >>Kill Ferocitas the Dream Eater and the Gnarlpine Mystics at the furbolg camp east of Dolanaar
+    >>Убейте Фероситаса Пожирателя Снов и мистиков из племени Кривой Сосны в лагере фурболгов к востоку от Доланаара
     .complete 2459,1 --Ferocitas' Head / Tallonkai's Jewel (1)
     .complete 2459,2 --Gnarlpine Mystic (7)
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2459 >>Turn in Ferocitas the Dream Eater
+    .turnin 2459 >>Сдайте Ferocitas the Dream Eater
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 929 >>Turn in Crown of the Earth
-    .accept 933 >>Accept Crown of the Earth (part 4)
+    .turnin 929 >>Сдайте Crown of the Earth
+    .accept 933 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,44.0,58.0
-    >>Go to Ban'ethil Barrow Den (west). Loot the Relics of Wakening inside
+    >>Идите в курганы Бан'этил на западе. Соберите там реликвии для The Relics of Wakening
     .complete 483,1 --Rune of Nesting (1)
     .complete 483,2 --Black Feather Quill (1)
     .complete 483,3 --Sapphire of Sky (1)
     .complete 483,4 --Raven Claw Talisman (1)
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 483 >>Turn in The Relics of Wakening
+    .turnin 483 >>Сдайте The Relics of Wakening
 step
     .goto Darnassus,35.4,8.4
-    .turnin 933 >>Take the path to Darnassus and turn in Crown of the Earth to Arch Druid Fandral Staghelm (Cenarion Enclave)
-    .accept 7383 >>Accept Crown of the Earth (part 5)
+    .turnin 933 >>Идите в Дарнас и сдайте Crown of the Earth верховному друиду Фэндралу Оленьему Шлему в Анклаве Кенария
+    .accept 7383 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 7383 >>Turn in Crown of the Earth to Corithras in Dolanaar
+    .turnin 7383 >>Сдайте Crown of the Earth Коритрасу в Доланааре
 step
     .goto Teldrassil,58.4,94.0
-    >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
+    >>Идите в деревню Рут'теран на юге Тельдрассила и сядьте на корабль до Аубердина в Тёмных берегах
 step
     .goto Darkshore,36.8,44.3
-    >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
+    >>В Аубердине привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms и For Love Eternal
 step
     .goto Darkshore,36.4,50.4
-    >>Kill crabs and Darkshore Thresher along the coast south of Auberdine; loot the Sea Creature Bones on the beach (Washed Ashore) and gather Threshers' parts (Buzzbox 827 / Fruit of the Sea)
+    >>Убивайте крабов и морских молотильщиков на берегу к югу от Аубердина. Соберите кости морского существа для Washed Ashore и части молотильщиков для Buzzbox 827 и Fruit of the Sea
 step
     .goto Darkshore,44.2,36.3
-    >>Go to Bashal'Aran (east of Auberdine). Hand in Bashal'Aran, then kill Deth'ryll Satyrs for the Ancient Moonstone Seal and grab the Moonstone pieces nearby
+    >>Идите в Башал'Аран к востоку от Аубердина и сдайте Bashal'Aran. Убивайте сатиров за древней печатью из лунного камня и соберите осколки поблизости
 step
     .goto Darkshore,40.6,54.4
-    >>The Red Crystal (stone circle south-east of Auberdine). Kill Moonstalkers and Grizzled Bears around it for Buzzbox quests
+    >>Найдите красный кристалл в каменном круге к юго-востоку от Аубердина. Убивайте лунопардов и медведей вокруг него для заданий Buzzbox
 step
     .goto Darkshore,37.0,44.0
-    >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
+    >>Вернитесь в Аубердин и сдайте задания. Возьмите продолжение Bashal'Aran, задание The Tower of Althalaxx у Тандрис Ветропряд и Plagued Lands у Матиаса
     .xp 14
 ]])
 
@@ -1467,21 +1467,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 14-17 Darkshore
-#displayname 14-17 Darkshore
+#displayname 14-17 Тёмные берега
 #next Night Elf 17-20 Darkshore
 #version 2
 
 step
-    >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
+    >>Разбойник: выполняйте задания с мечами или дробящим оружием. Изучите «Спринт» и «Обшаривание карманов». Развивайте ветку «Бой»
 step
     .goto Darkshore,55.0,24.8
-    >>The Tower of Althalaxx (north-east): kill Dark Strand Fanatics and Voidcallers, loot the Faded Shadowmoon Blades. Grab Cliffspring River cave quests (Naga in the cave at 55,34)
+    >>У башни Алталакса на северо-востоке убивайте фанатиков Тёмного Берега и призывателей Бездны. Соберите потускневшие клинки Тёмной Луны. Возьмите задания у реки Скалистых Берегов; наги находятся в пещере (55,34)
 step
     .goto Darkshore,43.4,58.4
-    >>Ameth'Aran (south): read the Ancient Flame tablets (The Fall of Ameth'Aran), kill Lady Sathrah and the Writhing Highborne / Anguished Highborne, light the Sentinel's ghost shrine
+    >>В Амет'Аране на юге прочтите таблички Древнего Пламени для The Fall of Ameth'Aran. Убейте леди Сатру и призраков высокорождённых. Зажгите святилище призрачной часовой
 step
     .goto Darkshore,37.0,44.0
-    >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
+    >>Сдайте задания в Аубердине. Возьмите The Absent Minded Prospector и задания в Роще Древних у Ону
     .xp 17
 ]])
 
@@ -1491,19 +1491,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 17-20 Darkshore
-#displayname 17-20 Darkshore
+#displayname 17-20 Тёмные берега
 #next Night Elf 20-24 Ashenvale
 #version 2
 
 step
     .goto Darkshore,43.0,80.0
-    >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
+    >>На крайнем юге в Роще Древних поговорите с Ону. Убейте фурболгов и разъярённых железноспинов. Затем у Меча Властителя (38,86) убейте служителей Сумеречного Молота и найдите фиал для предсказаний
 step
     .goto Darkshore,35.6,83.6
-    >>Remtravel's Excavation: escort / find Prospector Remtravel (Absent Minded Prospector) and kill Gelkak; loot the fossils
+    >>На раскопках Ремтревела найдите геолога Ремтревела для The Absent Minded Prospector. Сопроводите его, убейте Гелкака и соберите окаменелости
 step
     .goto Darkshore,37.0,44.0
-    >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
+    >>Вернитесь в Аубердин и сдайте задания. Изучите новые способности в Дарнасе; туда идёт корабль из Рут'терана
     .xp 20
 ]])
 
@@ -1513,27 +1513,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 20-24 Ashenvale
-#displayname 20-24 Ashenvale
+#displayname 20-24 Ясеневый лес
 #next Night Elf 24-28 Wetlands
 #version 2
 
 step
-    >>Rogue, level 20: your rogue trainer in Darnassus starts the Poisons quest. Keep Instant Poison on your weapons from then on
+    >>Разбойник, 20-й уровень: возьмите у наставника разбойников в Дарнасе задание Poisons. После этого наносите «Быстродействующий яд» на оружие
 step
     .goto Ashenvale,26.4,38.6
-    >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
+    >>Бегите на юг из Тёмных берегов в Ясеневый лес. На заставе Мейстры (26,38) возьмите The Ruins of Ordil'Aran, Bathran's Hair и Raene's Cleansing
 step
     .goto Ashenvale,36.6,49.6
-    >>Astranaar: set your home, get the flight path, and take every quest (Raene's Cleansing, The Zoram Strand, Elemental Bracers, The Tower of Althalaxx follow-up, Naga at the Zoram Strand)
+    >>В Астранааре привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Raene's Cleansing, The Zoram Strand, Elemental Bracers, продолжение The Tower of Althalaxx и задания о нагах на берегу Зорам
 step
     .goto Ashenvale,14.2,26.0
-    >>The Zoram Strand (west coast): kill Wrathtail Naga for heads and Zoram's crystals; Blackfathom Deeps entrance is here (14,13) if you want the dungeon at 22-24
+    >>На берегу Зорам на западе убивайте наг Зловещего Хвоста ради голов и собирайте кристаллы Зорам. Вход в Непроглядную Пучину находится у (14,13); подземелье подходит для 22-24-го уровня
 step
     .goto Ashenvale,46.0,47.0
-    >>Fallen Sky Lake / Iris Lake: kill elementals for Elemental Bracers (use the Divining Scroll), loot Bathran's Hair at the ruins
+    >>У озёр Упавшего Неба и Ирис убивайте элементалей для Elemental Bracers. Используйте гадальный свиток и соберите волосы Батрана у руин
 step
     .goto Ashenvale,36.6,49.6
-    >>Back to Astranaar, hand in, and pick up the follow-ups
+    >>Вернитесь в Астранаар, сдайте задания и возьмите продолжения
     .xp 24
 ]])
 
@@ -1543,26 +1543,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 24-28 Wetlands
-#displayname 24-28 Wetlands
+#displayname 24-28 Болотина
 #next Night Elf 28-31 Duskwood
 #version 2
 
 step
-    >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
+    >>Разбойник: изучите «Взлом замков». Открывайте найденные шкатулки и шкатулки других игроков для развития навыка
 step
-    >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
+    >>Летите в Аубердин и садитесь на корабль до гавани Менетил в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетил привяжите камень возвращения и откройте маршрут полёта. Возьмите Young Crocolisk Skins, Claws from the Deep, The Greenwarden и Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков на побережье и молодых кроколисков к югу от Менетила
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>У Дун Модра и во владениях Драконьей Пасти выполните Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в Менетиле
     .xp 28
 ]])
 
@@ -1572,21 +1572,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Night Elf 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозёрье и бегите в Тёмнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Тёмнолесье привяжите камень возвращения. Возьмите Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim и Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>Убивайте воргенов Ночной Погибели и скелетов в лесу. Лагерь Свена находится у (7,34), а Вороний Холм — у (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Тёмнолесье и возьмите продолжения
     .xp 31
 ]])
 
@@ -1596,21 +1596,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Night Elf 33-35 Desolace
 #version 2
 
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из Менетила бегите на север через мост Тандола в Южнобережье или летите туда. По пути откройте маршрут полёта в Опорном пункте Арати (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте маршрут полёта. Возьмите Down the Coast, Crushridge Bounty, Syndicate Assassins и задания на языки медведей
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>Убивайте мурлоков Острого Плавника на побережье, а медведей и пауков — вдали от берега. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -1620,21 +1620,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Night Elf 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Садитесь на корабль из Менетила в Аубердин. Бегите через Ясеневый лес и Когтистые горы в Пустоши; по пути откройте маршруты полёта в Аубердине и Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>На высоте Найджела на севере Пустошей привяжите камень возвращения и откройте маршрут полёта. Возьмите Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup и Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре выполните Kodo Roundup с помощью кодобоя. Убивайте кентавров Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания на высоте Найджела
     .xp 35
 ]])
 
@@ -1644,24 +1644,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Night Elf 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о Курцене и троллях Кровавого Скальпа: Krazek's Cookery и Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>У экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Убивайте молодых тигров, пантер и ящеров вокруг лагеря
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте маршрут полёта и возьмите The Bloodsail Buccaneers, Supply and Demand и Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>Выполняйте вторую часть охотничьих заданий Эрнестуэя по мере повышения уровня
     .xp 38
 ]])
 
@@ -1671,21 +1671,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Night Elf 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан, затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>В Тераморе привяжите камень возвращения и откройте маршрут полёта. Возьмите Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield и Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>Убивайте черепах и ящеров у берега. Выполните задания о таверне «Последний привал» и деревне Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе и изучите способности 40-го уровня
     .xp 40
 ]])
 
@@ -1695,21 +1695,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Night Elf 42-45 Feralas
 #version 2
 
 step
-    >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
+    >>Разбойник, 40-й уровень: изучите новые ранги «Безопасного падения» и «Пинка». Запасайтесь «Быстродействующим ядом» и «Калечащим ядом»
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте маршрут полёта. Возьмите WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley и The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>Убивайте бандитов и воров Скитальцев Пустыни у руин Полуденной Тени и на поле Источников для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -1719,21 +1719,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Night Elf 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта закрыт, плывите на корабле с побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants и The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров Гордунни у заставы (72,61), членов племени Зловещего Тотема и гноллов Древолапов. Применяйте уменьшитель Зорбина к великанам для Zapped Giants
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -1743,21 +1743,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Night Elf 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут закрыт, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте маршрут полёта. Возьмите Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания на яйца грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей Сухокожих у Шадра'Алора и Зун'ваты, волков Серебряной Гривы и эльфов Высокогорья у Кель'Данила (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -1767,21 +1767,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Night Elf 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в Кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере откройте маршрут полёта. Возьмите Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax и Super Sticky. Собирайте кристаллы силы по пути
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -1791,21 +1791,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Night Elf 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар и бегите на север в Осквернённый лес. Если маршрут открыт, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire и Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>На западе в Джеденаре убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени (41,85 и 40,15), а фурболгов Мёртвого Леса — для репутации Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>На Поляне Когтистых Ветвей на севере откройте маршрут полёта. Возьмите Deadwood of the North и Felbound Ancients
     .xp 54
 ]])
 
@@ -1815,21 +1815,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Night Elf 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если маршрут закрыт, идите из Южнобережья
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons и Better Late Than Never. Начните повышать репутацию Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы на фермах Фелстоун, Слёзы Далсона, Удел Страданий и пустоши Гаррона. Убивайте нежить в Андорале и у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -1839,21 +1839,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Night Elf 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут закрыт, пройдите через тоннель Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте маршрут полёта. Возьмите Are We There, Yeti?, Winterfall Activity, задания на Урсиуса и ледопардов. Найдите Донову Сноуден у горячих источников (31,45)
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в деревне (67,36), ледопардов, йети Ледяного Чертополоха (67,42) и химер Студёного Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -1863,23 +1863,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Night Elf route
 #name Night Elf 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В Часовне Последней Надежды на востоке откройте маршрут полёта. Возьмите Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания герцога Николаса Зверенхоффа для Серебряного Рассвета и задание Тириона Фордринга
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных гончих, чумных нетопырей и личинок. Для заданий Часовни убивайте членов Алого ордена в Коринском перекрёстке и Длани Тира
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в Часовне Последней Надежды. Для последних делений опыта можно отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите последние способности у наставника в столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1888,124 +1888,124 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 1-14 Teldrassil/Darkshore
-#displayname 1-14 Teldrassil/Darkshore
+#displayname 1-14 Тельдрассил/Тёмные берега
 #next Night Elf 14-17 Darkshore
 #version 2
 
 step
     .goto Teldrassil,58.6,44.7
-    .accept 456 >>Accept The Balance of Nature from Conservator Ilthalaine
+    .accept 456 >>Возьмите The Balance of Nature у хранителя Ильталайна
 step
     .goto Teldrassil,59.9,42.5
-    .accept 458 >>Accept The Woodland Protector from Melithar Staghelm
+    .accept 458 >>Возьмите The Woodland Protector у Мелитара Оленерога
 step
     .goto Teldrassil,57.8,45.1
-    .accept 4495 >>Accept A Good Friend from Dirania Silvershine
+    .accept 4495 >>Возьмите A Good Friend у Дирании Серебряное Сияние
 step
     .goto Teldrassil,58.0,48.0
-    >>Kill Young Nightsabers and Young Thistle Boars around Shadowglen
+    >>Убивайте молодых ночных саблезубов и молодых щетинистых вепрей вокруг Тенистой долины
     .complete 456,1 --Young Nightsaber (7)
     .complete 456,2 --Young Thistle Boar (4)
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 456 >>Turn in The Balance of Nature
-    .accept 457 >>Accept The Balance of Nature (part 2)
+    .turnin 456 >>Сдайте The Balance of Nature
+    .accept 457 >>Возьмите продолжение The Balance of Nature
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 458 >>Turn in The Woodland Protector to Tarindrella
-    .accept 459 >>Accept The Woodland Protector (part 2)
+    .turnin 458 >>Сдайте The Woodland Protector Тариндрелле
+    .accept 459 >>Возьмите продолжение The Woodland Protector
 step
     .goto Teldrassil,55.5,43.0
-    >>Kill Mangy Nightsabers and Thistle Boars, and Grells for Fel Moss
+    >>Убивайте паршивых ночных саблезубов и щетинистых вепрей. Соберите порченый мох с греллей
     .complete 457,1 --Mangy Nightsaber (7)
     .complete 457,2 --Thistle Boar (7)
     .complete 459,1 --Fel Moss (8)
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 459 >>Turn in The Woodland Protector
+    .turnin 459 >>Сдайте The Woodland Protector
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 457 >>Turn in The Balance of Nature
+    .turnin 457 >>Сдайте The Balance of Nature
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 4495 >>Head north and turn in A Good Friend to Iverron
-    .accept 3519 >>Accept A Friend in Need
+    .turnin 4495 >>Идите на север и сдайте A Good Friend Иверрону
+    .accept 3519 >>Возьмите A Friend in Need
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3519 >>Turn in A Friend in Need to Dirania Silvershine
-    .accept 3521 >>Accept Iverron's Antidote
+    .turnin 3519 >>Сдайте A Friend in Need Дирании Серебряное Сияние
+    .accept 3521 >>Возьмите Iverron's Antidote
 step
     .goto Teldrassil,57.8,41.6
-    .accept 916 >>Accept Webwood Venom from Gilshalan Windwalker
+    .accept 916 >>Возьмите Webwood Venom у Гилшалана Бегущего по Ветру
 step
     .goto Teldrassil,57.0,33.0
-    >>Kill Webwood Spiders in the cave north of Shadowglen. Loot Hyacinth Mushrooms on the ground and Moonpetal Lilies at the pond
+    >>Убивайте пауков в пещере к северу от Тенистой долины. Соберите гиацинтовые грибы на земле и лунные лилии у пруда
     .complete 916,1 --Webwood Venom Sac (10)
     .complete 3521,1 --Hyacinth Mushroom (7)
     .complete 3521,2 --Moonpetal Lily (4)
     .complete 3521,3 --Webwood Ichor (1)
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3521 >>Turn in Iverron's Antidote
-    .accept 3522 >>Accept Iverron's Antidote (part 2)
+    .turnin 3521 >>Сдайте Iverron's Antidote
+    .accept 3522 >>Возьмите продолжение Iverron's Antidote
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 3522 >>Turn in Iverron's Antidote to Iverron
+    .turnin 3522 >>Сдайте Iverron's Antidote Иверрону
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 916 >>Turn in Webwood Venom
-    .accept 917 >>Accept Webwood Egg
+    .turnin 916 >>Сдайте Webwood Venom
+    .accept 917 >>Возьмите Webwood Egg
 step
     .goto Teldrassil,56.8,26.5
-    >>Go deep into the spider cave and loot a Webwood Egg
+    >>Пройдите вглубь паучьей пещеры и заберите яйцо паука
     .complete 917,1 --Webwood Egg (1)
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 917 >>Turn in Webwood Egg
-    .accept 920 >>Accept Tenaron's Summons
+    .turnin 917 >>Сдайте Webwood Egg
+    .accept 920 >>Возьмите Tenaron's Summons
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 920 >>Go up the ramp of Aldrassil and turn in Tenaron's Summons to Tenaron Stormgrip
-    .accept 921 >>Accept Crown of the Earth
+    .turnin 920 >>Поднимитесь по склону Альдрассила и сдайте Tenaron's Summons Тенарону Хватке Бури
+    .accept 921 >>Возьмите Crown of the Earth
 step
     .goto Teldrassil,59.9,33.0
-    >>Fill the Jade Phial at the moonwell north of Aldrassil
+    >>Наполните нефритовый фиал в лунном колодце к северу от Альдрассила
     .complete 921,1 --Filled Jade Phial (1)
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 921 >>Turn in Crown of the Earth
-    .accept 928 >>Accept Crown of the Earth (part 2)
+    .turnin 921 >>Сдайте Crown of the Earth
+    .accept 928 >>Возьмите продолжение Crown of the Earth
 step
     .goto Teldrassil,58.6,44.7
-    .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
-    >>Train your class spells at your trainer before you leave (level 4 and 6)
+    .accept 2159 >>Возьмите Dolanaar Delivery у Портанниуса на выходе из Тенистой долины
+    >>Перед уходом изучите способности 4-го и 6-го уровней у наставника своего класса
 step
     .goto Teldrassil,55.6,59.8
-    .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
-    .home >>Make Dolanaar your home
+    .turnin 2159 >>Идите на юг в Доланаар и сдайте Dolanaar Delivery хозяйке таверны Кельдамир
+    .home >>Привяжите камень возвращения в Доланааре
 step
     .goto Teldrassil,56.1,61.7
-    .accept 488 >>Accept Zenn's Bidding from Zenn Foulhoof (outside Dolanaar)
+    .accept 488 >>Возьмите Zenn's Bidding у Зенна Грязного Копыта за пределами Доланаара
 step
     .goto Teldrassil,55.9,57.3
-    .accept 475 >>Accept A Troubling Breeze from Athridas Bearmantle
-    .accept 997 >>Accept Denalan's Earth from Corithras Moonrage
+    .accept 475 >>Возьмите A Troubling Breeze у Атридаса Медвежьей Шкуры
+    .accept 997 >>Возьмите Denalan's Earth у Коритраса Лунного Гнева
 step
     .goto Teldrassil,57.1,61.3
-    .accept 2438 >>Accept The Emerald Dreamcatcher from Tallonkai Swiftroot
-    .accept 489 >>Accept Seek Redemption! (if offered after Zenn)
+    .accept 2438 >>Возьмите The Emerald Dreamcatcher у Таллонкая Гибкого Корня
+    .accept 489 >>Возьмите Seek Redemption!, если задание появится после Zenn's Bidding
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 928 >>Turn in Crown of the Earth to Corithras
-    .accept 929 >>Accept Crown of the Earth (part 3)
+    .turnin 928 >>Сдайте Crown of the Earth Коритрасу
+    .accept 929 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 997 >>Turn in Denalan's Earth at Lake Al'Ameth
-    .accept 918 >>Accept Timberling Seeds
-    .accept 919 >>Accept Timberling Sprouts
+    .turnin 997 >>Сдайте Denalan's Earth у озера Аль'Амет
+    .accept 918 >>Возьмите Timberling Seeds
+    .accept 919 >>Возьмите Timberling Sprouts
 step
     .goto Teldrassil,63.0,58.0
-    >>Kill Nightsabers, Webwood Lurkers and Strigid Owls for Zenn. Kill Timberlings around the lake for seeds and sprouts
+    >>Убивайте ночных саблезубов, пауков и сов для Зенна. Соберите семена и ростки с древесников у озера
     .complete 488,1 --Nightsaber Fang (3)
     .complete 488,2 --Strigid Owl Feather (3)
     .complete 488,3 --Webwood Spider Silk (3)
@@ -2013,78 +2013,78 @@ step
     .complete 919,1 --Timberling Sprout (12)
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 918 >>Turn in Timberling Seeds
-    .turnin 919 >>Turn in Timberling Sprouts
+    .turnin 918 >>Сдайте Timberling Seeds
+    .turnin 919 >>Сдайте Timberling Sprouts
 step
     .goto Teldrassil,66.2,58.6
-    .turnin 475 >>Go to Starbreeze Village and turn in A Troubling Breeze
-    .accept 476 >>Accept Gnarlpine Corruption
+    .turnin 475 >>Идите в деревню Звёздного Ветра и сдайте A Troubling Breeze
+    .accept 476 >>Возьмите Gnarlpine Corruption
 step
     .goto Teldrassil,68.0,59.6
-    >>Loot Tallonkai's Dresser in the house at Starbreeze Village
+    >>Заберите предмет из комода Таллонкая в доме деревни Звёздного Ветра
     .complete 2438,1 --Emerald Dreamcatcher (1)
 step
     .goto Teldrassil,56.1,61.7
-    .turnin 488 >>Turn in Zenn's Bidding
+    .turnin 488 >>Сдайте Zenn's Bidding
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 476 >>Turn in Gnarlpine Corruption
-    .accept 483 >>Accept The Relics of Wakening
+    .turnin 476 >>Сдайте Gnarlpine Corruption
+    .accept 483 >>Возьмите The Relics of Wakening
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2438 >>Turn in The Emerald Dreamcatcher
-    .accept 2459 >>Accept Ferocitas the Dream Eater
+    .turnin 2438 >>Сдайте The Emerald Dreamcatcher
+    .accept 2459 >>Возьмите Ferocitas the Dream Eater
 step
     .goto Teldrassil,62.0,74.0
-    >>Fill the Amethyst Phial at the Moonwell in Lake Al'Ameth
+    >>Наполните аметистовый фиал в лунном колодце у озера Аль'Амет
     .complete 929,1 --Filled Amethyst Phial (1)
 step
     .goto Teldrassil,67.0,51.0
-    >>Kill Ferocitas the Dream Eater and the Gnarlpine Mystics at the furbolg camp east of Dolanaar
+    >>Убейте Фероситаса Пожирателя Снов и мистиков из племени Кривой Сосны в лагере фурболгов к востоку от Доланаара
     .complete 2459,1 --Ferocitas' Head / Tallonkai's Jewel (1)
     .complete 2459,2 --Gnarlpine Mystic (7)
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2459 >>Turn in Ferocitas the Dream Eater
+    .turnin 2459 >>Сдайте Ferocitas the Dream Eater
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 929 >>Turn in Crown of the Earth
-    .accept 933 >>Accept Crown of the Earth (part 4)
+    .turnin 929 >>Сдайте Crown of the Earth
+    .accept 933 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,44.0,58.0
-    >>Go to Ban'ethil Barrow Den (west). Loot the Relics of Wakening inside
+    >>Идите в курганы Бан'этил на западе. Соберите там реликвии для The Relics of Wakening
     .complete 483,1 --Rune of Nesting (1)
     .complete 483,2 --Black Feather Quill (1)
     .complete 483,3 --Sapphire of Sky (1)
     .complete 483,4 --Raven Claw Talisman (1)
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 483 >>Turn in The Relics of Wakening
+    .turnin 483 >>Сдайте The Relics of Wakening
 step
     .goto Darnassus,35.4,8.4
-    .turnin 933 >>Take the path to Darnassus and turn in Crown of the Earth to Arch Druid Fandral Staghelm (Cenarion Enclave)
-    .accept 7383 >>Accept Crown of the Earth (part 5)
+    .turnin 933 >>Идите в Дарнас и сдайте Crown of the Earth верховному друиду Фэндралу Оленьему Шлему в Анклаве Кенария
+    .accept 7383 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 7383 >>Turn in Crown of the Earth to Corithras in Dolanaar
+    .turnin 7383 >>Сдайте Crown of the Earth Коритрасу в Доланааре
 step
     .goto Teldrassil,58.4,94.0
-    >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
+    >>Идите в деревню Рут'теран на юге Тельдрассила и сядьте на корабль до Аубердина в Тёмных берегах
 step
     .goto Darkshore,36.8,44.3
-    >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
+    >>В Аубердине привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms и For Love Eternal
 step
     .goto Darkshore,36.4,50.4
-    >>Kill crabs and Darkshore Thresher along the coast south of Auberdine; loot the Sea Creature Bones on the beach (Washed Ashore) and gather Threshers' parts (Buzzbox 827 / Fruit of the Sea)
+    >>Убивайте крабов и морских молотильщиков на берегу к югу от Аубердина. Соберите кости морского существа для Washed Ashore и части молотильщиков для Buzzbox 827 и Fruit of the Sea
 step
     .goto Darkshore,44.2,36.3
-    >>Go to Bashal'Aran (east of Auberdine). Hand in Bashal'Aran, then kill Deth'ryll Satyrs for the Ancient Moonstone Seal and grab the Moonstone pieces nearby
+    >>Идите в Башал'Аран к востоку от Аубердина и сдайте Bashal'Aran. Убивайте сатиров за древней печатью из лунного камня и соберите осколки поблизости
 step
     .goto Darkshore,40.6,54.4
-    >>The Red Crystal (stone circle south-east of Auberdine). Kill Moonstalkers and Grizzled Bears around it for Buzzbox quests
+    >>Найдите красный кристалл в каменном круге к юго-востоку от Аубердина. Убивайте лунопардов и медведей вокруг него для заданий Buzzbox
 step
     .goto Darkshore,37.0,44.0
-    >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
+    >>Вернитесь в Аубердин и сдайте задания. Возьмите продолжение Bashal'Aran, задание The Tower of Althalaxx у Тандрис Ветропряд и Plagued Lands у Матиаса
     .xp 14
 ]])
 
@@ -2094,21 +2094,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 14-17 Darkshore
-#displayname 14-17 Darkshore
+#displayname 14-17 Тёмные берега
 #next Night Elf 17-20 Darkshore
 #version 2
 
 step
-    >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
+    >>Жрец: для заданий развивайте ветку «Тьма»: «Захват духа», «Средоточие Тьмы» и «Пытка разума» на 20-м уровне. Между заклинаниями атакуйте жезлом
 step
     .goto Darkshore,55.0,24.8
-    >>The Tower of Althalaxx (north-east): kill Dark Strand Fanatics and Voidcallers, loot the Faded Shadowmoon Blades. Grab Cliffspring River cave quests (Naga in the cave at 55,34)
+    >>У башни Алталакса на северо-востоке убивайте фанатиков Тёмного Берега и призывателей Бездны. Соберите потускневшие клинки Тёмной Луны. Возьмите задания у реки Скалистых Берегов; наги находятся в пещере (55,34)
 step
     .goto Darkshore,43.4,58.4
-    >>Ameth'Aran (south): read the Ancient Flame tablets (The Fall of Ameth'Aran), kill Lady Sathrah and the Writhing Highborne / Anguished Highborne, light the Sentinel's ghost shrine
+    >>В Амет'Аране на юге прочтите таблички Древнего Пламени для The Fall of Ameth'Aran. Убейте леди Сатру и призраков высокорождённых. Зажгите святилище призрачной часовой
 step
     .goto Darkshore,37.0,44.0
-    >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
+    >>Сдайте задания в Аубердине. Возьмите The Absent Minded Prospector и задания в Роще Древних у Ону
     .xp 17
 ]])
 
@@ -2118,19 +2118,19 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 17-20 Darkshore
-#displayname 17-20 Darkshore
+#displayname 17-20 Тёмные берега
 #next Night Elf 20-24 Ashenvale
 #version 2
 
 step
     .goto Darkshore,43.0,80.0
-    >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
+    >>На крайнем юге в Роще Древних поговорите с Ону. Убейте фурболгов и разъярённых железноспинов. Затем у Меча Властителя (38,86) убейте служителей Сумеречного Молота и найдите фиал для предсказаний
 step
     .goto Darkshore,35.6,83.6
-    >>Remtravel's Excavation: escort / find Prospector Remtravel (Absent Minded Prospector) and kill Gelkak; loot the fossils
+    >>На раскопках Ремтревела найдите геолога Ремтревела для The Absent Minded Prospector. Сопроводите его, убейте Гелкака и соберите окаменелости
 step
     .goto Darkshore,37.0,44.0
-    >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
+    >>Вернитесь в Аубердин и сдайте задания. Изучите новые способности в Дарнасе; туда идёт корабль из Рут'терана
     .xp 20
 ]])
 
@@ -2140,27 +2140,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 20-24 Ashenvale
-#displayname 20-24 Ashenvale
+#displayname 20-24 Ясеневый лес
 #next Night Elf 24-28 Wetlands
 #version 2
 
 step
-    >>Priest: train the racial priest spell at Darnassus. Use Inner Fire and Power Word: Shield before every pull
+    >>Жрец: изучите расовое заклинание у наставника в Дарнасе. Перед каждым боем используйте «Внутренний огонь» и «Слово силы: Щит»
 step
     .goto Ashenvale,26.4,38.6
-    >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
+    >>Бегите на юг из Тёмных берегов в Ясеневый лес. На заставе Мейстры (26,38) возьмите The Ruins of Ordil'Aran, Bathran's Hair и Raene's Cleansing
 step
     .goto Ashenvale,36.6,49.6
-    >>Astranaar: set your home, get the flight path, and take every quest (Raene's Cleansing, The Zoram Strand, Elemental Bracers, The Tower of Althalaxx follow-up, Naga at the Zoram Strand)
+    >>В Астранааре привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Raene's Cleansing, The Zoram Strand, Elemental Bracers, продолжение The Tower of Althalaxx и задания о нагах на берегу Зорам
 step
     .goto Ashenvale,14.2,26.0
-    >>The Zoram Strand (west coast): kill Wrathtail Naga for heads and Zoram's crystals; Blackfathom Deeps entrance is here (14,13) if you want the dungeon at 22-24
+    >>На берегу Зорам на западе убивайте наг Зловещего Хвоста ради голов и собирайте кристаллы Зорам. Вход в Непроглядную Пучину находится у (14,13); подземелье подходит для 22-24-го уровня
 step
     .goto Ashenvale,46.0,47.0
-    >>Fallen Sky Lake / Iris Lake: kill elementals for Elemental Bracers (use the Divining Scroll), loot Bathran's Hair at the ruins
+    >>У озёр Упавшего Неба и Ирис убивайте элементалей для Elemental Bracers. Используйте гадальный свиток и соберите волосы Батрана у руин
 step
     .goto Ashenvale,36.6,49.6
-    >>Back to Astranaar, hand in, and pick up the follow-ups
+    >>Вернитесь в Астранаар, сдайте задания и возьмите продолжения
     .xp 24
 ]])
 
@@ -2170,24 +2170,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 24-28 Wetlands
-#displayname 24-28 Wetlands
+#displayname 24-28 Болотина
 #next Night Elf 28-31 Duskwood
 #version 2
 
 step
-    >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
+    >>Летите в Аубердин и садитесь на корабль до гавани Менетил в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетил привяжите камень возвращения и откройте маршрут полёта. Возьмите Young Crocolisk Skins, Claws from the Deep, The Greenwarden и Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков на побережье и молодых кроколисков к югу от Менетила
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>У Дун Модра и во владениях Драконьей Пасти выполните Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в Менетиле
     .xp 28
 ]])
 
@@ -2197,21 +2197,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Night Elf 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозёрье и бегите в Тёмнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Тёмнолесье привяжите камень возвращения. Возьмите Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim и Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>Убивайте воргенов Ночной Погибели и скелетов в лесу. Лагерь Свена находится у (7,34), а Вороний Холм — у (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Тёмнолесье и возьмите продолжения
     .xp 31
 ]])
 
@@ -2221,21 +2221,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Night Elf 33-35 Desolace
 #version 2
 
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из Менетила бегите на север через мост Тандола в Южнобережье или летите туда. По пути откройте маршрут полёта в Опорном пункте Арати (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте маршрут полёта. Возьмите Down the Coast, Crushridge Bounty, Syndicate Assassins и задания на языки медведей
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>Убивайте мурлоков Острого Плавника на побережье, а медведей и пауков — вдали от берега. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -2245,21 +2245,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Night Elf 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Садитесь на корабль из Менетила в Аубердин. Бегите через Ясеневый лес и Когтистые горы в Пустоши; по пути откройте маршруты полёта в Аубердине и Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>На высоте Найджела на севере Пустошей привяжите камень возвращения и откройте маршрут полёта. Возьмите Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup и Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре выполните Kodo Roundup с помощью кодобоя. Убивайте кентавров Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания на высоте Найджела
     .xp 35
 ]])
 
@@ -2269,24 +2269,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Night Elf 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о Курцене и троллях Кровавого Скальпа: Krazek's Cookery и Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>У экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Убивайте молодых тигров, пантер и ящеров вокруг лагеря
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте маршрут полёта и возьмите The Bloodsail Buccaneers, Supply and Demand и Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>Выполняйте вторую часть охотничьих заданий Эрнестуэя по мере повышения уровня
     .xp 38
 ]])
 
@@ -2296,21 +2296,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Night Elf 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан, затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>В Тераморе привяжите камень возвращения и откройте маршрут полёта. Возьмите Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield и Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>Убивайте черепах и ящеров у берега. Выполните задания о таверне «Последний привал» и деревне Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе и изучите способности 40-го уровня
     .xp 40
 ]])
 
@@ -2320,21 +2320,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Night Elf 42-45 Feralas
 #version 2
 
 step
-    >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
+    >>Жрец, 40-й уровень: изучите талант «Облик Тьмы». Регулярно заменяйте жезл на более сильный
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте маршрут полёта. Возьмите WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley и The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>Убивайте бандитов и воров Скитальцев Пустыни у руин Полуденной Тени и на поле Источников для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -2344,21 +2344,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Night Elf 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта закрыт, плывите на корабле с побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants и The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров Гордунни у заставы (72,61), членов племени Зловещего Тотема и гноллов Древолапов. Применяйте уменьшитель Зорбина к великанам для Zapped Giants
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -2368,21 +2368,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Night Elf 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут закрыт, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте маршрут полёта. Возьмите Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания на яйца грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей Сухокожих у Шадра'Алора и Зун'ваты, волков Серебряной Гривы и эльфов Высокогорья у Кель'Данила (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -2392,21 +2392,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Night Elf 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в Кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере откройте маршрут полёта. Возьмите Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax и Super Sticky. Собирайте кристаллы силы по пути
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -2416,21 +2416,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Night Elf 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар и бегите на север в Осквернённый лес. Если маршрут открыт, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire и Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>На западе в Джеденаре убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени (41,85 и 40,15), а фурболгов Мёртвого Леса — для репутации Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>На Поляне Когтистых Ветвей на севере откройте маршрут полёта. Возьмите Deadwood of the North и Felbound Ancients
     .xp 54
 ]])
 
@@ -2440,21 +2440,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Night Elf 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если маршрут закрыт, идите из Южнобережья
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons и Better Late Than Never. Начните повышать репутацию Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы на фермах Фелстоун, Слёзы Далсона, Удел Страданий и пустоши Гаррона. Убивайте нежить в Андорале и у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -2464,21 +2464,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Night Elf 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут закрыт, пройдите через тоннель Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте маршрут полёта. Возьмите Are We There, Yeti?, Winterfall Activity, задания на Урсиуса и ледопардов. Найдите Донову Сноуден у горячих источников (31,45)
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в деревне (67,36), ледопардов, йети Ледяного Чертополоха (67,42) и химер Студёного Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -2488,23 +2488,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Night Elf route
 #name Night Elf 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В Часовне Последней Надежды на востоке откройте маршрут полёта. Возьмите Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания герцога Николаса Зверенхоффа для Серебряного Рассвета и задание Тириона Фордринга
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных гончих, чумных нетопырей и личинок. Для заданий Часовни убивайте членов Алого ордена в Коринском перекрёстке и Длани Тира
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в Часовне Последней Надежды. Для последних делений опыта можно отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите последние способности у наставника в столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -2513,124 +2513,124 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 1-14 Teldrassil/Darkshore
-#displayname 1-14 Teldrassil/Darkshore
+#displayname 1-14 Тельдрассил/Тёмные берега
 #next Night Elf 14-17 Darkshore
 #version 2
 
 step
     .goto Teldrassil,58.6,44.7
-    .accept 456 >>Accept The Balance of Nature from Conservator Ilthalaine
+    .accept 456 >>Возьмите The Balance of Nature у хранителя Ильталайна
 step
     .goto Teldrassil,59.9,42.5
-    .accept 458 >>Accept The Woodland Protector from Melithar Staghelm
+    .accept 458 >>Возьмите The Woodland Protector у Мелитара Оленерога
 step
     .goto Teldrassil,57.8,45.1
-    .accept 4495 >>Accept A Good Friend from Dirania Silvershine
+    .accept 4495 >>Возьмите A Good Friend у Дирании Серебряное Сияние
 step
     .goto Teldrassil,58.0,48.0
-    >>Kill Young Nightsabers and Young Thistle Boars around Shadowglen
+    >>Убивайте молодых ночных саблезубов и молодых щетинистых вепрей вокруг Тенистой долины
     .complete 456,1 --Young Nightsaber (7)
     .complete 456,2 --Young Thistle Boar (4)
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 456 >>Turn in The Balance of Nature
-    .accept 457 >>Accept The Balance of Nature (part 2)
+    .turnin 456 >>Сдайте The Balance of Nature
+    .accept 457 >>Возьмите продолжение The Balance of Nature
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 458 >>Turn in The Woodland Protector to Tarindrella
-    .accept 459 >>Accept The Woodland Protector (part 2)
+    .turnin 458 >>Сдайте The Woodland Protector Тариндрелле
+    .accept 459 >>Возьмите продолжение The Woodland Protector
 step
     .goto Teldrassil,55.5,43.0
-    >>Kill Mangy Nightsabers and Thistle Boars, and Grells for Fel Moss
+    >>Убивайте паршивых ночных саблезубов и щетинистых вепрей. Соберите порченый мох с греллей
     .complete 457,1 --Mangy Nightsaber (7)
     .complete 457,2 --Thistle Boar (7)
     .complete 459,1 --Fel Moss (8)
 step
     .goto Teldrassil,57.7,41.6
-    .turnin 459 >>Turn in The Woodland Protector
+    .turnin 459 >>Сдайте The Woodland Protector
 step
     .goto Teldrassil,58.6,44.7
-    .turnin 457 >>Turn in The Balance of Nature
+    .turnin 457 >>Сдайте The Balance of Nature
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 4495 >>Head north and turn in A Good Friend to Iverron
-    .accept 3519 >>Accept A Friend in Need
+    .turnin 4495 >>Идите на север и сдайте A Good Friend Иверрону
+    .accept 3519 >>Возьмите A Friend in Need
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3519 >>Turn in A Friend in Need to Dirania Silvershine
-    .accept 3521 >>Accept Iverron's Antidote
+    .turnin 3519 >>Сдайте A Friend in Need Дирании Серебряное Сияние
+    .accept 3521 >>Возьмите Iverron's Antidote
 step
     .goto Teldrassil,57.8,41.6
-    .accept 916 >>Accept Webwood Venom from Gilshalan Windwalker
+    .accept 916 >>Возьмите Webwood Venom у Гилшалана Бегущего по Ветру
 step
     .goto Teldrassil,57.0,33.0
-    >>Kill Webwood Spiders in the cave north of Shadowglen. Loot Hyacinth Mushrooms on the ground and Moonpetal Lilies at the pond
+    >>Убивайте пауков в пещере к северу от Тенистой долины. Соберите гиацинтовые грибы на земле и лунные лилии у пруда
     .complete 916,1 --Webwood Venom Sac (10)
     .complete 3521,1 --Hyacinth Mushroom (7)
     .complete 3521,2 --Moonpetal Lily (4)
     .complete 3521,3 --Webwood Ichor (1)
 step
     .goto Teldrassil,57.8,45.1
-    .turnin 3521 >>Turn in Iverron's Antidote
-    .accept 3522 >>Accept Iverron's Antidote (part 2)
+    .turnin 3521 >>Сдайте Iverron's Antidote
+    .accept 3522 >>Возьмите продолжение Iverron's Antidote
 step
     .goto Teldrassil,54.6,32.9
-    .turnin 3522 >>Turn in Iverron's Antidote to Iverron
+    .turnin 3522 >>Сдайте Iverron's Antidote Иверрону
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 916 >>Turn in Webwood Venom
-    .accept 917 >>Accept Webwood Egg
+    .turnin 916 >>Сдайте Webwood Venom
+    .accept 917 >>Возьмите Webwood Egg
 step
     .goto Teldrassil,56.8,26.5
-    >>Go deep into the spider cave and loot a Webwood Egg
+    >>Пройдите вглубь паучьей пещеры и заберите яйцо паука
     .complete 917,1 --Webwood Egg (1)
 step
     .goto Teldrassil,57.8,41.6
-    .turnin 917 >>Turn in Webwood Egg
-    .accept 920 >>Accept Tenaron's Summons
+    .turnin 917 >>Сдайте Webwood Egg
+    .accept 920 >>Возьмите Tenaron's Summons
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 920 >>Go up the ramp of Aldrassil and turn in Tenaron's Summons to Tenaron Stormgrip
-    .accept 921 >>Accept Crown of the Earth
+    .turnin 920 >>Поднимитесь по склону Альдрассила и сдайте Tenaron's Summons Тенарону Хватке Бури
+    .accept 921 >>Возьмите Crown of the Earth
 step
     .goto Teldrassil,59.9,33.0
-    >>Fill the Jade Phial at the moonwell north of Aldrassil
+    >>Наполните нефритовый фиал в лунном колодце к северу от Альдрассила
     .complete 921,1 --Filled Jade Phial (1)
 step
     .goto Teldrassil,59.1,39.4
-    .turnin 921 >>Turn in Crown of the Earth
-    .accept 928 >>Accept Crown of the Earth (part 2)
+    .turnin 921 >>Сдайте Crown of the Earth
+    .accept 928 >>Возьмите продолжение Crown of the Earth
 step
     .goto Teldrassil,58.6,44.7
-    .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
-    >>Train your class spells at your trainer before you leave (level 4 and 6)
+    .accept 2159 >>Возьмите Dolanaar Delivery у Портанниуса на выходе из Тенистой долины
+    >>Перед уходом изучите способности 4-го и 6-го уровней у наставника своего класса
 step
     .goto Teldrassil,55.6,59.8
-    .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
-    .home >>Make Dolanaar your home
+    .turnin 2159 >>Идите на юг в Доланаар и сдайте Dolanaar Delivery хозяйке таверны Кельдамир
+    .home >>Привяжите камень возвращения в Доланааре
 step
     .goto Teldrassil,56.1,61.7
-    .accept 488 >>Accept Zenn's Bidding from Zenn Foulhoof (outside Dolanaar)
+    .accept 488 >>Возьмите Zenn's Bidding у Зенна Грязного Копыта за пределами Доланаара
 step
     .goto Teldrassil,55.9,57.3
-    .accept 475 >>Accept A Troubling Breeze from Athridas Bearmantle
-    .accept 997 >>Accept Denalan's Earth from Corithras Moonrage
+    .accept 475 >>Возьмите A Troubling Breeze у Атридаса Медвежьей Шкуры
+    .accept 997 >>Возьмите Denalan's Earth у Коритраса Лунного Гнева
 step
     .goto Teldrassil,57.1,61.3
-    .accept 2438 >>Accept The Emerald Dreamcatcher from Tallonkai Swiftroot
-    .accept 489 >>Accept Seek Redemption! (if offered after Zenn)
+    .accept 2438 >>Возьмите The Emerald Dreamcatcher у Таллонкая Гибкого Корня
+    .accept 489 >>Возьмите Seek Redemption!, если задание появится после Zenn's Bidding
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 928 >>Turn in Crown of the Earth to Corithras
-    .accept 929 >>Accept Crown of the Earth (part 3)
+    .turnin 928 >>Сдайте Crown of the Earth Коритрасу
+    .accept 929 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 997 >>Turn in Denalan's Earth at Lake Al'Ameth
-    .accept 918 >>Accept Timberling Seeds
-    .accept 919 >>Accept Timberling Sprouts
+    .turnin 997 >>Сдайте Denalan's Earth у озера Аль'Амет
+    .accept 918 >>Возьмите Timberling Seeds
+    .accept 919 >>Возьмите Timberling Sprouts
 step
     .goto Teldrassil,63.0,58.0
-    >>Kill Nightsabers, Webwood Lurkers and Strigid Owls for Zenn. Kill Timberlings around the lake for seeds and sprouts
+    >>Убивайте ночных саблезубов, пауков и сов для Зенна. Соберите семена и ростки с древесников у озера
     .complete 488,1 --Nightsaber Fang (3)
     .complete 488,2 --Strigid Owl Feather (3)
     .complete 488,3 --Webwood Spider Silk (3)
@@ -2638,78 +2638,78 @@ step
     .complete 919,1 --Timberling Sprout (12)
 step
     .goto Teldrassil,60.9,68.5
-    .turnin 918 >>Turn in Timberling Seeds
-    .turnin 919 >>Turn in Timberling Sprouts
+    .turnin 918 >>Сдайте Timberling Seeds
+    .turnin 919 >>Сдайте Timberling Sprouts
 step
     .goto Teldrassil,66.2,58.6
-    .turnin 475 >>Go to Starbreeze Village and turn in A Troubling Breeze
-    .accept 476 >>Accept Gnarlpine Corruption
+    .turnin 475 >>Идите в деревню Звёздного Ветра и сдайте A Troubling Breeze
+    .accept 476 >>Возьмите Gnarlpine Corruption
 step
     .goto Teldrassil,68.0,59.6
-    >>Loot Tallonkai's Dresser in the house at Starbreeze Village
+    >>Заберите предмет из комода Таллонкая в доме деревни Звёздного Ветра
     .complete 2438,1 --Emerald Dreamcatcher (1)
 step
     .goto Teldrassil,56.1,61.7
-    .turnin 488 >>Turn in Zenn's Bidding
+    .turnin 488 >>Сдайте Zenn's Bidding
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 476 >>Turn in Gnarlpine Corruption
-    .accept 483 >>Accept The Relics of Wakening
+    .turnin 476 >>Сдайте Gnarlpine Corruption
+    .accept 483 >>Возьмите The Relics of Wakening
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2438 >>Turn in The Emerald Dreamcatcher
-    .accept 2459 >>Accept Ferocitas the Dream Eater
+    .turnin 2438 >>Сдайте The Emerald Dreamcatcher
+    .accept 2459 >>Возьмите Ferocitas the Dream Eater
 step
     .goto Teldrassil,62.0,74.0
-    >>Fill the Amethyst Phial at the Moonwell in Lake Al'Ameth
+    >>Наполните аметистовый фиал в лунном колодце у озера Аль'Амет
     .complete 929,1 --Filled Amethyst Phial (1)
 step
     .goto Teldrassil,67.0,51.0
-    >>Kill Ferocitas the Dream Eater and the Gnarlpine Mystics at the furbolg camp east of Dolanaar
+    >>Убейте Фероситаса Пожирателя Снов и мистиков из племени Кривой Сосны в лагере фурболгов к востоку от Доланаара
     .complete 2459,1 --Ferocitas' Head / Tallonkai's Jewel (1)
     .complete 2459,2 --Gnarlpine Mystic (7)
 step
     .goto Teldrassil,57.1,61.3
-    .turnin 2459 >>Turn in Ferocitas the Dream Eater
+    .turnin 2459 >>Сдайте Ferocitas the Dream Eater
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 929 >>Turn in Crown of the Earth
-    .accept 933 >>Accept Crown of the Earth (part 4)
+    .turnin 929 >>Сдайте Crown of the Earth
+    .accept 933 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,44.0,58.0
-    >>Go to Ban'ethil Barrow Den (west). Loot the Relics of Wakening inside
+    >>Идите в курганы Бан'этил на западе. Соберите там реликвии для The Relics of Wakening
     .complete 483,1 --Rune of Nesting (1)
     .complete 483,2 --Black Feather Quill (1)
     .complete 483,3 --Sapphire of Sky (1)
     .complete 483,4 --Raven Claw Talisman (1)
 step
     .goto Teldrassil,55.9,57.3
-    .turnin 483 >>Turn in The Relics of Wakening
+    .turnin 483 >>Сдайте The Relics of Wakening
 step
     .goto Darnassus,35.4,8.4
-    .turnin 933 >>Take the path to Darnassus and turn in Crown of the Earth to Arch Druid Fandral Staghelm (Cenarion Enclave)
-    .accept 7383 >>Accept Crown of the Earth (part 5)
+    .turnin 933 >>Идите в Дарнас и сдайте Crown of the Earth верховному друиду Фэндралу Оленьему Шлему в Анклаве Кенария
+    .accept 7383 >>Возьмите следующую часть Crown of the Earth
 step
     .goto Teldrassil,55.6,56.9
-    .turnin 7383 >>Turn in Crown of the Earth to Corithras in Dolanaar
+    .turnin 7383 >>Сдайте Crown of the Earth Коритрасу в Доланааре
 step
     .goto Teldrassil,58.4,94.0
-    >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
+    >>Идите в деревню Рут'теран на юге Тельдрассила и сядьте на корабль до Аубердина в Тёмных берегах
 step
     .goto Darkshore,36.8,44.3
-    >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
+    >>В Аубердине привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms и For Love Eternal
 step
     .goto Darkshore,36.4,50.4
-    >>Kill crabs and Darkshore Thresher along the coast south of Auberdine; loot the Sea Creature Bones on the beach (Washed Ashore) and gather Threshers' parts (Buzzbox 827 / Fruit of the Sea)
+    >>Убивайте крабов и морских молотильщиков на берегу к югу от Аубердина. Соберите кости морского существа для Washed Ashore и части молотильщиков для Buzzbox 827 и Fruit of the Sea
 step
     .goto Darkshore,44.2,36.3
-    >>Go to Bashal'Aran (east of Auberdine). Hand in Bashal'Aran, then kill Deth'ryll Satyrs for the Ancient Moonstone Seal and grab the Moonstone pieces nearby
+    >>Идите в Башал'Аран к востоку от Аубердина и сдайте Bashal'Aran. Убивайте сатиров за древней печатью из лунного камня и соберите осколки поблизости
 step
     .goto Darkshore,40.6,54.4
-    >>The Red Crystal (stone circle south-east of Auberdine). Kill Moonstalkers and Grizzled Bears around it for Buzzbox quests
+    >>Найдите красный кристалл в каменном круге к юго-востоку от Аубердина. Убивайте лунопардов и медведей вокруг него для заданий Buzzbox
 step
     .goto Darkshore,37.0,44.0
-    >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
+    >>Вернитесь в Аубердин и сдайте задания. Возьмите продолжение Bashal'Aran, задание The Tower of Althalaxx у Тандрис Ветропряд и Plagued Lands у Матиаса
     .xp 14
 ]])
 
@@ -2719,21 +2719,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 14-17 Darkshore
-#displayname 14-17 Darkshore
+#displayname 14-17 Тёмные берега
 #next Night Elf 17-20 Darkshore
 #version 2
 
 step
-    >>Druid, level 10: your druid trainer in Darnassus starts the Bear Form quest (Teleport: Moonglade - talk to the Great Bear Spirit). Talents: Feral
+    >>Друид, 10-й уровень: возьмите у наставника в Дарнасе задание на «Облик медведя». Телепортируйтесь в Лунную поляну и поговорите с Великим духом медведя. Развивайте ветку «Сила зверя»
 step
     .goto Darkshore,55.0,24.8
-    >>The Tower of Althalaxx (north-east): kill Dark Strand Fanatics and Voidcallers, loot the Faded Shadowmoon Blades. Grab Cliffspring River cave quests (Naga in the cave at 55,34)
+    >>У башни Алталакса на северо-востоке убивайте фанатиков Тёмного Берега и призывателей Бездны. Соберите потускневшие клинки Тёмной Луны. Возьмите задания у реки Скалистых Берегов; наги находятся в пещере (55,34)
 step
     .goto Darkshore,43.4,58.4
-    >>Ameth'Aran (south): read the Ancient Flame tablets (The Fall of Ameth'Aran), kill Lady Sathrah and the Writhing Highborne / Anguished Highborne, light the Sentinel's ghost shrine
+    >>В Амет'Аране на юге прочтите таблички Древнего Пламени для The Fall of Ameth'Aran. Убейте леди Сатру и призраков высокорождённых. Зажгите святилище призрачной часовой
 step
     .goto Darkshore,37.0,44.0
-    >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
+    >>Сдайте задания в Аубердине. Возьмите The Absent Minded Prospector и задания в Роще Древних у Ону
     .xp 17
 ]])
 
@@ -2743,21 +2743,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 17-20 Darkshore
-#displayname 17-20 Darkshore
+#displayname 17-20 Тёмные берега
 #next Night Elf 20-24 Ashenvale
 #version 2
 
 step
-    >>Druid, level 16: Aquatic Form quest chain from your trainer
+    >>Друид, 16-й уровень: возьмите у наставника цепочку заданий на «Водный облик»
 step
     .goto Darkshore,43.0,80.0
-    >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
+    >>На крайнем юге в Роще Древних поговорите с Ону. Убейте фурболгов и разъярённых железноспинов. Затем у Меча Властителя (38,86) убейте служителей Сумеречного Молота и найдите фиал для предсказаний
 step
     .goto Darkshore,35.6,83.6
-    >>Remtravel's Excavation: escort / find Prospector Remtravel (Absent Minded Prospector) and kill Gelkak; loot the fossils
+    >>На раскопках Ремтревела найдите геолога Ремтревела для The Absent Minded Prospector. Сопроводите его, убейте Гелкака и соберите окаменелости
 step
     .goto Darkshore,37.0,44.0
-    >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
+    >>Вернитесь в Аубердин и сдайте задания. Изучите новые способности в Дарнасе; туда идёт корабль из Рут'терана
     .xp 20
 ]])
 
@@ -2767,27 +2767,27 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 20-24 Ashenvale
-#displayname 20-24 Ashenvale
+#displayname 20-24 Ясеневый лес
 #next Night Elf 24-28 Wetlands
 #version 2
 
 step
-    >>Druid, level 20: train Cat Form at your trainer in Darnassus
+    >>Друид, 20-й уровень: изучите «Облик кошки» у наставника в Дарнасе
 step
     .goto Ashenvale,26.4,38.6
-    >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
+    >>Бегите на юг из Тёмных берегов в Ясеневый лес. На заставе Мейстры (26,38) возьмите The Ruins of Ordil'Aran, Bathran's Hair и Raene's Cleansing
 step
     .goto Ashenvale,36.6,49.6
-    >>Astranaar: set your home, get the flight path, and take every quest (Raene's Cleansing, The Zoram Strand, Elemental Bracers, The Tower of Althalaxx follow-up, Naga at the Zoram Strand)
+    >>В Астранааре привяжите камень возвращения и откройте маршрут полёта. Возьмите задания Raene's Cleansing, The Zoram Strand, Elemental Bracers, продолжение The Tower of Althalaxx и задания о нагах на берегу Зорам
 step
     .goto Ashenvale,14.2,26.0
-    >>The Zoram Strand (west coast): kill Wrathtail Naga for heads and Zoram's crystals; Blackfathom Deeps entrance is here (14,13) if you want the dungeon at 22-24
+    >>На берегу Зорам на западе убивайте наг Зловещего Хвоста ради голов и собирайте кристаллы Зорам. Вход в Непроглядную Пучину находится у (14,13); подземелье подходит для 22-24-го уровня
 step
     .goto Ashenvale,46.0,47.0
-    >>Fallen Sky Lake / Iris Lake: kill elementals for Elemental Bracers (use the Divining Scroll), loot Bathran's Hair at the ruins
+    >>У озёр Упавшего Неба и Ирис убивайте элементалей для Elemental Bracers. Используйте гадальный свиток и соберите волосы Батрана у руин
 step
     .goto Ashenvale,36.6,49.6
-    >>Back to Astranaar, hand in, and pick up the follow-ups
+    >>Вернитесь в Астранаар, сдайте задания и возьмите продолжения
     .xp 24
 ]])
 
@@ -2797,24 +2797,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 24-28 Wetlands
-#displayname 24-28 Wetlands
+#displayname 24-28 Болотина
 #next Night Elf 28-31 Duskwood
 #version 2
 
 step
-    >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
+    >>Летите в Аубердин и садитесь на корабль до гавани Менетил в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетил привяжите камень возвращения и откройте маршрут полёта. Возьмите Young Crocolisk Skins, Claws from the Deep, The Greenwarden и Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков на побережье и молодых кроколисков к югу от Менетила
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>У Дун Модра и во владениях Драконьей Пасти выполните Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в Менетиле
     .xp 28
 ]])
 
@@ -2824,21 +2824,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Night Elf 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозёрье и бегите в Тёмнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Тёмнолесье привяжите камень возвращения. Возьмите Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim и Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>Убивайте воргенов Ночной Погибели и скелетов в лесу. Лагерь Свена находится у (7,34), а Вороний Холм — у (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Тёмнолесье и возьмите продолжения
     .xp 31
 ]])
 
@@ -2848,23 +2848,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Night Elf 33-35 Desolace
 #version 2
 
 step
-    >>Druid, level 30: train Travel Form at your trainer
+    >>Друид, 30-й уровень: изучите «Походный облик» у наставника
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из Менетила бегите на север через мост Тандола в Южнобережье или летите туда. По пути откройте маршрут полёта в Опорном пункте Арати (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте маршрут полёта. Возьмите Down the Coast, Crushridge Bounty, Syndicate Assassins и задания на языки медведей
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>Убивайте мурлоков Острого Плавника на побережье, а медведей и пауков — вдали от берега. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -2874,21 +2874,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Night Elf 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Садитесь на корабль из Менетила в Аубердин. Бегите через Ясеневый лес и Когтистые горы в Пустоши; по пути откройте маршруты полёта в Аубердине и Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>На высоте Найджела на севере Пустошей привяжите камень возвращения и откройте маршрут полёта. Возьмите Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup и Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре выполните Kodo Roundup с помощью кодобоя. Убивайте кентавров Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания на высоте Найджела
     .xp 35
 ]])
 
@@ -2898,24 +2898,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Night Elf 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о Курцене и троллях Кровавого Скальпа: Krazek's Cookery и Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>У экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Убивайте молодых тигров, пантер и ящеров вокруг лагеря
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте маршрут полёта и возьмите The Bloodsail Buccaneers, Supply and Demand и Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>Выполняйте вторую часть охотничьих заданий Эрнестуэя по мере повышения уровня
     .xp 38
 ]])
 
@@ -2925,21 +2925,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Night Elf 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан, затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>В Тераморе привяжите камень возвращения и откройте маршрут полёта. Возьмите Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield и Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>Убивайте черепах и ящеров у берега. Выполните задания о таверне «Последний привал» и деревне Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе и изучите способности 40-го уровня
     .xp 40
 ]])
 
@@ -2949,21 +2949,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Night Elf 42-45 Feralas
 #version 2
 
 step
-    >>Druid, level 40: train Dire Bear Form at your trainer
+    >>Друид, 40-й уровень: изучите «Облик лютого медведя» у наставника
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте маршрут полёта. Возьмите WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley и The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>Убивайте бандитов и воров Скитальцев Пустыни у руин Полуденной Тени и на поле Источников для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -2973,21 +2973,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Night Elf 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта закрыт, плывите на корабле с побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants и The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров Гордунни у заставы (72,61), членов племени Зловещего Тотема и гноллов Древолапов. Применяйте уменьшитель Зорбина к великанам для Zapped Giants
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -2997,21 +2997,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Night Elf 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут закрыт, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте маршрут полёта. Возьмите Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания на яйца грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей Сухокожих у Шадра'Алора и Зун'ваты, волков Серебряной Гривы и эльфов Высокогорья у Кель'Данила (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -3021,21 +3021,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Night Elf 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в Кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере откройте маршрут полёта. Возьмите Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax и Super Sticky. Собирайте кристаллы силы по пути
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия убивайте горилл, стегодонов, ящеров, кровоцветов и терродактилей. Посетите улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -3045,21 +3045,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Night Elf 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар и бегите на север в Осквернённый лес. Если маршрут открыт, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire и Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>На западе в Джеденаре убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени (41,85 и 40,15), а фурболгов Мёртвого Леса — для репутации Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>На Поляне Когтистых Ветвей на севере откройте маршрут полёта. Возьмите Deadwood of the North и Felbound Ancients
     .xp 54
 ]])
 
@@ -3069,21 +3069,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Night Elf 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если маршрут закрыт, идите из Южнобережья
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons и Better Late Than Never. Начните повышать репутацию Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы на фермах Фелстоун, Слёзы Далсона, Удел Страданий и пустоши Гаррона. Убивайте нежить в Андорале и у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -3093,21 +3093,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Night Elf 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут закрыт, пройдите через тоннель Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте маршрут полёта. Возьмите Are We There, Yeti?, Winterfall Activity, задания на Урсиуса и ледопардов. Найдите Донову Сноуден у горячих источников (31,45)
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в деревне (67,36), ледопардов, йети Ледяного Чертополоха (67,42) и химер Студёного Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -3117,21 +3117,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Druid
 #subgroup Night Elf route
 #name Night Elf 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В Часовне Последней Надежды на востоке откройте маршрут полёта. Возьмите Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания герцога Николаса Зверенхоффа для Серебряного Рассвета и задание Тириона Фордринга
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных гончих, чумных нетопырей и личинок. Для заданий Часовни убивайте членов Алого ордена в Коринском перекрёстке и Длани Тира
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в Часовне Последней Надежды. Для последних делений опыта можно отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>Вы достигли 60-го уровня! Изучите последние способности у наставника в столице
 ]])

@@ -7,34 +7,34 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 1-6 Elwynn Forest
-#displayname 1-6 Elwynn Forest
+#displayname 1-6 Элвиннский лес
 #next Human 6-10 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,48.17,42.94
-    >>Northshire Abbey: take A Threat Within from Deputy Willem, hand it in to Marshal McBride inside the abbey and take Kobold Camp Cleanup. Take Eagan Peltskinner from Deputy Willem
+    >>В аббатстве Североземья возьмите A Threat Within у помощника судьи Виллема. Сдайте задание маршалу Макбрайду внутри аббатства и возьмите Kobold Camp Cleanup. У Виллема возьмите Eagan Peltskinner
 step
     .goto Elwynn Forest,48.92,40.17
-    >>Eagan Peltskinner (behind the abbey): hand in, take Wolves Across the Border
+    >>За аббатством сдайте Eagan Peltskinner и возьмите Wolves Across the Border
 step
     .goto Elwynn Forest,46.0,39.0
-    >>Kill Kobold Vermin and Young Wolves west of the abbey (Kobold Camp Cleanup, Wolves Across the Border)
+    >>К западу от аббатства убивайте кобольдов-вредителей и молодых волков для Kobold Camp Cleanup и Wolves Across the Border
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand in both, take Investigate Echo Ridge, Brotherhood of Thieves (Deputy Willem) and Milly Osworth (by the abbey stables)
+    >>Сдайте оба задания. У Виллема возьмите Investigate Echo Ridge и Brotherhood of Thieves. Возле конюшни аббатства возьмите Milly Osworth
 step
     .goto Elwynn Forest,54.5,47.5
-    >>Northshire Vineyards: kill Defias Thugs for Red Burlap Bandanas, loot Milly's Harvest crates
+    >>На виноградниках Североземья убивайте бандитов Братства Справедливости ради красных холщовых бандан. Соберите ящики с урожаем Милли
 step
     .goto Elwynn Forest,47.6,32.0
-    >>Echo Ridge Mine: kill Kobold Workers (Investigate Echo Ridge)
+    >>В шахте Горного Эха убивайте кобольдов-рабочих для Investigate Echo Ridge
 step
     .goto Elwynn Forest,57.5,48.2
-    >>Kill Garrick Padfoot at the vineyard shack (Bounty on Garrick Padfoot)
+    >>Убейте Гаррика Тихокрада у хижины на винограднике для Bounty on Garrick Padfoot
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand everything in, then Skirmish at Echo Ridge (Kobold Laborers deeper in the mine). Hand in, take Report to Goldshire. Deliver Grape Manifest to Brother Neals in the bell tower
+    >>Сдайте задания и возьмите Skirmish at Echo Ridge. Убивайте кобольдов-землекопов в глубине шахты. Сдайте задание и возьмите Report to Goldshire. Отнесите виноградную ведомость брату Нилсу в колокольню
     .xp 6
 ]])
 
@@ -44,25 +44,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 6-10 Elwynn Forest
-#displayname 6-10 Elwynn Forest
+#displayname 6-10 Элвиннский лес
 #next Human 10-11 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Goldshire: hand in Report to Goldshire, set your home at the Lion's Pride Inn, train your spells, take every town quest (Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task)
+    >>В Златоземье сдайте Report to Goldshire. Привяжите камень возвращения в таверне «Гордость льва» и изучите заклинания. Возьмите городские задания: Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task
 step
     .goto Elwynn Forest,40.0,80.0
-    >>Fargodeep Mine (south): kobolds for Gold Dust and Large Candles. The Stonefield and Maclure farms (34,84 / 43,85) for Lost Necklace / Young Lovers
+    >>На юге, в руднике Подземных глубин, убивайте кобольдов ради золотого песка и больших свечей. Посетите фермы Стоунфилдов (34,84) и Маклуров (43,85) для Lost Necklace и Young Lovers
 step
     .goto Elwynn Forest,69.0,79.0
-    >>East Elwynn: Jasperlode Mine (61,53), Eastvale Logging Camp (81,66) quests, the Defias at the Brackwell pumpkin patch, Princess the pig at the Brackwell farm
+    >>В восточном Элвиннском лесу посетите Яшмовую шахту (61,53) и лесопилку Восточной долины (81,66). Убивайте бандитов Братства Справедливости на тыквенном поле Браквеллов. На ферме Браквеллов найдите свинью Принцессу
 step
     .goto Elwynn Forest,84.6,69.4
-    >>Eastvale / Tower of Azora (65,69): hand in Eastvale quests, take Riverpaw Gnolls / Marshal Dughan follow-ups
+    >>В Восточной долине и у башни Азоры (65,69) сдайте задания Восточной долины. Возьмите следующие задания о гноллах Речной Лапы и задания маршала Дугхана
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Back to Goldshire, hand in, train
+    >>Вернитесь в Златоземье. Сдайте задания и изучите новые умения
     .xp 10
 ]])
 
@@ -72,14 +72,14 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 10-11 Elwynn Forest
-#displayname 10-11 Elwynn Forest
+#displayname 10-11 Элвиннский лес
 #next Human 11-14 Westfall
 #version 2
 
 step
-    >>Warrior, level 10: your warrior trainer in Stormwind starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
+    >>Воин, 10-й уровень: наставник воинов в Штормграде даёт задание на «Оборонительную стойку» (Defensive Stance). Развивайте ветку «Оружие»: «Отражение», «Тактическое превосходство», «Размашистые удары» и «Смертельный удар» на 30-м уровне
 step
-    >>Run to Stormwind: get the flight path (66,62 Trade District), visit your class trainer, then run west into Westfall
+    >>Бегите в Штормград. Откройте точку полёта в Торговом квартале (66,62) и посетите наставника своего класса. Затем бегите на запад в Западный Край
     .xp 11
 ]])
 
@@ -89,22 +89,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 11-14 Westfall
-#displayname 11-14 Westfall
+#displayname 11-14 Западный Край
 #next Human 14-18 Westfall
 #version 2
 
 step
     .goto Westfall,56.4,31.0
-    >>Sentinel Hill (centre of Westfall): flight path, take every quest (Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear)
+    >>На Сторожевом холме в центре Западного Края откройте точку полёта. Возьмите все задания: Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear
 step
     .goto Westfall,59.9,19.4
-    >>The Saldean farm (north-east): Westfall Stew, Goretusk Liver Pie, Poor Old Blanchy (oats from the Harvest Watchers)
+    >>На ферме Сальденов к северо-востоку займитесь заданиями Westfall Stew, Goretusk Liver Pie и Poor Old Blanchy. Собирайте овёс возле механических жнецов
 step
     .goto Westfall,45.0,40.0
-    >>Kill Harvest Watchers, Defias Trappers and Smugglers across the fields; Murlocs on the coast (The Coast Isn't Clear, 30,45)
+    >>На полях убивайте механических жнецов, охотников и контрабандистов Братства Справедливости. На побережье (30,45) убивайте мурлоков для The Coast Isn't Clear
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill
+    >>Сдайте задания на Сторожевом холме
     .xp 14
 ]])
 
@@ -114,16 +114,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 14-18 Westfall
-#displayname 14-18 Westfall
+#displayname 14-18 Западный Край
 #next Human 18-22 Redridge Mountains
 #version 2
 
 step
     .goto Westfall,45.0,70.0
-    >>South Westfall: Gnolls at the Dagger Hills, Moonbrook Defias, the Jangolode Mine (45,20) and Gold Coast Quarry (31,45) for The People's Militia and Red Leather Bandanas
+    >>На юге Западного Края убивайте гноллов в Кинжальных холмах и бандитов Братства Справедливости в Луноречье. Посетите рудник Янго (45,20) и карьер Золотого Берега (31,45) для The People's Militia и Red Leather Bandanas
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill. The Deadmines (Moonbrook, 42,72) at 17-20 is a good extra if you can find a group
+    >>Сдайте задания на Сторожевом холме. Если найдёте группу, пройдите Мёртвые копи в Луноречье (42,72) на 17-20-м уровне
     .xp 18
 ]])
 
@@ -133,21 +133,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 18-22 Redridge Mountains
-#displayname 18-22 Redridge Mountains
+#displayname 18-22 Красногорье
 #next Human 22-28 Wetlands
 #version 2
 
 step
-    >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
+    >>Бегите на восток в Красногорье по восточной дороге Элвиннского леса через Три Угла
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Lakeshire: set your home, flight path, take every quest (Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace)
+    >>В Приозерье привяжите камень возвращения и откройте точку полёта. Возьмите все задания: Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace
 step
     .goto Redridge Mountains,40.0,50.0
-    >>Murlocs on the lake, Great Goretusks / Tarantulas / Condors for Redridge Goulash, the Redridge Gnolls (Lakeridge Highway)
+    >>У озера убивайте мурлоков. Добывайте ингредиенты для Redridge Goulash с больших кровоклыков, тарантулов и кондоров. У дороги к озеру убивайте гноллов Красногорья
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Hand in at Lakeshire
+    >>Сдайте задания в Приозерье
     .xp 22
 ]])
 
@@ -157,26 +157,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 22-28 Wetlands
-#displayname 22-28 Wetlands
+#displayname 22-28 Болотина
 #next Human 28-31 Duskwood
 #version 2
 
 step
-    >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
+    >>Воин: с медленным двуручным оружием задания выполняются быстрее. Изучайте новые ранги «Удара героя», «Кровопускания», «Превосходства» и «Раската грома»
 step
-    >>Run to Ironforge (Deeprun Tram from Stormwind), then Loch Modan and north through Dun Algaz to Menethil Harbor (Wetlands)
+    >>Доберитесь до Стальгорна на подземном поезде из Штормграда. Через озеро Модан и Дун Альгаз бегите на север в гавань Менетилов в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетилов привяжите камень возвращения и откройте точку полёта. Возьмите задания: Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков вдоль берега и молодых кроколисков к югу от гавани Менетилов
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>В районе Дун Модра и Драконьей Пасти займитесь заданиями Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в гавани Менетилов
     .xp 28
 ]])
 
@@ -186,21 +186,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Human 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозерье. Затем бегите в Темнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Темнолесье привяжите камень возвращения. Возьмите все задания: Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>В лесу убивайте воргенов Ночной Погибели и скелетов-извергов. Посетите лагерь Свена (7,34) и Вороний Холм (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Темнолесье и возьмите следующие
     .xp 31
 ]])
 
@@ -210,23 +210,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Human 33-35 Desolace
 #version 2
 
 step
-    >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
+    >>Воин, 30-й уровень: выполните задание на «Стойку берсерка». Из Кабестана в Степях доберитесь до острова Битв (68,49). Поговорите с Кланноком Маклеодом для The Affray и победите в бою. Затем выполните The Windwatcher в Тысяче Игл
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из гавани Менетилов бегите на север через мост Тандола в Арати до Южнобережья. Если доступен маршрут полёта, летите туда. По пути откройте точку полёта в Опорном пункте (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>На побережье убивайте мурлоков остроспинов и рваноплавников. В глубине суши убивайте медведей и пауков. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -236,21 +236,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Human 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Плывите из гавани Менетилов в Аубердин в Тёмных берегах и откройте точку полёта. Бегите на юг через Ясеневый лес и Когтистые горы в Пустоши. По пути откройте точку полёта в Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>В высоте Найджела на севере Пустошей привяжите камень возвращения и откройте точку полёта. Возьмите задания: Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре Пустошей используйте комбообулятор кодо для Kodo Roundup. Убивайте кентавров кланов Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания в высоте Найджела
     .xp 35
 ]])
 
@@ -260,24 +260,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Human 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о троллях Кровавого Скальпа и отряде Курцена: Krazek's Cookery, Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn по мере их появления
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>В экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Возле лагеря убивайте молодых тигров Тернистой долины, пантер и ящеров
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте точку полёта и возьмите задания: The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>По мере прокачки выполняйте следующие задания на охоту от Эрнестуэя
     .xp 38
 ]])
 
@@ -287,21 +287,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Human 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан. Затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>На острове Терамор привяжите камень возвращения и откройте точку полёта. Возьмите задания Пылевых топей: Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>На побережье убивайте черепах Мутной Заводи и ящеров. Займитесь заданиями таверны «Последний привал» и деревни Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе. Изучите заклинания 40-го уровня
     .xp 40
 ]])
 
@@ -311,21 +311,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Human 42-45 Feralas
 #version 2
 
 step
-    >>Warrior, level 40: train Plate Mail in Stormwind and wear plate from now on
+    >>Воин, 40-й уровень: изучите ношение латных доспехов в Штормграде. Теперь носите латы
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте точку полёта. Возьмите все задания: WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>У руин Полуденной Тени и на поле Родниковой воды убивайте бандитов и воров Скитальцев Пустыни для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -335,21 +335,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Human 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта недоступен, плывите на лодке от побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите задания: The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров кланов Зловещего Тотема и Гордунни в долине Дикого Рубца и у заставы Гордунни (72,61). Используйте ультрауменьшитель Зорбина на великанах. Убивайте гноллов Древолапов
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -359,21 +359,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Human 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут недоступен, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте точку полёта. Возьмите задания: Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания о яйцах грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей клана Сухокожих в Шадра'Алоре и Зун'вате, волков Серебряной Гривы и эльфов Высокой долины у сторожки Кель'Данил (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -383,21 +383,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Human 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере Ун'Горо откройте точку полёта. Возьмите задания: Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky. По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия Маршалла убивайте горилл Ун'Горо и громил, стегодонов, ящеров и терродактилей. Собирайте кровоцветы и исследуйте улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -407,21 +407,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Human 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар в Ясеневом лесу и бегите на север в Осквернённый лес. Если открыт маршрут, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите задания: Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>В Джеденаре на западе убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени в лощине (41,85) и ущелье (40,15). Убивайте фурболгов Мёртвого Леса ради репутации у Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>В Поляне Когтистых Ветвей на севере откройте точку полёта. Возьмите северные задания Осквернённого леса: Deadwood of the North, Felbound Ancients
     .xp 54
 ]])
 
@@ -431,21 +431,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Human 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если точка полёта не открыта, летите в Южнобережье и доберитесь оттуда
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите задания: A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never. Начните повышать репутацию у Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы у поля Джанис, Слез Далсона, Стонущего привидения и пустоши Гаррона. Убивайте скелетов Андорала и нежить у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -455,21 +455,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Human 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут полёта недоступен, пройдите через туннель крепости Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте точку полёта. Возьмите задания: Are We There, Yeti?, Winterfall Activity, задания на охоту на Урсиуса и ледопардов. У горячих источников Ледяного Пламени (31,45) возьмите задания Доновы Сноуден
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в их деревне (67,36), ледопардов, йети с холмов Ледяного Чертополоха (67,42) и химер Промозглого Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -479,23 +479,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warrior
 #subgroup Human route
 #name Human 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В часовне Последней Надежды на востоке откройте точку полёта. Возьмите задания: Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания Серебряного Рассвета у герцога Николаса Зверенхоффа и задания Тириона Фордринга, включая Redemption
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных псов, чумных нетопырей и падальщиков. В Переправе Корина и Длани Тира убивайте членов Алого ордена для дополнительных заданий часовни
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в часовне Последней Надежды. Если до 60-го уровня осталось немного опыта, можете отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>60-й уровень! Изучите последние заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -504,34 +504,34 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 1-6 Elwynn Forest
-#displayname 1-6 Elwynn Forest
+#displayname 1-6 Элвиннский лес
 #next Human 6-10 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,48.17,42.94
-    >>Northshire Abbey: take A Threat Within from Deputy Willem, hand it in to Marshal McBride inside the abbey and take Kobold Camp Cleanup. Take Eagan Peltskinner from Deputy Willem
+    >>В аббатстве Североземья возьмите A Threat Within у помощника судьи Виллема. Сдайте задание маршалу Макбрайду в аббатстве и возьмите Kobold Camp Cleanup. У Виллема возьмите Eagan Peltskinner
 step
     .goto Elwynn Forest,48.92,40.17
-    >>Eagan Peltskinner (behind the abbey): hand in, take Wolves Across the Border
+    >>За аббатством сдайте Eagan Peltskinner и возьмите Wolves Across the Border
 step
     .goto Elwynn Forest,46.0,39.0
-    >>Kill Kobold Vermin and Young Wolves west of the abbey (Kobold Camp Cleanup, Wolves Across the Border)
+    >>К западу от аббатства убивайте кобольдов-вредителей и молодых волков для Kobold Camp Cleanup и Wolves Across the Border
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand in both, take Investigate Echo Ridge, Brotherhood of Thieves (Deputy Willem) and Milly Osworth (by the abbey stables)
+    >>Сдайте оба задания. У Виллема возьмите Investigate Echo Ridge и Brotherhood of Thieves. Возле конюшни возьмите Milly Osworth
 step
     .goto Elwynn Forest,54.5,47.5
-    >>Northshire Vineyards: kill Defias Thugs for Red Burlap Bandanas, loot Milly's Harvest crates
+    >>На виноградниках Североземья убивайте бандитов Братства Справедливости ради красных холщовых бандан. Собирайте ящики с урожаем Милли
 step
     .goto Elwynn Forest,47.6,32.0
-    >>Echo Ridge Mine: kill Kobold Workers (Investigate Echo Ridge)
+    >>В шахте Горного Эха убивайте кобольдов-рабочих для Investigate Echo Ridge
 step
     .goto Elwynn Forest,57.5,48.2
-    >>Kill Garrick Padfoot at the vineyard shack (Bounty on Garrick Padfoot)
+    >>Убейте Гаррика Тихокрада у хижины на винограднике для Bounty on Garrick Padfoot
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand everything in, then Skirmish at Echo Ridge (Kobold Laborers deeper in the mine). Hand in, take Report to Goldshire. Deliver Grape Manifest to Brother Neals in the bell tower
+    >>Сдайте задания и возьмите Skirmish at Echo Ridge. Убивайте кобольдов-землекопов в глубине шахты. Сдайте задание и возьмите Report to Goldshire. Отнесите виноградную ведомость брату Нилсу в колокольню
     .xp 6
 ]])
 
@@ -541,25 +541,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 6-10 Elwynn Forest
-#displayname 6-10 Elwynn Forest
+#displayname 6-10 Элвиннский лес
 #next Human 10-11 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Goldshire: hand in Report to Goldshire, set your home at the Lion's Pride Inn, train your spells, take every town quest (Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task)
+    >>В Златоземье сдайте Report to Goldshire. Привяжите камень возвращения в таверне «Гордость льва» и изучите заклинания. Возьмите задания: Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task
 step
     .goto Elwynn Forest,40.0,80.0
-    >>Fargodeep Mine (south): kobolds for Gold Dust and Large Candles. The Stonefield and Maclure farms (34,84 / 43,85) for Lost Necklace / Young Lovers
+    >>На юге, в руднике Подземных глубин, убивайте кобольдов ради золотого песка и больших свечей. Посетите фермы Стоунфилдов (34,84) и Маклуров (43,85) для Lost Necklace и Young Lovers
 step
     .goto Elwynn Forest,69.0,79.0
-    >>East Elwynn: Jasperlode Mine (61,53), Eastvale Logging Camp (81,66) quests, the Defias at the Brackwell pumpkin patch, Princess the pig at the Brackwell farm
+    >>В восточном Элвиннском лесу посетите Яшмовую шахту (61,53) и лесопилку Восточной долины (81,66). Убивайте бандитов Братства Справедливости на тыквенном поле Браквеллов. На ферме Браквеллов найдите свинью Принцессу
 step
     .goto Elwynn Forest,84.6,69.4
-    >>Eastvale / Tower of Azora (65,69): hand in Eastvale quests, take Riverpaw Gnolls / Marshal Dughan follow-ups
+    >>В Восточной долине и у башни Азоры (65,69) сдайте задания Восточной долины. Возьмите следующие задания о гноллах Речной Лапы и задания маршала Дугхана
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Back to Goldshire, hand in, train
+    >>Вернитесь в Златоземье. Сдайте задания и изучите новые умения
     .xp 10
 ]])
 
@@ -569,14 +569,14 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 10-11 Elwynn Forest
-#displayname 10-11 Elwynn Forest
+#displayname 10-11 Элвиннский лес
 #next Human 11-14 Westfall
 #version 2
 
 step
-    >>Hunter, level 10: your hunter trainer starts Taming the Beast - tame the three beasts it asks for, then you can tame your own pet. Visit the pet trainer in Stormwind. Talents: Beast Mastery
+    >>Охотник, 10-й уровень: наставник охотников даёт Taming the Beast. Приручите трёх указанных зверей, после чего сможете приручить собственного питомца. Посетите наставника питомцев в Штормграде. Развивайте ветку «Повелитель зверей»
 step
-    >>Run to Stormwind: get the flight path (66,62 Trade District), visit your class trainer, then run west into Westfall
+    >>Бегите в Штормград. Откройте точку полёта в Торговом квартале (66,62) и посетите наставника своего класса. Затем бегите на запад в Западный Край
     .xp 11
 ]])
 
@@ -586,22 +586,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 11-14 Westfall
-#displayname 11-14 Westfall
+#displayname 11-14 Западный Край
 #next Human 14-18 Westfall
 #version 2
 
 step
     .goto Westfall,56.4,31.0
-    >>Sentinel Hill (centre of Westfall): flight path, take every quest (Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear)
+    >>На Сторожевом холме в центре Западного Края откройте точку полёта. Возьмите задания: Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear
 step
     .goto Westfall,59.9,19.4
-    >>The Saldean farm (north-east): Westfall Stew, Goretusk Liver Pie, Poor Old Blanchy (oats from the Harvest Watchers)
+    >>На ферме Сальденов к северо-востоку займитесь заданиями Westfall Stew, Goretusk Liver Pie и Poor Old Blanchy. Собирайте овёс возле механических жнецов
 step
     .goto Westfall,45.0,40.0
-    >>Kill Harvest Watchers, Defias Trappers and Smugglers across the fields; Murlocs on the coast (The Coast Isn't Clear, 30,45)
+    >>На полях убивайте механических жнецов, охотников и контрабандистов Братства Справедливости. На побережье (30,45) убивайте мурлоков для The Coast Isn't Clear
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill
+    >>Сдайте задания на Сторожевом холме
     .xp 14
 ]])
 
@@ -611,16 +611,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 14-18 Westfall
-#displayname 14-18 Westfall
+#displayname 14-18 Западный Край
 #next Human 18-22 Redridge Mountains
 #version 2
 
 step
     .goto Westfall,45.0,70.0
-    >>South Westfall: Gnolls at the Dagger Hills, Moonbrook Defias, the Jangolode Mine (45,20) and Gold Coast Quarry (31,45) for The People's Militia and Red Leather Bandanas
+    >>На юге Западного Края убивайте гноллов в Кинжальных холмах и бандитов Братства Справедливости в Луноречье. Посетите рудник Янго (45,20) и карьер Золотого Берега (31,45) для The People's Militia и Red Leather Bandanas
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill. The Deadmines (Moonbrook, 42,72) at 17-20 is a good extra if you can find a group
+    >>Сдайте задания на Сторожевом холме. Если найдёте группу, пройдите Мёртвые копи в Луноречье (42,72) на 17-20-м уровне
     .xp 18
 ]])
 
@@ -630,21 +630,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 18-22 Redridge Mountains
-#displayname 18-22 Redridge Mountains
+#displayname 18-22 Красногорье
 #next Human 22-28 Wetlands
 #version 2
 
 step
-    >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
+    >>Бегите на восток в Красногорье по восточной дороге Элвиннского леса через Три Угла
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Lakeshire: set your home, flight path, take every quest (Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace)
+    >>В Приозерье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace
 step
     .goto Redridge Mountains,40.0,50.0
-    >>Murlocs on the lake, Great Goretusks / Tarantulas / Condors for Redridge Goulash, the Redridge Gnolls (Lakeridge Highway)
+    >>У озера убивайте мурлоков. Добывайте ингредиенты для Redridge Goulash с больших кровоклыков, тарантулов и кондоров. У дороги к озеру убивайте гноллов Красногорья
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Hand in at Lakeshire
+    >>Сдайте задания в Приозерье
     .xp 22
 ]])
 
@@ -654,26 +654,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 22-28 Wetlands
-#displayname 22-28 Wetlands
+#displayname 22-28 Болотина
 #next Human 28-31 Duskwood
 #version 2
 
 step
-    >>Hunter: Aspect of the Cheetah at 20. Keep your pet fed and buy arrows/bullets in every town. A slow ranged weapon is best
+    >>Охотник: на 20-м уровне изучите «Дух гепарда». Кормите питомца и покупайте стрелы или патроны в каждом поселении. Лучше использовать медленное оружие дальнего боя
 step
-    >>Run to Ironforge (Deeprun Tram from Stormwind), then Loch Modan and north through Dun Algaz to Menethil Harbor (Wetlands)
+    >>Доберитесь до Стальгорна на подземном поезде из Штормграда. Через озеро Модан и Дун Альгаз бегите на север в гавань Менетилов в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетилов привяжите камень возвращения и откройте точку полёта. Возьмите задания: Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков вдоль берега и молодых кроколисков к югу от гавани Менетилов
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>В районе Дун Модра и Драконьей Пасти займитесь заданиями Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в гавани Менетилов
     .xp 28
 ]])
 
@@ -683,21 +683,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Human 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозерье. Затем бегите в Темнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Темнолесье привяжите камень возвращения. Возьмите задания: Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>В лесу убивайте воргенов Ночной Погибели и скелетов-извергов. Посетите лагерь Свена (7,34) и Вороний Холм (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Темнолесье и возьмите следующие
     .xp 31
 ]])
 
@@ -707,23 +707,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Human 33-35 Desolace
 #version 2
 
 step
-    >>Hunter: upgrade your pet to a level-appropriate beast (a cat or boar from the zone you are in)
+    >>Охотник: приручите питомца подходящего уровня. Возьмите кошку или вепря в текущей зоне
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из гавани Менетилов бегите на север через мост Тандола в Арати до Южнобережья. Если доступен маршрут полёта, летите туда. По пути откройте точку полёта в Опорном пункте (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>На побережье убивайте мурлоков остроспинов и рваноплавников. В глубине суши убивайте медведей и пауков. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -733,21 +733,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Human 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Плывите из гавани Менетилов в Аубердин в Тёмных берегах и откройте точку полёта. Бегите на юг через Ясеневый лес и Когтистые горы в Пустоши. По пути откройте точку полёта в Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>В высоте Найджела на севере Пустошей привяжите камень возвращения и откройте точку полёта. Возьмите задания: Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре Пустошей используйте комбообулятор кодо для Kodo Roundup. Убивайте кентавров кланов Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания в высоте Найджела
     .xp 35
 ]])
 
@@ -757,24 +757,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Human 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о троллях Кровавого Скальпа и отряде Курцена: Krazek's Cookery, Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn по мере их появления
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>В экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Возле лагеря убивайте молодых тигров Тернистой долины, пантер и ящеров
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте точку полёта и возьмите задания: The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>По мере прокачки выполняйте следующие задания на охоту от Эрнестуэя
     .xp 38
 ]])
 
@@ -784,21 +784,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Human 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан. Затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>На острове Терамор привяжите камень возвращения и откройте точку полёта. Возьмите задания Пылевых топей: Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>На побережье убивайте черепах Мутной Заводи и ящеров. Займитесь заданиями таверны «Последний привал» и деревни Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе. Изучите заклинания 40-го уровня
     .xp 40
 ]])
 
@@ -808,21 +808,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Human 42-45 Feralas
 #version 2
 
 step
-    >>Hunter, level 40: train Mail at Stormwind and wear mail from now on
+    >>Охотник, 40-й уровень: изучите ношение кольчуги в Штормграде. Теперь носите кольчужные доспехи
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте точку полёта. Возьмите задания: WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>У руин Полуденной Тени и на поле Родниковой воды убивайте бандитов и воров Скитальцев Пустыни для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -832,21 +832,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Human 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта недоступен, плывите на лодке от побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите задания: The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров кланов Зловещего Тотема и Гордунни в долине Дикого Рубца и у заставы Гордунни (72,61). Используйте ультрауменьшитель Зорбина на великанах. Убивайте гноллов Древолапов
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -856,21 +856,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Human 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут недоступен, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте точку полёта. Возьмите задания: Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания о яйцах грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей клана Сухокожих в Шадра'Алоре и Зун'вате, волков Серебряной Гривы и эльфов Высокой долины у сторожки Кель'Данил (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -880,21 +880,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Human 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере Ун'Горо откройте точку полёта. Возьмите задания: Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky. По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия Маршалла убивайте горилл Ун'Горо и громил, стегодонов, ящеров и терродактилей. Собирайте кровоцветы и исследуйте улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -904,21 +904,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Human 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар в Ясеневом лесу и бегите на север в Осквернённый лес. Если открыт маршрут, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите задания: Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>В Джеденаре на западе убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени в лощине (41,85) и ущелье (40,15). Убивайте фурболгов Мёртвого Леса ради репутации у Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>В Поляне Когтистых Ветвей на севере откройте точку полёта. Возьмите северные задания Осквернённого леса: Deadwood of the North, Felbound Ancients
     .xp 54
 ]])
 
@@ -928,21 +928,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Human 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если точка полёта не открыта, летите в Южнобережье и доберитесь оттуда
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите задания: A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never. Начните повышать репутацию у Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы у поля Джанис, Слез Далсона, Стонущего привидения и пустоши Гаррона. Убивайте скелетов Андорала и нежить у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -952,21 +952,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Human 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут полёта недоступен, пройдите через туннель крепости Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте точку полёта. Возьмите задания: Are We There, Yeti?, Winterfall Activity, задания на охоту на Урсиуса и ледопардов. У горячих источников Ледяного Пламени (31,45) возьмите задания Доновы Сноуден
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в их деревне (67,36), ледопардов, йети с холмов Ледяного Чертополоха (67,42) и химер Промозглого Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -976,23 +976,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Hunter
 #subgroup Human route
 #name Human 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В часовне Последней Надежды на востоке откройте точку полёта. Возьмите задания: Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания Серебряного Рассвета у герцога Николаса Зверенхоффа и задания Тириона Фордринга, включая Redemption
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных псов, чумных нетопырей и падальщиков. В Переправе Корина и Длани Тира убивайте членов Алого ордена для дополнительных заданий часовни
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в часовне Последней Надежды. Если до 60-го уровня осталось немного опыта, можете отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>60-й уровень! Изучите последние заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1001,34 +1001,34 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 1-6 Elwynn Forest
-#displayname 1-6 Elwynn Forest
+#displayname 1-6 Элвиннский лес
 #next Human 6-10 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,48.17,42.94
-    >>Northshire Abbey: take A Threat Within from Deputy Willem, hand it in to Marshal McBride inside the abbey and take Kobold Camp Cleanup. Take Eagan Peltskinner from Deputy Willem
+    >>В аббатстве Североземья возьмите A Threat Within у помощника судьи Виллема. Сдайте задание маршалу Макбрайду внутри аббатства и возьмите Kobold Camp Cleanup. У Виллема возьмите Eagan Peltskinner
 step
     .goto Elwynn Forest,48.92,40.17
-    >>Eagan Peltskinner (behind the abbey): hand in, take Wolves Across the Border
+    >>За аббатством сдайте Eagan Peltskinner и возьмите Wolves Across the Border
 step
     .goto Elwynn Forest,46.0,39.0
-    >>Kill Kobold Vermin and Young Wolves west of the abbey (Kobold Camp Cleanup, Wolves Across the Border)
+    >>К западу от аббатства убивайте кобольдов-вредителей и молодых волков для Kobold Camp Cleanup и Wolves Across the Border
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand in both, take Investigate Echo Ridge, Brotherhood of Thieves (Deputy Willem) and Milly Osworth (by the abbey stables)
+    >>Сдайте оба задания. У Виллема возьмите Investigate Echo Ridge и Brotherhood of Thieves. Возле конюшни аббатства возьмите Milly Osworth
 step
     .goto Elwynn Forest,54.5,47.5
-    >>Northshire Vineyards: kill Defias Thugs for Red Burlap Bandanas, loot Milly's Harvest crates
+    >>На виноградниках Североземья убивайте бандитов Братства Справедливости ради красных холщовых бандан. Соберите ящики с урожаем Милли
 step
     .goto Elwynn Forest,47.6,32.0
-    >>Echo Ridge Mine: kill Kobold Workers (Investigate Echo Ridge)
+    >>В шахте Горного Эха убивайте кобольдов-рабочих для Investigate Echo Ridge
 step
     .goto Elwynn Forest,57.5,48.2
-    >>Kill Garrick Padfoot at the vineyard shack (Bounty on Garrick Padfoot)
+    >>Убейте Гаррика Тихокрада у хижины на винограднике для Bounty on Garrick Padfoot
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand everything in, then Skirmish at Echo Ridge (Kobold Laborers deeper in the mine). Hand in, take Report to Goldshire. Deliver Grape Manifest to Brother Neals in the bell tower
+    >>Сдайте задания и возьмите Skirmish at Echo Ridge. Убивайте кобольдов-землекопов в глубине шахты. Сдайте задание и возьмите Report to Goldshire. Отнесите виноградную ведомость брату Нилсу в колокольню
     .xp 6
 ]])
 
@@ -1038,25 +1038,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 6-10 Elwynn Forest
-#displayname 6-10 Elwynn Forest
+#displayname 6-10 Элвиннский лес
 #next Human 10-11 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Goldshire: hand in Report to Goldshire, set your home at the Lion's Pride Inn, train your spells, take every town quest (Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task)
+    >>В Златоземье сдайте Report to Goldshire. Привяжите камень возвращения в таверне «Гордость льва» и изучите заклинания. Возьмите городские задания: Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task
 step
     .goto Elwynn Forest,40.0,80.0
-    >>Fargodeep Mine (south): kobolds for Gold Dust and Large Candles. The Stonefield and Maclure farms (34,84 / 43,85) for Lost Necklace / Young Lovers
+    >>На юге, в руднике Подземных глубин, убивайте кобольдов ради золотого песка и больших свечей. Посетите фермы Стоунфилдов (34,84) и Маклуров (43,85) для Lost Necklace и Young Lovers
 step
     .goto Elwynn Forest,69.0,79.0
-    >>East Elwynn: Jasperlode Mine (61,53), Eastvale Logging Camp (81,66) quests, the Defias at the Brackwell pumpkin patch, Princess the pig at the Brackwell farm
+    >>В восточном Элвиннском лесу посетите Яшмовую шахту (61,53) и лесопилку Восточной долины (81,66). Убивайте бандитов Братства Справедливости на тыквенном поле Браквеллов. На ферме Браквеллов найдите свинью Принцессу
 step
     .goto Elwynn Forest,84.6,69.4
-    >>Eastvale / Tower of Azora (65,69): hand in Eastvale quests, take Riverpaw Gnolls / Marshal Dughan follow-ups
+    >>В Восточной долине и у башни Азоры (65,69) сдайте задания Восточной долины. Возьмите следующие задания о гноллах Речной Лапы и задания маршала Дугхана
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Back to Goldshire, hand in, train
+    >>Вернитесь в Златоземье. Сдайте задания и изучите новые умения
     .xp 10
 ]])
 
@@ -1066,14 +1066,14 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 10-11 Elwynn Forest
-#displayname 10-11 Elwynn Forest
+#displayname 10-11 Элвиннский лес
 #next Human 11-14 Westfall
 #version 2
 
 step
-    >>Mage: Frost for questing (Frostbolt and Frost Nova). Conjure your own food and water at every rank
+    >>Маг: для заданий развивайте ветку «Лёд». Используйте «Ледяную стрелу» и «Кольцо льда». По мере изучения новых рангов создавайте себе еду и воду
 step
-    >>Run to Stormwind: get the flight path (66,62 Trade District), visit your class trainer, then run west into Westfall
+    >>Бегите в Штормград. Откройте точку полёта в Торговом квартале (66,62) и посетите наставника своего класса. Затем бегите на запад в Западный Край
     .xp 11
 ]])
 
@@ -1083,22 +1083,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 11-14 Westfall
-#displayname 11-14 Westfall
+#displayname 11-14 Западный Край
 #next Human 14-18 Westfall
 #version 2
 
 step
     .goto Westfall,56.4,31.0
-    >>Sentinel Hill (centre of Westfall): flight path, take every quest (Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear)
+    >>На Сторожевом холме в центре Западного Края откройте точку полёта. Возьмите все задания: Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear
 step
     .goto Westfall,59.9,19.4
-    >>The Saldean farm (north-east): Westfall Stew, Goretusk Liver Pie, Poor Old Blanchy (oats from the Harvest Watchers)
+    >>На ферме Сальденов к северо-востоку займитесь заданиями Westfall Stew, Goretusk Liver Pie и Poor Old Blanchy. Собирайте овёс возле механических жнецов
 step
     .goto Westfall,45.0,40.0
-    >>Kill Harvest Watchers, Defias Trappers and Smugglers across the fields; Murlocs on the coast (The Coast Isn't Clear, 30,45)
+    >>На полях убивайте механических жнецов, охотников и контрабандистов Братства Справедливости. На побережье (30,45) убивайте мурлоков для The Coast Isn't Clear
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill
+    >>Сдайте задания на Сторожевом холме
     .xp 14
 ]])
 
@@ -1108,16 +1108,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 14-18 Westfall
-#displayname 14-18 Westfall
+#displayname 14-18 Западный Край
 #next Human 18-22 Redridge Mountains
 #version 2
 
 step
     .goto Westfall,45.0,70.0
-    >>South Westfall: Gnolls at the Dagger Hills, Moonbrook Defias, the Jangolode Mine (45,20) and Gold Coast Quarry (31,45) for The People's Militia and Red Leather Bandanas
+    >>На юге Западного Края убивайте гноллов в Кинжальных холмах и бандитов Братства Справедливости в Луноречье. Посетите рудник Янго (45,20) и карьер Золотого Берега (31,45) для The People's Militia и Red Leather Bandanas
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill. The Deadmines (Moonbrook, 42,72) at 17-20 is a good extra if you can find a group
+    >>Сдайте задания на Сторожевом холме. Если найдёте группу, пройдите Мёртвые копи в Луноречье (42,72) на 17-20-м уровне
     .xp 18
 ]])
 
@@ -1127,21 +1127,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 18-22 Redridge Mountains
-#displayname 18-22 Redridge Mountains
+#displayname 18-22 Красногорье
 #next Human 22-28 Wetlands
 #version 2
 
 step
-    >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
+    >>Бегите на восток в Красногорье по восточной дороге Элвиннского леса через Три Угла
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Lakeshire: set your home, flight path, take every quest (Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace)
+    >>В Приозерье привяжите камень возвращения и откройте точку полёта. Возьмите все задания: Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace
 step
     .goto Redridge Mountains,40.0,50.0
-    >>Murlocs on the lake, Great Goretusks / Tarantulas / Condors for Redridge Goulash, the Redridge Gnolls (Lakeridge Highway)
+    >>У озера убивайте мурлоков. Добывайте ингредиенты для Redridge Goulash с больших кровоклыков, тарантулов и кондоров. У дороги к озеру убивайте гноллов Красногорья
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Hand in at Lakeshire
+    >>Сдайте задания в Приозерье
     .xp 22
 ]])
 
@@ -1151,26 +1151,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 22-28 Wetlands
-#displayname 22-28 Wetlands
+#displayname 22-28 Болотина
 #next Human 28-31 Duskwood
 #version 2
 
 step
-    >>Mage, level 20: train Teleport: Stormwind and buy Runes of Teleportation. Blink and Arcane Explosion for groups of mobs
+    >>Маг, 20-й уровень: изучите «Телепортацию: Штормград» и купите руны телепортации. Против групп врагов используйте «Скачок» и «Чародейский взрыв»
 step
-    >>Run to Ironforge (Deeprun Tram from Stormwind), then Loch Modan and north through Dun Algaz to Menethil Harbor (Wetlands)
+    >>Доберитесь до Стальгорна на подземном поезде из Штормграда. Через озеро Модан и Дун Альгаз бегите на север в гавань Менетилов в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетилов привяжите камень возвращения и откройте точку полёта. Возьмите задания: Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков вдоль берега и молодых кроколисков к югу от гавани Менетилов
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>В районе Дун Модра и Драконьей Пасти займитесь заданиями Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в гавани Менетилов
     .xp 28
 ]])
 
@@ -1180,21 +1180,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Human 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозерье. Затем бегите в Темнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Темнолесье привяжите камень возвращения. Возьмите все задания: Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>В лесу убивайте воргенов Ночной Погибели и скелетов-извергов. Посетите лагерь Свена (7,34) и Вороний Холм (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Темнолесье и возьмите следующие
     .xp 31
 ]])
 
@@ -1204,21 +1204,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Human 33-35 Desolace
 #version 2
 
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из гавани Менетилов бегите на север через мост Тандола в Арати до Южнобережья. Если доступен маршрут полёта, летите туда. По пути откройте точку полёта в Опорном пункте (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>На побережье убивайте мурлоков остроспинов и рваноплавников. В глубине суши убивайте медведей и пауков. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -1228,21 +1228,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Human 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Плывите из гавани Менетилов в Аубердин в Тёмных берегах и откройте точку полёта. Бегите на юг через Ясеневый лес и Когтистые горы в Пустоши. По пути откройте точку полёта в Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>В высоте Найджела на севере Пустошей привяжите камень возвращения и откройте точку полёта. Возьмите задания: Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре Пустошей используйте комбообулятор кодо для Kodo Roundup. Убивайте кентавров кланов Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания в высоте Найджела
     .xp 35
 ]])
 
@@ -1252,24 +1252,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Human 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о троллях Кровавого Скальпа и отряде Курцена: Krazek's Cookery, Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn по мере их появления
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>В экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Возле лагеря убивайте молодых тигров Тернистой долины, пантер и ящеров
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте точку полёта и возьмите задания: The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>По мере прокачки выполняйте следующие задания на охоту от Эрнестуэя
     .xp 38
 ]])
 
@@ -1279,21 +1279,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Human 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан. Затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>На острове Терамор привяжите камень возвращения и откройте точку полёта. Возьмите задания Пылевых топей: Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>На побережье убивайте черепах Мутной Заводи и ящеров. Займитесь заданиями таверны «Последний привал» и деревни Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе. Изучите заклинания 40-го уровня
     .xp 40
 ]])
 
@@ -1303,21 +1303,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Human 42-45 Feralas
 #version 2
 
 step
-    >>Mage, level 40: train Portals at Stormwind (buy Runes of Portals). Keep Frost talents
+    >>Маг, 40-й уровень: изучите порталы в Штормграде и купите руны порталов. Продолжайте развивать ветку «Лёд»
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте точку полёта. Возьмите все задания: WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>У руин Полуденной Тени и на поле Родниковой воды убивайте бандитов и воров Скитальцев Пустыни для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -1327,21 +1327,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Human 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта недоступен, плывите на лодке от побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите задания: The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров кланов Зловещего Тотема и Гордунни в долине Дикого Рубца и у заставы Гордунни (72,61). Используйте ультрауменьшитель Зорбина на великанах. Убивайте гноллов Древолапов
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -1351,21 +1351,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Human 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут недоступен, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте точку полёта. Возьмите задания: Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания о яйцах грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей клана Сухокожих в Шадра'Алоре и Зун'вате, волков Серебряной Гривы и эльфов Высокой долины у сторожки Кель'Данил (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -1375,21 +1375,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Human 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере Ун'Горо откройте точку полёта. Возьмите задания: Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky. По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия Маршалла убивайте горилл Ун'Горо и громил, стегодонов, ящеров и терродактилей. Собирайте кровоцветы и исследуйте улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -1399,21 +1399,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Human 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар в Ясеневом лесу и бегите на север в Осквернённый лес. Если открыт маршрут, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите задания: Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>В Джеденаре на западе убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени в лощине (41,85) и ущелье (40,15). Убивайте фурболгов Мёртвого Леса ради репутации у Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>В Поляне Когтистых Ветвей на севере откройте точку полёта. Возьмите северные задания Осквернённого леса: Deadwood of the North, Felbound Ancients
     .xp 54
 ]])
 
@@ -1423,21 +1423,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Human 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если точка полёта не открыта, летите в Южнобережье и доберитесь оттуда
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите задания: A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never. Начните повышать репутацию у Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы у поля Джанис, Слез Далсона, Стонущего привидения и пустоши Гаррона. Убивайте скелетов Андорала и нежить у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -1447,21 +1447,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Human 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут полёта недоступен, пройдите через туннель крепости Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте точку полёта. Возьмите задания: Are We There, Yeti?, Winterfall Activity, задания на охоту на Урсиуса и ледопардов. У горячих источников Ледяного Пламени (31,45) возьмите задания Доновы Сноуден
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в их деревне (67,36), ледопардов, йети с холмов Ледяного Чертополоха (67,42) и химер Промозглого Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -1471,23 +1471,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Mage
 #subgroup Human route
 #name Human 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В часовне Последней Надежды на востоке откройте точку полёта. Возьмите задания: Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания Серебряного Рассвета у герцога Николаса Зверенхоффа и задания Тириона Фордринга, включая Redemption
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных псов, чумных нетопырей и падальщиков. В Переправе Корина и Длани Тира убивайте членов Алого ордена для дополнительных заданий часовни
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в часовне Последней Надежды. Если до 60-го уровня осталось немного опыта, можете отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>60-й уровень! Изучите последние заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1496,34 +1496,34 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 1-6 Elwynn Forest
-#displayname 1-6 Elwynn Forest
+#displayname 1-6 Элвиннский лес
 #next Human 6-10 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,48.17,42.94
-    >>Northshire Abbey: take A Threat Within from Deputy Willem, hand it in to Marshal McBride inside the abbey and take Kobold Camp Cleanup. Take Eagan Peltskinner from Deputy Willem
+    >>В аббатстве Североземья возьмите A Threat Within у помощника судьи Виллема. Сдайте задание маршалу Макбрайду внутри аббатства и возьмите Kobold Camp Cleanup. У Виллема возьмите Eagan Peltskinner
 step
     .goto Elwynn Forest,48.92,40.17
-    >>Eagan Peltskinner (behind the abbey): hand in, take Wolves Across the Border
+    >>За аббатством сдайте Eagan Peltskinner и возьмите Wolves Across the Border
 step
     .goto Elwynn Forest,46.0,39.0
-    >>Kill Kobold Vermin and Young Wolves west of the abbey (Kobold Camp Cleanup, Wolves Across the Border)
+    >>К западу от аббатства убивайте кобольдов-вредителей и молодых волков для Kobold Camp Cleanup и Wolves Across the Border
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand in both, take Investigate Echo Ridge, Brotherhood of Thieves (Deputy Willem) and Milly Osworth (by the abbey stables)
+    >>Сдайте оба задания. У Виллема возьмите Investigate Echo Ridge и Brotherhood of Thieves. Возле конюшни аббатства возьмите Milly Osworth
 step
     .goto Elwynn Forest,54.5,47.5
-    >>Northshire Vineyards: kill Defias Thugs for Red Burlap Bandanas, loot Milly's Harvest crates
+    >>На виноградниках Североземья убивайте бандитов Братства Справедливости ради красных холщовых бандан. Соберите ящики с урожаем Милли
 step
     .goto Elwynn Forest,47.6,32.0
-    >>Echo Ridge Mine: kill Kobold Workers (Investigate Echo Ridge)
+    >>В шахте Горного Эха убивайте кобольдов-рабочих для Investigate Echo Ridge
 step
     .goto Elwynn Forest,57.5,48.2
-    >>Kill Garrick Padfoot at the vineyard shack (Bounty on Garrick Padfoot)
+    >>Убейте Гаррика Тихокрада у хижины на винограднике для Bounty on Garrick Padfoot
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand everything in, then Skirmish at Echo Ridge (Kobold Laborers deeper in the mine). Hand in, take Report to Goldshire. Deliver Grape Manifest to Brother Neals in the bell tower
+    >>Сдайте задания и возьмите Skirmish at Echo Ridge. Убивайте кобольдов-землекопов в глубине шахты. Сдайте задание и возьмите Report to Goldshire. Отнесите виноградную ведомость брату Нилсу в колокольню
     .xp 6
 ]])
 
@@ -1533,25 +1533,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 6-10 Elwynn Forest
-#displayname 6-10 Elwynn Forest
+#displayname 6-10 Элвиннский лес
 #next Human 10-11 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Goldshire: hand in Report to Goldshire, set your home at the Lion's Pride Inn, train your spells, take every town quest (Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task)
+    >>В Златоземье сдайте Report to Goldshire. Привяжите камень возвращения в таверне «Гордость льва» и изучите заклинания. Возьмите городские задания: Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task
 step
     .goto Elwynn Forest,40.0,80.0
-    >>Fargodeep Mine (south): kobolds for Gold Dust and Large Candles. The Stonefield and Maclure farms (34,84 / 43,85) for Lost Necklace / Young Lovers
+    >>На юге, в руднике Подземных глубин, убивайте кобольдов ради золотого песка и больших свечей. Посетите фермы Стоунфилдов (34,84) и Маклуров (43,85) для Lost Necklace и Young Lovers
 step
     .goto Elwynn Forest,69.0,79.0
-    >>East Elwynn: Jasperlode Mine (61,53), Eastvale Logging Camp (81,66) quests, the Defias at the Brackwell pumpkin patch, Princess the pig at the Brackwell farm
+    >>В восточном Элвиннском лесу посетите Яшмовую шахту (61,53) и лесопилку Восточной долины (81,66). Убивайте бандитов Братства Справедливости на тыквенном поле Браквеллов. На ферме Браквеллов найдите свинью Принцессу
 step
     .goto Elwynn Forest,84.6,69.4
-    >>Eastvale / Tower of Azora (65,69): hand in Eastvale quests, take Riverpaw Gnolls / Marshal Dughan follow-ups
+    >>В Восточной долине и у башни Азоры (65,69) сдайте задания Восточной долины. Возьмите следующие задания о гноллах Речной Лапы и задания маршала Дугхана
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Back to Goldshire, hand in, train
+    >>Вернитесь в Златоземье. Сдайте задания и изучите новые умения
     .xp 10
 ]])
 
@@ -1561,14 +1561,14 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 10-11 Elwynn Forest
-#displayname 10-11 Elwynn Forest
+#displayname 10-11 Элвиннский лес
 #next Human 11-14 Westfall
 #version 2
 
 step
-    >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
+    >>Разбойник: для заданий используйте мечи или дробящее оружие. Изучите «Спринт» и «Карманную кражу». Развивайте ветку «Бой»
 step
-    >>Run to Stormwind: get the flight path (66,62 Trade District), visit your class trainer, then run west into Westfall
+    >>Бегите в Штормград. Откройте точку полёта в Торговом квартале (66,62) и посетите наставника своего класса. Затем бегите на запад в Западный Край
     .xp 11
 ]])
 
@@ -1578,22 +1578,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 11-14 Westfall
-#displayname 11-14 Westfall
+#displayname 11-14 Западный Край
 #next Human 14-18 Westfall
 #version 2
 
 step
     .goto Westfall,56.4,31.0
-    >>Sentinel Hill (centre of Westfall): flight path, take every quest (Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear)
+    >>На Сторожевом холме в центре Западного Края откройте точку полёта. Возьмите все задания: Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear
 step
     .goto Westfall,59.9,19.4
-    >>The Saldean farm (north-east): Westfall Stew, Goretusk Liver Pie, Poor Old Blanchy (oats from the Harvest Watchers)
+    >>На ферме Сальденов к северо-востоку займитесь заданиями Westfall Stew, Goretusk Liver Pie и Poor Old Blanchy. Собирайте овёс возле механических жнецов
 step
     .goto Westfall,45.0,40.0
-    >>Kill Harvest Watchers, Defias Trappers and Smugglers across the fields; Murlocs on the coast (The Coast Isn't Clear, 30,45)
+    >>На полях убивайте механических жнецов, охотников и контрабандистов Братства Справедливости. На побережье (30,45) убивайте мурлоков для The Coast Isn't Clear
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill
+    >>Сдайте задания на Сторожевом холме
     .xp 14
 ]])
 
@@ -1603,16 +1603,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 14-18 Westfall
-#displayname 14-18 Westfall
+#displayname 14-18 Западный Край
 #next Human 18-22 Redridge Mountains
 #version 2
 
 step
     .goto Westfall,45.0,70.0
-    >>South Westfall: Gnolls at the Dagger Hills, Moonbrook Defias, the Jangolode Mine (45,20) and Gold Coast Quarry (31,45) for The People's Militia and Red Leather Bandanas
+    >>На юге Западного Края убивайте гноллов в Кинжальных холмах и бандитов Братства Справедливости в Луноречье. Посетите рудник Янго (45,20) и карьер Золотого Берега (31,45) для The People's Militia и Red Leather Bandanas
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill. The Deadmines (Moonbrook, 42,72) at 17-20 is a good extra if you can find a group
+    >>Сдайте задания на Сторожевом холме. Если найдёте группу, пройдите Мёртвые копи в Луноречье (42,72) на 17-20-м уровне
     .xp 18
 ]])
 
@@ -1622,21 +1622,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 18-22 Redridge Mountains
-#displayname 18-22 Redridge Mountains
+#displayname 18-22 Красногорье
 #next Human 22-28 Wetlands
 #version 2
 
 step
-    >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
+    >>Бегите на восток в Красногорье по восточной дороге Элвиннского леса через Три Угла
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Lakeshire: set your home, flight path, take every quest (Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace)
+    >>В Приозерье привяжите камень возвращения и откройте точку полёта. Возьмите все задания: Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace
 step
     .goto Redridge Mountains,40.0,50.0
-    >>Murlocs on the lake, Great Goretusks / Tarantulas / Condors for Redridge Goulash, the Redridge Gnolls (Lakeridge Highway)
+    >>У озера убивайте мурлоков. Добывайте ингредиенты для Redridge Goulash с больших кровоклыков, тарантулов и кондоров. У дороги к озеру убивайте гноллов Красногорья
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Hand in at Lakeshire
+    >>Сдайте задания в Приозерье
     .xp 22
 ]])
 
@@ -1646,26 +1646,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 22-28 Wetlands
-#displayname 22-28 Wetlands
+#displayname 22-28 Болотина
 #next Human 28-31 Duskwood
 #version 2
 
 step
-    >>Rogue, level 20: your rogue trainer in Stormwind starts the Poisons quest. Keep Instant Poison on your weapons from then on
+    >>Разбойник, 20-й уровень: наставник разбойников в Штормграде даёт задание на яды. После его выполнения наносите «Быстродействующий яд» на оружие
 step
-    >>Run to Ironforge (Deeprun Tram from Stormwind), then Loch Modan and north through Dun Algaz to Menethil Harbor (Wetlands)
+    >>Доберитесь до Стальгорна на подземном поезде из Штормграда. Через озеро Модан и Дун Альгаз бегите на север в гавань Менетилов в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетилов привяжите камень возвращения и откройте точку полёта. Возьмите задания: Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков вдоль берега и молодых кроколисков к югу от гавани Менетилов
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>В районе Дун Модра и Драконьей Пасти займитесь заданиями Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в гавани Менетилов
     .xp 28
 ]])
 
@@ -1675,23 +1675,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Human 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
+    >>Разбойник: изучите «Взлом замков» и открывайте добытые шкатулки. Можете открывать шкатулки других игроков. Повышайте навык взлома замков
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозерье. Затем бегите в Темнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Темнолесье привяжите камень возвращения. Возьмите все задания: Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>В лесу убивайте воргенов Ночной Погибели и скелетов-извергов. Посетите лагерь Свена (7,34) и Вороний Холм (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Темнолесье и возьмите следующие
     .xp 31
 ]])
 
@@ -1701,21 +1701,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Human 33-35 Desolace
 #version 2
 
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из гавани Менетилов бегите на север через мост Тандола в Арати до Южнобережья. Если доступен маршрут полёта, летите туда. По пути откройте точку полёта в Опорном пункте (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>На побережье убивайте мурлоков остроспинов и рваноплавников. В глубине суши убивайте медведей и пауков. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -1725,21 +1725,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Human 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Плывите из гавани Менетилов в Аубердин в Тёмных берегах и откройте точку полёта. Бегите на юг через Ясеневый лес и Когтистые горы в Пустоши. По пути откройте точку полёта в Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>В высоте Найджела на севере Пустошей привяжите камень возвращения и откройте точку полёта. Возьмите задания: Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре Пустошей используйте комбообулятор кодо для Kodo Roundup. Убивайте кентавров кланов Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания в высоте Найджела
     .xp 35
 ]])
 
@@ -1749,24 +1749,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Human 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о троллях Кровавого Скальпа и отряде Курцена: Krazek's Cookery, Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn по мере их появления
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>В экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Возле лагеря убивайте молодых тигров Тернистой долины, пантер и ящеров
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте точку полёта и возьмите задания: The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>По мере прокачки выполняйте следующие задания на охоту от Эрнестуэя
     .xp 38
 ]])
 
@@ -1776,21 +1776,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Human 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан. Затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>На острове Терамор привяжите камень возвращения и откройте точку полёта. Возьмите задания Пылевых топей: Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>На побережье убивайте черепах Мутной Заводи и ящеров. Займитесь заданиями таверны «Последний привал» и деревни Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе. Изучите заклинания 40-го уровня
     .xp 40
 ]])
 
@@ -1800,21 +1800,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Human 42-45 Feralas
 #version 2
 
 step
-    >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
+    >>Разбойник, 40-й уровень: изучайте новые ранги «Безопасного падения» и «Пинка». Запасайтесь «Быстродействующим ядом» и «Калечащим ядом»
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте точку полёта. Возьмите все задания: WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>У руин Полуденной Тени и на поле Родниковой воды убивайте бандитов и воров Скитальцев Пустыни для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -1824,21 +1824,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Human 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта недоступен, плывите на лодке от побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите задания: The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров кланов Зловещего Тотема и Гордунни в долине Дикого Рубца и у заставы Гордунни (72,61). Используйте ультрауменьшитель Зорбина на великанах. Убивайте гноллов Древолапов
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -1848,21 +1848,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Human 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут недоступен, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте точку полёта. Возьмите задания: Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания о яйцах грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей клана Сухокожих в Шадра'Алоре и Зун'вате, волков Серебряной Гривы и эльфов Высокой долины у сторожки Кель'Данил (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -1872,21 +1872,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Human 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере Ун'Горо откройте точку полёта. Возьмите задания: Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky. По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия Маршалла убивайте горилл Ун'Горо и громил, стегодонов, ящеров и терродактилей. Собирайте кровоцветы и исследуйте улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -1896,21 +1896,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Human 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар в Ясеневом лесу и бегите на север в Осквернённый лес. Если открыт маршрут, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите задания: Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>В Джеденаре на западе убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени в лощине (41,85) и ущелье (40,15). Убивайте фурболгов Мёртвого Леса ради репутации у Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>В Поляне Когтистых Ветвей на севере откройте точку полёта. Возьмите северные задания Осквернённого леса: Deadwood of the North, Felbound Ancients
     .xp 54
 ]])
 
@@ -1920,21 +1920,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Human 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если точка полёта не открыта, летите в Южнобережье и доберитесь оттуда
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите задания: A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never. Начните повышать репутацию у Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы у поля Джанис, Слез Далсона, Стонущего привидения и пустоши Гаррона. Убивайте скелетов Андорала и нежить у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -1944,21 +1944,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Human 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут полёта недоступен, пройдите через туннель крепости Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте точку полёта. Возьмите задания: Are We There, Yeti?, Winterfall Activity, задания на охоту на Урсиуса и ледопардов. У горячих источников Ледяного Пламени (31,45) возьмите задания Доновы Сноуден
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в их деревне (67,36), ледопардов, йети с холмов Ледяного Чертополоха (67,42) и химер Промозглого Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -1968,23 +1968,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Rogue
 #subgroup Human route
 #name Human 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В часовне Последней Надежды на востоке откройте точку полёта. Возьмите задания: Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания Серебряного Рассвета у герцога Николаса Зверенхоффа и задания Тириона Фордринга, включая Redemption
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных псов, чумных нетопырей и падальщиков. В Переправе Корина и Длани Тира убивайте членов Алого ордена для дополнительных заданий часовни
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в часовне Последней Надежды. Если до 60-го уровня осталось немного опыта, можете отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>60-й уровень! Изучите последние заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -1993,34 +1993,34 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 1-6 Elwynn Forest
-#displayname 1-6 Elwynn Forest
+#displayname 1-6 Элвиннский лес
 #next Human 6-10 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,48.17,42.94
-    >>Northshire Abbey: take A Threat Within from Deputy Willem, hand it in to Marshal McBride inside the abbey and take Kobold Camp Cleanup. Take Eagan Peltskinner from Deputy Willem
+    >>В аббатстве Североземья возьмите A Threat Within у помощника судьи Виллема. Сдайте задание маршалу Макбрайду внутри аббатства и возьмите Kobold Camp Cleanup. У Виллема возьмите Eagan Peltskinner
 step
     .goto Elwynn Forest,48.92,40.17
-    >>Eagan Peltskinner (behind the abbey): hand in, take Wolves Across the Border
+    >>За аббатством сдайте Eagan Peltskinner и возьмите Wolves Across the Border
 step
     .goto Elwynn Forest,46.0,39.0
-    >>Kill Kobold Vermin and Young Wolves west of the abbey (Kobold Camp Cleanup, Wolves Across the Border)
+    >>К западу от аббатства убивайте кобольдов-вредителей и молодых волков для Kobold Camp Cleanup и Wolves Across the Border
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand in both, take Investigate Echo Ridge, Brotherhood of Thieves (Deputy Willem) and Milly Osworth (by the abbey stables)
+    >>Сдайте оба задания. У Виллема возьмите Investigate Echo Ridge и Brotherhood of Thieves. Возле конюшни аббатства возьмите Milly Osworth
 step
     .goto Elwynn Forest,54.5,47.5
-    >>Northshire Vineyards: kill Defias Thugs for Red Burlap Bandanas, loot Milly's Harvest crates
+    >>На виноградниках Североземья убивайте бандитов Братства Справедливости ради красных холщовых бандан. Соберите ящики с урожаем Милли
 step
     .goto Elwynn Forest,47.6,32.0
-    >>Echo Ridge Mine: kill Kobold Workers (Investigate Echo Ridge)
+    >>В шахте Горного Эха убивайте кобольдов-рабочих для Investigate Echo Ridge
 step
     .goto Elwynn Forest,57.5,48.2
-    >>Kill Garrick Padfoot at the vineyard shack (Bounty on Garrick Padfoot)
+    >>Убейте Гаррика Тихокрада у хижины на винограднике для Bounty on Garrick Padfoot
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand everything in, then Skirmish at Echo Ridge (Kobold Laborers deeper in the mine). Hand in, take Report to Goldshire. Deliver Grape Manifest to Brother Neals in the bell tower
+    >>Сдайте задания и возьмите Skirmish at Echo Ridge. Убивайте кобольдов-землекопов в глубине шахты. Сдайте задание и возьмите Report to Goldshire. Отнесите виноградную ведомость брату Нилсу в колокольню
     .xp 6
 ]])
 
@@ -2030,25 +2030,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 6-10 Elwynn Forest
-#displayname 6-10 Elwynn Forest
+#displayname 6-10 Элвиннский лес
 #next Human 10-11 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Goldshire: hand in Report to Goldshire, set your home at the Lion's Pride Inn, train your spells, take every town quest (Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task)
+    >>В Златоземье сдайте Report to Goldshire. Привяжите камень возвращения в таверне «Гордость льва» и изучите заклинания. Возьмите городские задания: Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task
 step
     .goto Elwynn Forest,40.0,80.0
-    >>Fargodeep Mine (south): kobolds for Gold Dust and Large Candles. The Stonefield and Maclure farms (34,84 / 43,85) for Lost Necklace / Young Lovers
+    >>На юге, в руднике Подземных глубин, убивайте кобольдов ради золотого песка и больших свечей. Посетите фермы Стоунфилдов (34,84) и Маклуров (43,85) для Lost Necklace и Young Lovers
 step
     .goto Elwynn Forest,69.0,79.0
-    >>East Elwynn: Jasperlode Mine (61,53), Eastvale Logging Camp (81,66) quests, the Defias at the Brackwell pumpkin patch, Princess the pig at the Brackwell farm
+    >>В восточном Элвиннском лесу посетите Яшмовую шахту (61,53) и лесопилку Восточной долины (81,66). Убивайте бандитов Братства Справедливости на тыквенном поле Браквеллов. На ферме Браквеллов найдите свинью Принцессу
 step
     .goto Elwynn Forest,84.6,69.4
-    >>Eastvale / Tower of Azora (65,69): hand in Eastvale quests, take Riverpaw Gnolls / Marshal Dughan follow-ups
+    >>В Восточной долине и у башни Азоры (65,69) сдайте задания Восточной долины. Возьмите следующие задания о гноллах Речной Лапы и задания маршала Дугхана
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Back to Goldshire, hand in, train
+    >>Вернитесь в Златоземье. Сдайте задания и изучите новые умения
     .xp 10
 ]])
 
@@ -2058,14 +2058,14 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 10-11 Elwynn Forest
-#displayname 10-11 Elwynn Forest
+#displayname 10-11 Элвиннский лес
 #next Human 11-14 Westfall
 #version 2
 
 step
-    >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
+    >>Жрец: для заданий развивайте ветку «Тьма»: «Захват духа», «Средоточие Тьмы» и «Пытку разума» на 20-м уровне. Между заклинаниями атакуйте жезлом
 step
-    >>Run to Stormwind: get the flight path (66,62 Trade District), visit your class trainer, then run west into Westfall
+    >>Бегите в Штормград. Откройте точку полёта в Торговом квартале (66,62) и посетите наставника своего класса. Затем бегите на запад в Западный Край
     .xp 11
 ]])
 
@@ -2075,22 +2075,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 11-14 Westfall
-#displayname 11-14 Westfall
+#displayname 11-14 Западный Край
 #next Human 14-18 Westfall
 #version 2
 
 step
     .goto Westfall,56.4,31.0
-    >>Sentinel Hill (centre of Westfall): flight path, take every quest (Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear)
+    >>На Сторожевом холме в центре Западного Края откройте точку полёта. Возьмите все задания: Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear
 step
     .goto Westfall,59.9,19.4
-    >>The Saldean farm (north-east): Westfall Stew, Goretusk Liver Pie, Poor Old Blanchy (oats from the Harvest Watchers)
+    >>На ферме Сальденов к северо-востоку займитесь заданиями Westfall Stew, Goretusk Liver Pie и Poor Old Blanchy. Собирайте овёс возле механических жнецов
 step
     .goto Westfall,45.0,40.0
-    >>Kill Harvest Watchers, Defias Trappers and Smugglers across the fields; Murlocs on the coast (The Coast Isn't Clear, 30,45)
+    >>На полях убивайте механических жнецов, охотников и контрабандистов Братства Справедливости. На побережье (30,45) убивайте мурлоков для The Coast Isn't Clear
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill
+    >>Сдайте задания на Сторожевом холме
     .xp 14
 ]])
 
@@ -2100,16 +2100,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 14-18 Westfall
-#displayname 14-18 Westfall
+#displayname 14-18 Западный Край
 #next Human 18-22 Redridge Mountains
 #version 2
 
 step
     .goto Westfall,45.0,70.0
-    >>South Westfall: Gnolls at the Dagger Hills, Moonbrook Defias, the Jangolode Mine (45,20) and Gold Coast Quarry (31,45) for The People's Militia and Red Leather Bandanas
+    >>На юге Западного Края убивайте гноллов в Кинжальных холмах и бандитов Братства Справедливости в Луноречье. Посетите рудник Янго (45,20) и карьер Золотого Берега (31,45) для The People's Militia и Red Leather Bandanas
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill. The Deadmines (Moonbrook, 42,72) at 17-20 is a good extra if you can find a group
+    >>Сдайте задания на Сторожевом холме. Если найдёте группу, пройдите Мёртвые копи в Луноречье (42,72) на 17-20-м уровне
     .xp 18
 ]])
 
@@ -2119,21 +2119,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 18-22 Redridge Mountains
-#displayname 18-22 Redridge Mountains
+#displayname 18-22 Красногорье
 #next Human 22-28 Wetlands
 #version 2
 
 step
-    >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
+    >>Бегите на восток в Красногорье по восточной дороге Элвиннского леса через Три Угла
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Lakeshire: set your home, flight path, take every quest (Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace)
+    >>В Приозерье привяжите камень возвращения и откройте точку полёта. Возьмите все задания: Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace
 step
     .goto Redridge Mountains,40.0,50.0
-    >>Murlocs on the lake, Great Goretusks / Tarantulas / Condors for Redridge Goulash, the Redridge Gnolls (Lakeridge Highway)
+    >>У озера убивайте мурлоков. Добывайте ингредиенты для Redridge Goulash с больших кровоклыков, тарантулов и кондоров. У дороги к озеру убивайте гноллов Красногорья
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Hand in at Lakeshire
+    >>Сдайте задания в Приозерье
     .xp 22
 ]])
 
@@ -2143,26 +2143,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 22-28 Wetlands
-#displayname 22-28 Wetlands
+#displayname 22-28 Болотина
 #next Human 28-31 Duskwood
 #version 2
 
 step
-    >>Priest: train the racial priest spell at Stormwind. Use Inner Fire and Power Word: Shield before every pull
+    >>Жрец: изучите расовое заклинание жреца в Штормграде. Перед каждым боем применяйте «Внутренний огонь» и «Слово силы: Щит»
 step
-    >>Run to Ironforge (Deeprun Tram from Stormwind), then Loch Modan and north through Dun Algaz to Menethil Harbor (Wetlands)
+    >>Доберитесь до Стальгорна на подземном поезде из Штормграда. Через озеро Модан и Дун Альгаз бегите на север в гавань Менетилов в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетилов привяжите камень возвращения и откройте точку полёта. Возьмите задания: Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков вдоль берега и молодых кроколисков к югу от гавани Менетилов
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>В районе Дун Модра и Драконьей Пасти займитесь заданиями Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в гавани Менетилов
     .xp 28
 ]])
 
@@ -2172,21 +2172,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Human 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозерье. Затем бегите в Темнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Темнолесье привяжите камень возвращения. Возьмите все задания: Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>В лесу убивайте воргенов Ночной Погибели и скелетов-извергов. Посетите лагерь Свена (7,34) и Вороний Холм (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Темнолесье и возьмите следующие
     .xp 31
 ]])
 
@@ -2196,21 +2196,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Human 33-35 Desolace
 #version 2
 
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из гавани Менетилов бегите на север через мост Тандола в Арати до Южнобережья. Если доступен маршрут полёта, летите туда. По пути откройте точку полёта в Опорном пункте (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>На побережье убивайте мурлоков остроспинов и рваноплавников. В глубине суши убивайте медведей и пауков. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -2220,21 +2220,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Human 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Плывите из гавани Менетилов в Аубердин в Тёмных берегах и откройте точку полёта. Бегите на юг через Ясеневый лес и Когтистые горы в Пустоши. По пути откройте точку полёта в Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>В высоте Найджела на севере Пустошей привяжите камень возвращения и откройте точку полёта. Возьмите задания: Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре Пустошей используйте комбообулятор кодо для Kodo Roundup. Убивайте кентавров кланов Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания в высоте Найджела
     .xp 35
 ]])
 
@@ -2244,24 +2244,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Human 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о троллях Кровавого Скальпа и отряде Курцена: Krazek's Cookery, Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn по мере их появления
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>В экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Возле лагеря убивайте молодых тигров Тернистой долины, пантер и ящеров
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте точку полёта и возьмите задания: The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>По мере прокачки выполняйте следующие задания на охоту от Эрнестуэя
     .xp 38
 ]])
 
@@ -2271,21 +2271,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Human 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан. Затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>На острове Терамор привяжите камень возвращения и откройте точку полёта. Возьмите задания Пылевых топей: Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>На побережье убивайте черепах Мутной Заводи и ящеров. Займитесь заданиями таверны «Последний привал» и деревни Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе. Изучите заклинания 40-го уровня
     .xp 40
 ]])
 
@@ -2295,21 +2295,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Human 42-45 Feralas
 #version 2
 
 step
-    >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
+    >>Жрец, 40-й уровень: возьмите талант «Облик Тьмы». Своевременно меняйте жезл на более сильный
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте точку полёта. Возьмите все задания: WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>У руин Полуденной Тени и на поле Родниковой воды убивайте бандитов и воров Скитальцев Пустыни для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -2319,21 +2319,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Human 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта недоступен, плывите на лодке от побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите задания: The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров кланов Зловещего Тотема и Гордунни в долине Дикого Рубца и у заставы Гордунни (72,61). Используйте ультрауменьшитель Зорбина на великанах. Убивайте гноллов Древолапов
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -2343,21 +2343,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Human 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут недоступен, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте точку полёта. Возьмите задания: Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания о яйцах грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей клана Сухокожих в Шадра'Алоре и Зун'вате, волков Серебряной Гривы и эльфов Высокой долины у сторожки Кель'Данил (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -2367,21 +2367,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Human 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере Ун'Горо откройте точку полёта. Возьмите задания: Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky. По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия Маршалла убивайте горилл Ун'Горо и громил, стегодонов, ящеров и терродактилей. Собирайте кровоцветы и исследуйте улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -2391,21 +2391,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Human 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар в Ясеневом лесу и бегите на север в Осквернённый лес. Если открыт маршрут, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите задания: Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>В Джеденаре на западе убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени в лощине (41,85) и ущелье (40,15). Убивайте фурболгов Мёртвого Леса ради репутации у Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>В Поляне Когтистых Ветвей на севере откройте точку полёта. Возьмите северные задания Осквернённого леса: Deadwood of the North, Felbound Ancients
     .xp 54
 ]])
 
@@ -2415,21 +2415,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Human 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если точка полёта не открыта, летите в Южнобережье и доберитесь оттуда
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите задания: A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never. Начните повышать репутацию у Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы у поля Джанис, Слез Далсона, Стонущего привидения и пустоши Гаррона. Убивайте скелетов Андорала и нежить у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -2439,21 +2439,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Human 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут полёта недоступен, пройдите через туннель крепости Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте точку полёта. Возьмите задания: Are We There, Yeti?, Winterfall Activity, задания на охоту на Урсиуса и ледопардов. У горячих источников Ледяного Пламени (31,45) возьмите задания Доновы Сноуден
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в их деревне (67,36), ледопардов, йети с холмов Ледяного Чертополоха (67,42) и химер Промозглого Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -2463,23 +2463,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Priest
 #subgroup Human route
 #name Human 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В часовне Последней Надежды на востоке откройте точку полёта. Возьмите задания: Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания Серебряного Рассвета у герцога Николаса Зверенхоффа и задания Тириона Фордринга, включая Redemption
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных псов, чумных нетопырей и падальщиков. В Переправе Корина и Длани Тира убивайте членов Алого ордена для дополнительных заданий часовни
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в часовне Последней Надежды. Если до 60-го уровня осталось немного опыта, можете отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>60-й уровень! Изучите последние заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -2488,34 +2488,34 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 1-6 Elwynn Forest
-#displayname 1-6 Elwynn Forest
+#displayname 1-6 Элвиннский лес
 #next Human 6-10 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,48.17,42.94
-    >>Northshire Abbey: take A Threat Within from Deputy Willem, hand it in to Marshal McBride inside the abbey and take Kobold Camp Cleanup. Take Eagan Peltskinner from Deputy Willem
+    >>В аббатстве Североземья возьмите A Threat Within у помощника судьи Виллема. Сдайте задание маршалу Макбрайду внутри аббатства и возьмите Kobold Camp Cleanup. У Виллема возьмите Eagan Peltskinner
 step
     .goto Elwynn Forest,48.92,40.17
-    >>Eagan Peltskinner (behind the abbey): hand in, take Wolves Across the Border
+    >>За аббатством сдайте Eagan Peltskinner и возьмите Wolves Across the Border
 step
     .goto Elwynn Forest,46.0,39.0
-    >>Kill Kobold Vermin and Young Wolves west of the abbey (Kobold Camp Cleanup, Wolves Across the Border)
+    >>К западу от аббатства убивайте кобольдов-вредителей и молодых волков для Kobold Camp Cleanup и Wolves Across the Border
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand in both, take Investigate Echo Ridge, Brotherhood of Thieves (Deputy Willem) and Milly Osworth (by the abbey stables)
+    >>Сдайте оба задания. У Виллема возьмите Investigate Echo Ridge и Brotherhood of Thieves. Возле конюшни аббатства возьмите Milly Osworth
 step
     .goto Elwynn Forest,54.5,47.5
-    >>Northshire Vineyards: kill Defias Thugs for Red Burlap Bandanas, loot Milly's Harvest crates
+    >>На виноградниках Североземья убивайте бандитов Братства Справедливости ради красных холщовых бандан. Соберите ящики с урожаем Милли
 step
     .goto Elwynn Forest,47.6,32.0
-    >>Echo Ridge Mine: kill Kobold Workers (Investigate Echo Ridge)
+    >>В шахте Горного Эха убивайте кобольдов-рабочих для Investigate Echo Ridge
 step
     .goto Elwynn Forest,57.5,48.2
-    >>Kill Garrick Padfoot at the vineyard shack (Bounty on Garrick Padfoot)
+    >>Убейте Гаррика Тихокрада у хижины на винограднике для Bounty on Garrick Padfoot
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand everything in, then Skirmish at Echo Ridge (Kobold Laborers deeper in the mine). Hand in, take Report to Goldshire. Deliver Grape Manifest to Brother Neals in the bell tower
+    >>Сдайте задания и возьмите Skirmish at Echo Ridge. Убивайте кобольдов-землекопов в глубине шахты. Сдайте задание и возьмите Report to Goldshire. Отнесите виноградную ведомость брату Нилсу в колокольню
     .xp 6
 ]])
 
@@ -2525,25 +2525,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 6-10 Elwynn Forest
-#displayname 6-10 Elwynn Forest
+#displayname 6-10 Элвиннский лес
 #next Human 10-11 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Goldshire: hand in Report to Goldshire, set your home at the Lion's Pride Inn, train your spells, take every town quest (Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task)
+    >>В Златоземье сдайте Report to Goldshire. Привяжите камень возвращения в таверне «Гордость льва» и изучите заклинания. Возьмите городские задания: Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task
 step
     .goto Elwynn Forest,40.0,80.0
-    >>Fargodeep Mine (south): kobolds for Gold Dust and Large Candles. The Stonefield and Maclure farms (34,84 / 43,85) for Lost Necklace / Young Lovers
+    >>На юге, в руднике Подземных глубин, убивайте кобольдов ради золотого песка и больших свечей. Посетите фермы Стоунфилдов (34,84) и Маклуров (43,85) для Lost Necklace и Young Lovers
 step
     .goto Elwynn Forest,69.0,79.0
-    >>East Elwynn: Jasperlode Mine (61,53), Eastvale Logging Camp (81,66) quests, the Defias at the Brackwell pumpkin patch, Princess the pig at the Brackwell farm
+    >>В восточном Элвиннском лесу посетите Яшмовую шахту (61,53) и лесопилку Восточной долины (81,66). Убивайте бандитов Братства Справедливости на тыквенном поле Браквеллов. На ферме Браквеллов найдите свинью Принцессу
 step
     .goto Elwynn Forest,84.6,69.4
-    >>Eastvale / Tower of Azora (65,69): hand in Eastvale quests, take Riverpaw Gnolls / Marshal Dughan follow-ups
+    >>В Восточной долине и у башни Азоры (65,69) сдайте задания Восточной долины. Возьмите следующие задания о гноллах Речной Лапы и задания маршала Дугхана
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Back to Goldshire, hand in, train
+    >>Вернитесь в Златоземье. Сдайте задания и изучите новые умения
     .xp 10
 ]])
 
@@ -2553,14 +2553,14 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 10-11 Elwynn Forest
-#displayname 10-11 Elwynn Forest
+#displayname 10-11 Элвиннский лес
 #next Human 11-14 Westfall
 #version 2
 
 step
-    >>Warlock, level 10: your warlock trainer in Stormwind starts the Voidwalker quest. Talents: Affliction (Improved Corruption, Fel Concentration)
+    >>Чернокнижник, 10-й уровень: наставник чернокнижников в Штормграде даёт задание на призыв демона Бездны. Развивайте ветку «Колдовство»: «Улучшенная Порча» и «Средоточие Скверны»
 step
-    >>Run to Stormwind: get the flight path (66,62 Trade District), visit your class trainer, then run west into Westfall
+    >>Бегите в Штормград. Откройте точку полёта в Торговом квартале (66,62) и посетите наставника своего класса. Затем бегите на запад в Западный Край
     .xp 11
 ]])
 
@@ -2570,22 +2570,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 11-14 Westfall
-#displayname 11-14 Westfall
+#displayname 11-14 Западный Край
 #next Human 14-18 Westfall
 #version 2
 
 step
     .goto Westfall,56.4,31.0
-    >>Sentinel Hill (centre of Westfall): flight path, take every quest (Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear)
+    >>На Сторожевом холме в центре Западного Края откройте точку полёта. Возьмите все задания: Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear
 step
     .goto Westfall,59.9,19.4
-    >>The Saldean farm (north-east): Westfall Stew, Goretusk Liver Pie, Poor Old Blanchy (oats from the Harvest Watchers)
+    >>На ферме Сальденов к северо-востоку займитесь заданиями Westfall Stew, Goretusk Liver Pie и Poor Old Blanchy. Собирайте овёс возле механических жнецов
 step
     .goto Westfall,45.0,40.0
-    >>Kill Harvest Watchers, Defias Trappers and Smugglers across the fields; Murlocs on the coast (The Coast Isn't Clear, 30,45)
+    >>На полях убивайте механических жнецов, охотников и контрабандистов Братства Справедливости. На побережье (30,45) убивайте мурлоков для The Coast Isn't Clear
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill
+    >>Сдайте задания на Сторожевом холме
     .xp 14
 ]])
 
@@ -2595,16 +2595,16 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 14-18 Westfall
-#displayname 14-18 Westfall
+#displayname 14-18 Западный Край
 #next Human 18-22 Redridge Mountains
 #version 2
 
 step
     .goto Westfall,45.0,70.0
-    >>South Westfall: Gnolls at the Dagger Hills, Moonbrook Defias, the Jangolode Mine (45,20) and Gold Coast Quarry (31,45) for The People's Militia and Red Leather Bandanas
+    >>На юге Западного Края убивайте гноллов в Кинжальных холмах и бандитов Братства Справедливости в Луноречье. Посетите рудник Янго (45,20) и карьер Золотого Берега (31,45) для The People's Militia и Red Leather Bandanas
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill. The Deadmines (Moonbrook, 42,72) at 17-20 is a good extra if you can find a group
+    >>Сдайте задания на Сторожевом холме. Если найдёте группу, пройдите Мёртвые копи в Луноречье (42,72) на 17-20-м уровне
     .xp 18
 ]])
 
@@ -2614,21 +2614,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 18-22 Redridge Mountains
-#displayname 18-22 Redridge Mountains
+#displayname 18-22 Красногорье
 #next Human 22-28 Wetlands
 #version 2
 
 step
-    >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
+    >>Бегите на восток в Красногорье по восточной дороге Элвиннского леса через Три Угла
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Lakeshire: set your home, flight path, take every quest (Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace)
+    >>В Приозерье привяжите камень возвращения и откройте точку полёта. Возьмите все задания: Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace
 step
     .goto Redridge Mountains,40.0,50.0
-    >>Murlocs on the lake, Great Goretusks / Tarantulas / Condors for Redridge Goulash, the Redridge Gnolls (Lakeridge Highway)
+    >>У озера убивайте мурлоков. Добывайте ингредиенты для Redridge Goulash с больших кровоклыков, тарантулов и кондоров. У дороги к озеру убивайте гноллов Красногорья
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Hand in at Lakeshire
+    >>Сдайте задания в Приозерье
     .xp 22
 ]])
 
@@ -2638,26 +2638,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 22-28 Wetlands
-#displayname 22-28 Wetlands
+#displayname 22-28 Болотина
 #next Human 28-31 Duskwood
 #version 2
 
 step
-    >>Warlock, level 20: Succubus quest from your trainer in Stormwind. Keep a stack of Soul Shards (Drain Soul)
+    >>Чернокнижник, 20-й уровень: возьмите у наставника в Штормграде задание на суккуба. Запасайтесь осколками души с помощью «Похищения души»
 step
-    >>Run to Ironforge (Deeprun Tram from Stormwind), then Loch Modan and north through Dun Algaz to Menethil Harbor (Wetlands)
+    >>Доберитесь до Стальгорна на подземном поезде из Штормграда. Через озеро Модан и Дун Альгаз бегите на север в гавань Менетилов в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетилов привяжите камень возвращения и откройте точку полёта. Возьмите задания: Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков вдоль берега и молодых кроколисков к югу от гавани Менетилов
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>В районе Дун Модра и Драконьей Пасти займитесь заданиями Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в гавани Менетилов
     .xp 28
 ]])
 
@@ -2667,21 +2667,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Human 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозерье. Затем бегите в Темнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Темнолесье привяжите камень возвращения. Возьмите все задания: Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>В лесу убивайте воргенов Ночной Погибели и скелетов-извергов. Посетите лагерь Свена (7,34) и Вороний Холм (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Темнолесье и возьмите следующие
     .xp 31
 ]])
 
@@ -2691,23 +2691,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Human 33-35 Desolace
 #version 2
 
 step
-    >>Warlock, level 30: Felhunter quest from your trainer in Stormwind
+    >>Чернокнижник, 30-й уровень: возьмите у наставника в Штормграде задание на призыв охотника Скверны
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из гавани Менетилов бегите на север через мост Тандола в Арати до Южнобережья. Если доступен маршрут полёта, летите туда. По пути откройте точку полёта в Опорном пункте (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>На побережье убивайте мурлоков остроспинов и рваноплавников. В глубине суши убивайте медведей и пауков. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -2717,21 +2717,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Human 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Плывите из гавани Менетилов в Аубердин в Тёмных берегах и откройте точку полёта. Бегите на юг через Ясеневый лес и Когтистые горы в Пустоши. По пути откройте точку полёта в Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>В высоте Найджела на севере Пустошей привяжите камень возвращения и откройте точку полёта. Возьмите задания: Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре Пустошей используйте комбообулятор кодо для Kodo Roundup. Убивайте кентавров кланов Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания в высоте Найджела
     .xp 35
 ]])
 
@@ -2741,24 +2741,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Human 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о троллях Кровавого Скальпа и отряде Курцена: Krazek's Cookery, Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn по мере их появления
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>В экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Возле лагеря убивайте молодых тигров Тернистой долины, пантер и ящеров
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте точку полёта и возьмите задания: The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>По мере прокачки выполняйте следующие задания на охоту от Эрнестуэя
     .xp 38
 ]])
 
@@ -2768,21 +2768,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Human 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан. Затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>На острове Терамор привяжите камень возвращения и откройте точку полёта. Возьмите задания Пылевых топей: Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>На побережье убивайте черепах Мутной Заводи и ящеров. Займитесь заданиями таверны «Последний привал» и деревни Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе. Изучите заклинания 40-го уровня
     .xp 40
 ]])
 
@@ -2792,21 +2792,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Human 42-45 Feralas
 #version 2
 
 step
-    >>Warlock, level 40: your trainer in Stormwind starts the Felsteed (mount) quest
+    >>Чернокнижник, 40-й уровень: наставник в Штормграде даёт задание на призыв коня Скверны — вашего ездового животного
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте точку полёта. Возьмите все задания: WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>У руин Полуденной Тени и на поле Родниковой воды убивайте бандитов и воров Скитальцев Пустыни для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -2816,21 +2816,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Human 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта недоступен, плывите на лодке от побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите задания: The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров кланов Зловещего Тотема и Гордунни в долине Дикого Рубца и у заставы Гордунни (72,61). Используйте ультрауменьшитель Зорбина на великанах. Убивайте гноллов Древолапов
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -2840,21 +2840,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Human 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут недоступен, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте точку полёта. Возьмите задания: Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания о яйцах грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей клана Сухокожих в Шадра'Алоре и Зун'вате, волков Серебряной Гривы и эльфов Высокой долины у сторожки Кель'Данил (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -2864,21 +2864,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Human 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере Ун'Горо откройте точку полёта. Возьмите задания: Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky. По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия Маршалла убивайте горилл Ун'Горо и громил, стегодонов, ящеров и терродактилей. Собирайте кровоцветы и исследуйте улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -2888,23 +2888,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Human 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Warlock, level 50: the Inferno / Infernal quest from your trainer
+    >>Чернокнижник, 50-й уровень: возьмите у наставника задание на призыв инфернала
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар в Ясеневом лесу и бегите на север в Осквернённый лес. Если открыт маршрут, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите задания: Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>В Джеденаре на западе убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени в лощине (41,85) и ущелье (40,15). Убивайте фурболгов Мёртвого Леса ради репутации у Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>В Поляне Когтистых Ветвей на севере откройте точку полёта. Возьмите северные задания Осквернённого леса: Deadwood of the North, Felbound Ancients
     .xp 54
 ]])
 
@@ -2914,21 +2914,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Human 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если точка полёта не открыта, летите в Южнобережье и доберитесь оттуда
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите задания: A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never. Начните повышать репутацию у Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы у поля Джанис, Слез Далсона, Стонущего привидения и пустоши Гаррона. Убивайте скелетов Андорала и нежить у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -2938,21 +2938,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Human 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут полёта недоступен, пройдите через туннель крепости Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте точку полёта. Возьмите задания: Are We There, Yeti?, Winterfall Activity, задания на охоту на Урсиуса и ледопардов. У горячих источников Ледяного Пламени (31,45) возьмите задания Доновы Сноуден
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в их деревне (67,36), ледопардов, йети с холмов Ледяного Чертополоха (67,42) и химер Промозглого Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -2962,23 +2962,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Warlock
 #subgroup Human route
 #name Human 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В часовне Последней Надежды на востоке откройте точку полёта. Возьмите задания: Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания Серебряного Рассвета у герцога Николаса Зверенхоффа и задания Тириона Фордринга, включая Redemption
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных псов, чумных нетопырей и падальщиков. В Переправе Корина и Длани Тира убивайте членов Алого ордена для дополнительных заданий часовни
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в часовне Последней Надежды. Если до 60-го уровня осталось немного опыта, можете отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Level 60! Train your final spells in your capital city
+    >>60-й уровень! Изучите последние заклинания в своей столице
 ]])
 
 RXPGuides.RegisterGuide([[
@@ -2987,34 +2987,34 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 1-6 Elwynn Forest
-#displayname 1-6 Elwynn Forest
+#displayname 1-6 Элвиннский лес
 #next Human 6-10 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,48.17,42.94
-    >>Northshire Abbey: take A Threat Within from Deputy Willem, hand it in to Marshal McBride inside the abbey and take Kobold Camp Cleanup. Take Eagan Peltskinner from Deputy Willem
+    >>В аббатстве Североземья возьмите A Threat Within у помощника судьи Виллема. Сдайте задание маршалу Макбрайду внутри аббатства и возьмите Kobold Camp Cleanup. У Виллема возьмите Eagan Peltskinner
 step
     .goto Elwynn Forest,48.92,40.17
-    >>Eagan Peltskinner (behind the abbey): hand in, take Wolves Across the Border
+    >>За аббатством сдайте Eagan Peltskinner и возьмите Wolves Across the Border
 step
     .goto Elwynn Forest,46.0,39.0
-    >>Kill Kobold Vermin and Young Wolves west of the abbey (Kobold Camp Cleanup, Wolves Across the Border)
+    >>К западу от аббатства убивайте кобольдов-вредителей и молодых волков для Kobold Camp Cleanup и Wolves Across the Border
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand in both, take Investigate Echo Ridge, Brotherhood of Thieves (Deputy Willem) and Milly Osworth (by the abbey stables)
+    >>Сдайте оба задания. У Виллема возьмите Investigate Echo Ridge и Brotherhood of Thieves. Возле конюшни аббатства возьмите Milly Osworth
 step
     .goto Elwynn Forest,54.5,47.5
-    >>Northshire Vineyards: kill Defias Thugs for Red Burlap Bandanas, loot Milly's Harvest crates
+    >>На виноградниках Североземья убивайте бандитов Братства Справедливости ради красных холщовых бандан. Соберите ящики с урожаем Милли
 step
     .goto Elwynn Forest,47.6,32.0
-    >>Echo Ridge Mine: kill Kobold Workers (Investigate Echo Ridge)
+    >>В шахте Горного Эха убивайте кобольдов-рабочих для Investigate Echo Ridge
 step
     .goto Elwynn Forest,57.5,48.2
-    >>Kill Garrick Padfoot at the vineyard shack (Bounty on Garrick Padfoot)
+    >>Убейте Гаррика Тихокрада у хижины на винограднике для Bounty on Garrick Padfoot
 step
     .goto Elwynn Forest,48.92,41.61
-    >>Hand everything in, then Skirmish at Echo Ridge (Kobold Laborers deeper in the mine). Hand in, take Report to Goldshire. Deliver Grape Manifest to Brother Neals in the bell tower
+    >>Сдайте задания и возьмите Skirmish at Echo Ridge. Убивайте кобольдов-землекопов в глубине шахты. Сдайте задание и возьмите Report to Goldshire. Отнесите виноградную ведомость брату Нилсу в колокольню
     .xp 6
 ]])
 
@@ -3024,25 +3024,25 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 6-10 Elwynn Forest
-#displayname 6-10 Elwynn Forest
+#displayname 6-10 Элвиннский лес
 #next Human 10-11 Elwynn Forest
 #version 2
 
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Goldshire: hand in Report to Goldshire, set your home at the Lion's Pride Inn, train your spells, take every town quest (Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task)
+    >>В Златоземье сдайте Report to Goldshire. Привяжите камень возвращения в таверне «Гордость льва» и изучите заклинания. Возьмите городские задания: Gold Dust Exchange, Kobold Candles, Lost Necklace, Princess Must Die, The Fargodeep Mine, Elmore's Task
 step
     .goto Elwynn Forest,40.0,80.0
-    >>Fargodeep Mine (south): kobolds for Gold Dust and Large Candles. The Stonefield and Maclure farms (34,84 / 43,85) for Lost Necklace / Young Lovers
+    >>На юге, в руднике Подземных глубин, убивайте кобольдов ради золотого песка и больших свечей. Посетите фермы Стоунфилдов (34,84) и Маклуров (43,85) для Lost Necklace и Young Lovers
 step
     .goto Elwynn Forest,69.0,79.0
-    >>East Elwynn: Jasperlode Mine (61,53), Eastvale Logging Camp (81,66) quests, the Defias at the Brackwell pumpkin patch, Princess the pig at the Brackwell farm
+    >>В восточном Элвиннском лесу посетите Яшмовую шахту (61,53) и лесопилку Восточной долины (81,66). Убивайте бандитов Братства Справедливости на тыквенном поле Браквеллов. На ферме Браквеллов найдите свинью Принцессу
 step
     .goto Elwynn Forest,84.6,69.4
-    >>Eastvale / Tower of Azora (65,69): hand in Eastvale quests, take Riverpaw Gnolls / Marshal Dughan follow-ups
+    >>В Восточной долине и у башни Азоры (65,69) сдайте задания Восточной долины. Возьмите следующие задания о гноллах Речной Лапы и задания маршала Дугхана
 step
     .goto Elwynn Forest,42.1,65.9
-    >>Back to Goldshire, hand in, train
+    >>Вернитесь в Златоземье. Сдайте задания и изучите новые умения
     .xp 10
 ]])
 
@@ -3052,14 +3052,14 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 10-11 Elwynn Forest
-#displayname 10-11 Elwynn Forest
+#displayname 10-11 Элвиннский лес
 #next Human 11-14 Westfall
 #version 2
 
 step
-    >>Paladin: spend talents in Retribution (Benediction and Improved Seal of the Crusader, then Conviction, Seal of Command at 20)
+    >>Паладин: развивайте ветку «Воздаяние». Сначала возьмите «Благодарение» и «Улучшенную печать воина Света», затем «Убеждённость» и «Печать повиновения» на 20-м уровне
 step
-    >>Run to Stormwind: get the flight path (66,62 Trade District), visit your class trainer, then run west into Westfall
+    >>Бегите в Штормград. Откройте точку полёта в Торговом квартале (66,62) и посетите наставника своего класса. Затем бегите на запад в Западный Край
     .xp 11
 ]])
 
@@ -3069,22 +3069,22 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 11-14 Westfall
-#displayname 11-14 Westfall
+#displayname 11-14 Западный Край
 #next Human 14-18 Westfall
 #version 2
 
 step
     .goto Westfall,56.4,31.0
-    >>Sentinel Hill (centre of Westfall): flight path, take every quest (Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear)
+    >>На Сторожевом холме в центре Западного Края откройте точку полёта. Возьмите все задания: Westfall Stew, Patrolling Westfall, The People's Militia, Red Leather Bandanas, Poor Old Blanchy, The Coast Isn't Clear
 step
     .goto Westfall,59.9,19.4
-    >>The Saldean farm (north-east): Westfall Stew, Goretusk Liver Pie, Poor Old Blanchy (oats from the Harvest Watchers)
+    >>На ферме Сальденов к северо-востоку займитесь заданиями Westfall Stew, Goretusk Liver Pie и Poor Old Blanchy. Собирайте овёс возле механических жнецов
 step
     .goto Westfall,45.0,40.0
-    >>Kill Harvest Watchers, Defias Trappers and Smugglers across the fields; Murlocs on the coast (The Coast Isn't Clear, 30,45)
+    >>На полях убивайте механических жнецов, охотников и контрабандистов Братства Справедливости. На побережье (30,45) убивайте мурлоков для The Coast Isn't Clear
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill
+    >>Сдайте задания на Сторожевом холме
     .xp 14
 ]])
 
@@ -3094,18 +3094,18 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 14-18 Westfall
-#displayname 14-18 Westfall
+#displayname 14-18 Западный Край
 #next Human 18-22 Redridge Mountains
 #version 2
 
 step
-    >>Paladin, level 12: your paladin trainer in Stormwind starts the Redemption (resurrect) quest chain
+    >>Паладин, 12-й уровень: наставник паладинов в Штормграде даёт цепочку заданий на «Искупление» для воскрешения союзников
 step
     .goto Westfall,45.0,70.0
-    >>South Westfall: Gnolls at the Dagger Hills, Moonbrook Defias, the Jangolode Mine (45,20) and Gold Coast Quarry (31,45) for The People's Militia and Red Leather Bandanas
+    >>На юге Западного Края убивайте гноллов в Кинжальных холмах и бандитов Братства Справедливости в Луноречье. Посетите рудник Янго (45,20) и карьер Золотого Берега (31,45) для The People's Militia и Red Leather Bandanas
 step
     .goto Westfall,56.4,31.0
-    >>Hand in at Sentinel Hill. The Deadmines (Moonbrook, 42,72) at 17-20 is a good extra if you can find a group
+    >>Сдайте задания на Сторожевом холме. Если найдёте группу, пройдите Мёртвые копи в Луноречье (42,72) на 17-20-м уровне
     .xp 18
 ]])
 
@@ -3115,21 +3115,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 18-22 Redridge Mountains
-#displayname 18-22 Redridge Mountains
+#displayname 18-22 Красногорье
 #next Human 22-28 Wetlands
 #version 2
 
 step
-    >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
+    >>Бегите на восток в Красногорье по восточной дороге Элвиннского леса через Три Угла
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Lakeshire: set your home, flight path, take every quest (Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace)
+    >>В Приозерье привяжите камень возвращения и откройте точку полёта. Возьмите все задания: Murloc Poachers, Blackrock Menace, Redridge Goulash, Underbelly Scales, The Lost Tools, Hilary's Necklace
 step
     .goto Redridge Mountains,40.0,50.0
-    >>Murlocs on the lake, Great Goretusks / Tarantulas / Condors for Redridge Goulash, the Redridge Gnolls (Lakeridge Highway)
+    >>У озера убивайте мурлоков. Добывайте ингредиенты для Redridge Goulash с больших кровоклыков, тарантулов и кондоров. У дороги к озеру убивайте гноллов Красногорья
 step
     .goto Redridge Mountains,30.6,59.4
-    >>Hand in at Lakeshire
+    >>Сдайте задания в Приозерье
     .xp 22
 ]])
 
@@ -3139,26 +3139,26 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 22-28 Wetlands
-#displayname 22-28 Wetlands
+#displayname 22-28 Болотина
 #next Human 28-31 Duskwood
 #version 2
 
 step
-    >>Paladin, level 20: ask your trainer in Stormwind for the level 20 paladin quest (Alliance: The Tome of Valor - Verigan's Fist two-hander). Seal of Command + Judgement for questing
+    >>Паладин, 20-й уровень: возьмите у наставника в Штормграде The Tome of Valor. В награду получите двуручное оружие «Кулак Веригана». Для заданий используйте «Печать повиновения» и «Правосудие»
 step
-    >>Run to Ironforge (Deeprun Tram from Stormwind), then Loch Modan and north through Dun Algaz to Menethil Harbor (Wetlands)
+    >>Доберитесь до Стальгорна на подземном поезде из Штормграда. Через озеро Модан и Дун Альгаз бегите на север в гавань Менетилов в Болотине
 step
     .goto Wetlands,10.6,59.9
-    >>Menethil Harbor: set your home, flight path, take the town quests (Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery)
+    >>В гавани Менетилов привяжите камень возвращения и откройте точку полёта. Возьмите задания: Young Crocolisk Skins, Claws from the Deep, The Greenwarden, Daily Delivery
 step
     .goto Wetlands,18.0,42.0
-    >>Murlocs along the coast and Young Crocolisks south of Menethil
+    >>Убивайте мурлоков вдоль берега и молодых кроколисков к югу от гавани Менетилов
 step
     .goto Wetlands,38.0,47.0
-    >>Dun Modr / Dragonmaw areas: Ironbeard's Tomb, Digging Through the Ooze, Fenland Raptors for The Greenwarden
+    >>В районе Дун Модра и Драконьей Пасти займитесь заданиями Ironbeard's Tomb и Digging Through the Ooze. Убивайте болотных ящеров для The Greenwarden
 step
     .goto Wetlands,10.6,59.9
-    >>Hand in at Menethil
+    >>Сдайте задания в гавани Менетилов
     .xp 28
 ]])
 
@@ -3168,21 +3168,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 28-31 Duskwood
-#displayname 28-31 Duskwood
+#displayname 28-31 Сумеречный лес
 #next Human 31-33 Hillsbrad Foothills
 #version 2
 
 step
-    >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
+    >>Летите в Штормград или Приозерье. Затем бегите в Темнолесье в Сумеречном лесу
 step
     .goto Duskwood,73.9,46.7
-    >>Darkshire: set your home and take every quest (Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven)
+    >>В Темнолесье привяжите камень возвращения. Возьмите все задания: Worgen in the Woods, The Night Watch, Look To The Stars, Raven Hill, Mor'Ladim, Deliveries to Sven
 step
     .goto Duskwood,62.0,48.0
-    >>Nightbane Worgen and Skeletal Fiends around the woods; Sven's camp (7,34) and Raven Hill (18,56)
+    >>В лесу убивайте воргенов Ночной Погибели и скелетов-извергов. Посетите лагерь Свена (7,34) и Вороний Холм (18,56)
 step
     .goto Duskwood,73.9,46.7
-    >>Hand in at Darkshire and take the follow-ups
+    >>Сдайте задания в Темнолесье и возьмите следующие
     .xp 31
 ]])
 
@@ -3192,21 +3192,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 31-33 Hillsbrad Foothills
-#displayname 31-33 Hillsbrad Foothills
+#displayname 31-33 Предгорья Хилсбрада
 #next Human 33-35 Desolace
 #version 2
 
 step
-    >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
+    >>Из гавани Менетилов бегите на север через мост Тандола в Арати до Южнобережья. Если доступен маршрут полёта, летите туда. По пути откройте точку полёта в Опорном пункте (45,46)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Southshore: set your home, flight path, and take every quest (Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues)
+    >>В Южнобережье привяжите камень возвращения и откройте точку полёта. Возьмите задания: Down the Coast, Crushridge Bounty, Syndicate Assassins, Bear / Gray Bear Tongues
 step
     .goto Hillsbrad Foothills,44.0,56.0
-    >>Kill Daggerspine/Torn Fin murlocs along the coast and the bears/spiders inland. Durnholde Keep (Syndicate) is east at 75,50
+    >>На побережье убивайте мурлоков остроспинов и рваноплавников. В глубине суши убивайте медведей и пауков. Крепость Дарнхольд с членами Синдиката находится на востоке (75,50)
 step
     .goto Hillsbrad Foothills,51.2,52.6
-    >>Hand in at Southshore
+    >>Сдайте задания в Южнобережье
     .xp 33
 ]])
 
@@ -3216,21 +3216,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 33-35 Desolace
-#displayname 33-35 Desolace
+#displayname 33-35 Пустоши
 #next Human 35-38 Stranglethorn Vale
 #version 2
 
 step
-    >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
+    >>Плывите из гавани Менетилов в Аубердин в Тёмных берегах и откройте точку полёта. Бегите на юг через Ясеневый лес и Когтистые горы в Пустоши. По пути откройте точку полёта в Астранааре
 step
     .goto Desolace,66.2,7.8
-    >>Nijel's Point (north Desolace): set your home, flight path, take every quest (Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers)
+    >>В высоте Найджела на севере Пустошей привяжите камень возвращения и откройте точку полёта. Возьмите задания: Centaur Bounty, Vahlarriel's Search, Bone Collector, Kodo Roundup, Reagents for Reclaimers
 step
     .goto Desolace,70.0,40.0
-    >>Kodo Graveyard (centre): Kodo Roundup with the Kodo Kombobulator; Centaur Bounty (Magram / Gelkis clans); Thunder Axe Fortress (55,28) for the Burning Blade
+    >>На кладбище кодо в центре Пустошей используйте комбообулятор кодо для Kodo Roundup. Убивайте кентавров кланов Маграм и Гелкис для Centaur Bounty. В крепости Громового Топора (55,28) найдите членов Пылающего Клинка
 step
     .goto Desolace,66.2,7.8
-    >>Hand in at Nijel's Point
+    >>Сдайте задания в высоте Найджела
     .xp 35
 ]])
 
@@ -3240,24 +3240,24 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 35-38 Stranglethorn Vale
-#displayname 35-38 Stranglethorn Vale
+#displayname 35-38 Тернистая долина
 #next Human 38-40 Dustwallow Marsh
 #version 2
 
 step
-    >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
+    >>Летите в Штормград или Сумеречный лес и бегите на юг в Тернистую долину
 step
     .goto Stranglethorn Vale,37.9,3.0
-    >>Rebel Camp (north STV): pick up the Bloodscalp / Kurzen quests (Krazek's Cookery, Bloody Bone Necklaces, The Green Hills of Stranglethorn pages as you find them)
+    >>В лагере повстанцев на севере Тернистой долины возьмите задания о троллях Кровавого Скальпа и отряде Курцена: Krazek's Cookery, Bloody Bone Necklaces. Собирайте страницы для The Green Hills of Stranglethorn по мере их появления
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Nesingwary's Expedition: Tiger Mastery, Panther Mastery, Raptor Mastery - kill Young Stranglethorn Tigers, Panthers and Raptors around the camp
+    >>В экспедиции Эрнестуэя возьмите Tiger Mastery, Panther Mastery и Raptor Mastery. Возле лагеря убивайте молодых тигров Тернистой долины, пантер и ящеров
 step
     .goto Stranglethorn Vale,27.0,77.2
-    >>Run south to Booty Bay: set your home, flight path, take the town quests (The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining)
+    >>Бегите на юг в Пиратскую Бухту. Привяжите камень возвращения, откройте точку полёта и возьмите задания: The Bloodsail Buccaneers, Supply and Demand, Venture Company Mining
 step
     .goto Stranglethorn Vale,35.6,10.6
-    >>Do the second tier of Nesingwary hunts while levelling up
+    >>По мере прокачки выполняйте следующие задания на охоту от Эрнестуэя
     .xp 38
 ]])
 
@@ -3267,21 +3267,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 38-40 Dustwallow Marsh
-#displayname 38-40 Dustwallow Marsh
+#displayname 38-40 Пылевые топи
 #next Human 40-42 Tanaris
 #version 2
 
 step
-    >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
+    >>Из Пиратской Бухты плывите в Кабестан. Затем бегите или летите в Терамор в Пылевых топях
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Theramore Isle: set your home, flight path, take the Dustwallow quests (Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures)
+    >>На острове Терамор привяжите камень возвращения и откройте точку полёта. Возьмите задания Пылевых топей: Mudrock Soup and Bugs, Lieutenant Paval Reethe, The Black Shield, Raptor Captures
 step
     .goto Dustwallow Marsh,55.0,25.0
-    >>Kill Mudrock Tortoises and raptors along the coast, investigate the Shady Rest Inn / Black Hoof Village quests
+    >>На побережье убивайте черепах Мутной Заводи и ящеров. Займитесь заданиями таверны «Последний привал» и деревни Чёрного Копыта
 step
     .goto Dustwallow Marsh,66.4,45.6
-    >>Hand in at Theramore. Train your level 40 spells
+    >>Сдайте задания в Тераморе. Изучите заклинания 40-го уровня
     .xp 40
 ]])
 
@@ -3291,21 +3291,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 40-42 Tanaris
-#displayname 40-42 Tanaris
+#displayname 40-42 Танарис
 #next Human 42-45 Feralas
 #version 2
 
 step
-    >>Paladin, level 40: your trainer in Stormwind gives the warhorse (Summon Warhorse) and Plate Mail. Wear plate from now on
+    >>Паладин, 40-й уровень: наставник в Штормграде обучит призыву боевого коня и ношению латных доспехов. Теперь носите латы
 step
     .goto Tanaris,51.0,29.2
-    >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
+    >>В Прибамбасске в Танарисе привяжите камень возвращения и откройте точку полёта. Возьмите все задания: WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin
 step
     .goto Tanaris,63.0,30.0
-    >>Kill Wastewander Bandits / Thieves at the Noonshade Ruins and Waterspring Field for Water Pouch Bounty and Wastewander Justice
+    >>У руин Полуденной Тени и на поле Родниковой воды убивайте бандитов и воров Скитальцев Пустыни для Water Pouch Bounty и Wastewander Justice
 step
     .goto Tanaris,51.0,29.2
-    >>Hand in at Gadgetzan
+    >>Сдайте задания в Прибамбасске
     .xp 42
 ]])
 
@@ -3315,21 +3315,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 42-45 Feralas
-#displayname 42-45 Feralas
+#displayname 42-45 Фералас
 #next Human 45-48 The Hinterlands
 #version 2
 
 step
-    >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
+    >>Летите в крепость Оперённой Луны в Фераласе. Если маршрут полёта недоступен, плывите на лодке от побережья Фераласа (43,42)
 step
     .goto Feralas,30.4,43.2
-    >>Feathermoon Stronghold: set your home, take the quests (The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles)
+    >>В крепости Оперённой Луны привяжите камень возвращения. Возьмите задания: The Ruins of Solarsal, Gordunni Cobalt, The Mark of Quality, Zapped Giants, The Sea Turtles
 step
     .goto Feralas,58.0,62.0
-    >>Grimtotem / Gordunni ogres (Feral Scar Vale, Gordunni Outpost 72,61), Zapped Giants with the Zorbin's Ultra-Shrinker, the Woodpaw gnolls
+    >>Убивайте огров кланов Зловещего Тотема и Гордунни в долине Дикого Рубца и у заставы Гордунни (72,61). Используйте ультрауменьшитель Зорбина на великанах. Убивайте гноллов Древолапов
 step
     .goto Feralas,30.4,43.2
-    >>Hand in at Feathermoon
+    >>Сдайте задания в крепости Оперённой Луны
     .xp 45
 ]])
 
@@ -3339,21 +3339,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 45-48 The Hinterlands
-#displayname 45-48 The Hinterlands
+#displayname 45-48 Внутренние земли
 #next Human 48-52 Un'Goro Crater
 #version 2
 
 step
-    >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
+    >>Летите в Стальгорн, затем на Заоблачный пик. Если маршрут недоступен, бегите во Внутренние земли из Хилсбрада
 step
     .goto The Hinterlands,14.2,46.4
-    >>Aerie Peak: set your home, flight path, take every quest (Skulls for Witherbark, Troll Necklace Bounty, Rhapsody Shindigger's quests, Wildhammer gryphon eggs)
+    >>На Заоблачном пике привяжите камень возвращения и откройте точку полёта. Возьмите задания: Skulls for Witherbark, Troll Necklace Bounty, задания Рапсодии Шиндриггера и задания о яйцах грифонов Громового Молота
 step
     .goto The Hinterlands,35.0,60.0
-    >>Witherbark trolls (Shadra'Alor / Zun'watha), Silvermane wolves, the Highvale elves at Quel'Danil Lodge (30,46)
+    >>Убивайте троллей клана Сухокожих в Шадра'Алоре и Зун'вате, волков Серебряной Гривы и эльфов Высокой долины у сторожки Кель'Данил (30,46)
 step
     .goto The Hinterlands,14.2,46.4
-    >>Hand in at Aerie Peak
+    >>Сдайте задания на Заоблачном пике
     .xp 48
 ]])
 
@@ -3363,21 +3363,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 48-52 Un'Goro Crater
-#displayname 48-52 Un'Goro Crater
+#displayname 48-52 Кратер Ун'Горо
 #next Human 52-54 Felwood
 #version 2
 
 step
-    >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
+    >>Летите в Прибамбасск и бегите на юго-запад в кратер Ун'Горо. Спуск находится в Танарисе (27,57)
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Marshal's Refuge (north Un'Goro): flight path, take every quest (Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals while you quest
+    >>В Укрытии Маршалла на севере Ун'Горо откройте точку полёта. Возьмите задания: Shizzle's Flyer, Larion and Muigin, The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky. По пути собирайте кристаллы силы
 step
     .goto Un'Goro Crater,62.0,30.0
-    >>Gorillas (Un'Goro Gorilla / Thunderers), Stegodons, raptors, Bloodpetal plants, Pterrordaxes and the Silithid hive (south-east) for the Refuge quests
+    >>Для заданий Укрытия Маршалла убивайте горилл Ун'Горо и громил, стегодонов, ящеров и терродактилей. Собирайте кровоцветы и исследуйте улей силитидов на юго-востоке
 step
     .goto Un'Goro Crater,43.6,8.6
-    >>Hand in at Marshal's Refuge
+    >>Сдайте задания в Укрытии Маршалла
     .xp 52
 ]])
 
@@ -3387,21 +3387,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 52-54 Felwood
-#displayname 52-54 Felwood
+#displayname 52-54 Осквернённый лес
 #next Human 54-56 Western Plaguelands
 #version 2
 
 step
-    >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
+    >>Летите в Астранаар в Ясеневом лесу и бегите на север в Осквернённый лес. Если открыт маршрут, летите в Поляну Когтистых Ветвей
 step
     .goto Felwood,51.2,82.0
-    >>Emerald Sanctuary (south Felwood): take the quests (Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally)
+    >>В Изумрудном святилище на юге Осквернённого леса возьмите задания: Forces of Jaedenar, Cleansing Felwood, The Corruption of the Jadefire, Timbermaw Ally
 step
     .goto Felwood,38.0,59.0
-    >>Jaedenar (west): Shadow Council and Jaedenar hounds; the Jadefire satyrs (Jadefire Glen 41,85 / Jadefire Run 40,15); Deadwood furbolgs for Timbermaw reputation
+    >>В Джеденаре на западе убивайте членов Совета Теней и гончих. Убивайте сатиров Нефритового Пламени в лощине (41,85) и ущелье (40,15). Убивайте фурболгов Мёртвого Леса ради репутации у Древобрюхов
 step
     .goto Felwood,62.6,24.2
-    >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
+    >>В Поляне Когтистых Ветвей на севере откройте точку полёта. Возьмите северные задания Осквернённого леса: Deadwood of the North, Felbound Ancients
     .xp 54
 ]])
 
@@ -3411,21 +3411,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 54-56 Western Plaguelands
-#displayname 54-56 Western Plaguelands
+#displayname 54-56 Западные Чумные земли
 #next Human 56-58 Winterspring
 #version 2
 
 step
-    >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
+    >>Летите в лагерь Промозглого Ветра в Западных Чумных землях. Если точка полёта не открыта, летите в Южнобережье и доберитесь оттуда
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Chillwind Camp: take every quest (A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never). Start the Argent Dawn reputation
+    >>В лагере Промозглого Ветра возьмите задания: A Call to Arms: The Plaguelands!, Clear the Way, The Scourge Cauldrons, Better Late Than Never. Начните повышать репутацию у Серебряного Рассвета
 step
     .goto Western Plaguelands,45.0,52.0
-    >>Scourge Cauldrons (Felstone, Dalson's Tears, the Writhing Haunt, Gahrron's Withering), Andorhal skeletons and undead around Sorrow Hill
+    >>Посетите чумные котлы у поля Джанис, Слез Далсона, Стонущего привидения и пустоши Гаррона. Убивайте скелетов Андорала и нежить у Холма Печали
 step
     .goto Western Plaguelands,42.8,84.0
-    >>Hand in at Chillwind Camp
+    >>Сдайте задания в лагере Промозглого Ветра
     .xp 56
 ]])
 
@@ -3435,21 +3435,21 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 56-58 Winterspring
-#displayname 56-58 Winterspring
+#displayname 56-58 Зимние Ключи
 #next Human 58-60 Eastern Plaguelands
 #version 2
 
 step
-    >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
+    >>Летите в Круговзор в Зимних Ключах. Если маршрут полёта недоступен, пройдите через туннель крепости Древобрюхов на севере Осквернённого леса (64,8)
 step
     .goto Winterspring,61.4,38.6
-    >>Everlook: set your home, flight path, take every quest (Are We There, Yeti?, Winterfall Activity, Ursius / Frostsaber hunts, Donova Snowden's quests at Frostfire Hot Springs 31,45)
+    >>В Круговзоре привяжите камень возвращения и откройте точку полёта. Возьмите задания: Are We There, Yeti?, Winterfall Activity, задания на охоту на Урсиуса и ледопардов. У горячих источников Ледяного Пламени (31,45) возьмите задания Доновы Сноуден
 step
     .goto Winterspring,67.0,38.0
-    >>Winterfall Furbolgs (Winterfall Village 67,36), Frostsabers, Ice Thistle Yetis (Ice Thistle Hills 67,42), Chillwind Chimaeras
+    >>Убивайте фурболгов Зимней Спячки в их деревне (67,36), ледопардов, йети с холмов Ледяного Чертополоха (67,42) и химер Промозглого Ветра
 step
     .goto Winterspring,61.4,38.6
-    >>Hand in at Everlook
+    >>Сдайте задания в Круговзоре
     .xp 58
 ]])
 
@@ -3459,23 +3459,23 @@ RXPGuides.RegisterGuide([[
 #group WoW Forever - Paladin
 #subgroup Human route
 #name Human 58-60 Eastern Plaguelands
-#displayname 58-60 Eastern Plaguelands
+#displayname 58-60 Восточные Чумные земли
 #version 2
 
 step
-    >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
+    >>Летите в лагерь Промозглого Ветра и бегите на восток в Восточные Чумные земли
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Light's Hope Chapel (east): flight path, take every quest (Demon Dogs, Blood Tinged Skies, Carrion Grubbage, Duke Nicholas Zverenhoff's Argent Dawn quests, Tirion Fordring - Redemption)
+    >>В часовне Последней Надежды на востоке откройте точку полёта. Возьмите задания: Demon Dogs, Blood Tinged Skies, Carrion Grubbage, задания Серебряного Рассвета у герцога Николаса Зверенхоффа и задания Тириона Фордринга, включая Redemption
 step
     .goto Eastern Plaguelands,45.0,40.0
-    >>Plaguehound packs, Plaguebats, carrion grubs; Corin's Crossing and Tyr's Hand Scarlet Crusaders (Light's Hope side quests)
+    >>Убивайте чумных псов, чумных нетопырей и падальщиков. В Переправе Корина и Длани Тира убивайте членов Алого ордена для дополнительных заданий часовни
 step
     .goto Eastern Plaguelands,81.4,59.6
-    >>Hand in at Light's Hope. Silithus (Cenarion Hold, 51,38) is the alternative for the last bars if you prefer
+    >>Сдайте задания в часовне Последней Надежды. Если до 60-го уровня осталось немного опыта, можете отправиться в Силитус, в Крепость Кенария (51,38)
     .xp 60
 step
-    >>Paladin, level 60: ask your trainer about the Charger (epic mount) quest chain
+    >>Паладин, 60-й уровень: спросите наставника о цепочке заданий на скакуна — редкое ездовое животное
 step
-    >>Level 60! Train your final spells in your capital city
+    >>60-й уровень! Изучите последние заклинания в своей столице
 ]])
